@@ -1,5 +1,6 @@
 # rss_scraper_bot.py
-
+import os
+import base64
 import feedparser
 import datetime
 import gspread
@@ -36,7 +37,19 @@ scope = ['https://spreadsheets.google.com/feeds',
          'https://www.googleapis.com/auth/drive.file',
          'https://www.googleapis.com/auth/drive']
 
-creds = ServiceAccountCredentials.from_json_keyfile_name('creds.json', scope)
+creds_path = "creds.json"
+creds_b64 = os.getenv("CREDS_B64")
+
+if creds_b64:
+    with open(creds_path, "w", encoding="utf-8") as f:
+        f.write(base64.b64decode(creds_b64).decode("utf-8"))
+    print("✅ Created creds.json from CREDS_B64")
+elif not os.path.exists(creds_path):
+    print("❌ No credentials available. Exiting.")
+    exit(1)
+else:
+    print("✅ Using local creds.json file")
+
 client = gspread.authorize(creds)
 print("Available spreadsheets:", [s.title for s in client.openall()])
 spreadsheet = client.open(GOOGLE_SHEET_NAME)

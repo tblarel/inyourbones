@@ -5,5 +5,8 @@ creds.json
 *.log
 __pycache__/
 *.pyc
+keys_64.py
+test_creds.py
+creds_b64.txt
 
 !feed.xml
