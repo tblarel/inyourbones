@@ -20,5 +20,5 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run rss_scraper_bot_remote.py
-        run: python rss_scraper_bot_remote.py
+      - name: Run rss_scraper_bot.py
+        run: python rss_scraper_bot.py
