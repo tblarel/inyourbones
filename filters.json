@@ -1,0 +1,11 @@
+{
+  "excluded_keywords": [
+    "trump", "biden", "hamas", "israel", "gaza", "ukraine", "russia", "iran", "palestine", "hezbollah",
+    "assault", "arrest", "charged", "indicted", "terror", "military", "war", "conflict", "airstrike", "bombing",
+    "rape", "sexual assault", "molestation", "pedophile", "sex offender", "abuse", "domestic violence",
+    "racism", "antisemitism", "anti-semitism", "hate crime", "transphobia", "homophobia",
+    "mass shooting", "gun violence", "suicide", "mental health crisis", "opioid", "fentanyl",
+    "court", "lawsuit", "jury", "trial", "sentenced", "plea deal", "misconduct", "controversy",
+    "scandal", "politics", "protest", "diplomatic", "sanctions"
+  ]
+}
