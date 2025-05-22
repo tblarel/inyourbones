@@ -1,2 +1,9 @@
 creds.json
+
 .env
+
+*.log
+__pycache__/
+*.pyc
+
+!feed.xml
