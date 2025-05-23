@@ -1,18 +1,33 @@
-# caption_generator.py
-
 import os
 import json
 import re
 import datetime
 from collections import defaultdict
-from dotenv import load_dotenv
 from openai import OpenAI
 import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+import base64
 
-# --- SETUP ---
-load_dotenv()
-client = OpenAI()
-gs_client = gspread.service_account(filename="creds.json")
+# --- SETUP OPENAI ---
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+# --- HANDLE CREDS FROM ENV ---
+creds_b64 = os.getenv("CREDS_B64")
+if creds_b64:
+    with open("creds.json", "w", encoding="utf-8") as f:
+        decoded = base64.b64decode(creds_b64).decode("utf-8")
+        f.write(decoded)
+else:
+    print("⚠️ CREDS_B64 not found in environment. Google Sheets access may fail.")
+
+# --- GOOGLE SHEETS SETUP ---
+scope = ['https://spreadsheets.google.com/feeds',
+         'https://www.googleapis.com/auth/spreadsheets',
+         'https://www.googleapis.com/auth/drive.file',
+         'https://www.googleapis.com/auth/drive']
+
+creds = ServiceAccountCredentials.from_json_keyfile_name('creds.json', scope)
+gs_client = gspread.authorize(creds)
 
 INPUT_FILE = 'top_articles.json'
 OUTPUT_FILE = 'top_articles_with_captions.json'
@@ -33,7 +48,7 @@ MAX_TOTAL_PHRASE_USAGE = 2
 MAX_POSITION_PHRASE_USAGE = 2
 MAX_INTRO_USAGE = 2
 MAX_ATTEMPTS = 5
-STRICT_MODE = False  # Toggle strict filtering vs soft fallback acceptance
+STRICT_MODE = False
 
 # --- LOAD ARTICLES ---
 def load_articles():
@@ -78,7 +93,7 @@ def validate_caption(caption, soft=False):
             print(f"❌ Phrase limit exceeded in caption")
         if intro_exceeded:
             print(f"❌ Intro pattern overused: '{intro_key}'")
-        return not STRICT_MODE and soft  # Allow if soft-mode fallback
+        return not STRICT_MODE and soft
     return True
 
 # --- RECORD USAGE ---
@@ -113,7 +128,7 @@ def generate_caption_for_title(title, force_unique=False):
 # --- SYNC TO GOOGLE SHEET ---
 def update_sheet_with_captions(final_articles):
     now = datetime.datetime.now()
-    month_year = now.strftime('%B %Y')  # e.g., May 2025
+    month_year = now.strftime('%B %Y')
     sheet_title = f"{month_year} (selects)"
     print(f"\n🔄 Updating Google Sheet: {sheet_title}")
 
@@ -125,7 +140,6 @@ def update_sheet_with_captions(final_articles):
         headers = data[0]
         rows = data[1:]
 
-        # Ensure 'Caption' column exists
         if 'Caption' not in headers:
             headers.append('Caption')
             worksheet.update('A1', [headers])
@@ -140,7 +154,7 @@ def update_sheet_with_captions(final_articles):
                     while len(row) <= caption_col_index:
                         row.append("")
                     row[caption_col_index] = article['caption']
-                    updates.append((i+2, row))  # +2 accounts for header + 1-index
+                    updates.append((i+2, row))
 
         for row_num, row_data in updates:
             worksheet.update(f"A{row_num}", [row_data])

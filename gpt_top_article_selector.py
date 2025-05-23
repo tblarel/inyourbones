@@ -1,18 +1,24 @@
-# gpt_top_article_selector.py
-
 import os
 import json
 import datetime
 import gspread
 from dateutil import parser
-from dotenv import load_dotenv
-from oauth2client.service_account import ServiceAccountCredentials
 from openai import OpenAI
+from oauth2client.service_account import ServiceAccountCredentials
 import pytz
+import base64
 
-# --- LOAD ENV ---
-load_dotenv()
-client = OpenAI()
+# --- SETUP OPENAI ---
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+# --- HANDLE CREDS FROM ENV ---
+creds_b64 = os.getenv("CREDS_B64")
+if creds_b64:
+    with open("creds.json", "w", encoding="utf-8") as f:
+        decoded = base64.b64decode(creds_b64).decode("utf-8")
+        f.write(decoded)
+else:
+    print("⚠️ CREDS_B64 not found in environment. Google Sheets access may fail.")
 
 # --- GOOGLE SHEETS SETUP ---
 scope = ['https://spreadsheets.google.com/feeds',
