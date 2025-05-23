@@ -35,15 +35,28 @@ def load_articles_from_sheets():
 
     rows = result.get('values', [])
     articles = []
+    seen_links = set()
 
     for row in rows:
-        approved = row[5]
-        if approved == '❌':
+        if len(row) < 5:
+            print(f"⚠️ Skipping incomplete row: {row}")
             continue
+
+        approval = row[5] if len(row) >= 6 else ''
+        if approval == '❌':
+            continue
+
         try:
             published_date = parser.parse(row[3])
-        except Exception:
-            published_date = datetime.datetime.min  # fallback if date parsing fails
+        except Exception as e:
+            print(f"⚠️ Failed to parse date '{row[3]}' in row: {row} — {e}")
+            published_date = datetime.datetime.min
+
+        if row[1] in seen_links:
+            continue
+        seen_links.add(row[1])
+
+        print(f"✅ Row accepted: {row[0]} ({published_date.isoformat()})")
 
         articles.append({
             "title": row[0],
@@ -54,8 +67,12 @@ def load_articles_from_sheets():
             "published_dt": published_date
         })
 
-    # Sort by published date descending and return top 5
-    return sorted(articles, key=lambda a: a["published_dt"], reverse=True)[:5]
+    articles = sorted(articles, key=lambda a: a["published_dt"], reverse=True)[:5]
+    print("\n📝 Final sorted article titles:")
+    for a in articles:
+        print(f" - {a['title']} @ {a['published_dt']}")
+
+    return articles
 
 def generate_rss():
     try:
