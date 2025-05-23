@@ -10,10 +10,9 @@ export async function POST(req: NextRequest) {
   try {
     const { articles } = await req.json();
     if (!Array.isArray(articles)) throw new Error("Invalid data format: expected an array");
-    console.log("Received articles:", articles);
     console.log("✅ Received in API route:", articles);
 
-    // --- Save to local file (root and public copies) ---
+    // --- Save to local JSON files ---
     const jsonString = JSON.stringify(articles, null, 2);
     try {
       const rootPath = path.join(process.cwd(), 'top_articles_with_captions.json');
@@ -46,10 +45,8 @@ export async function POST(req: NextRequest) {
       });
 
       const sheets = google.sheets({ version: 'v4', auth: jwt });
-
       const now = new Date();
-      const monthName = now.toLocaleString('en-US', { month: 'long', year: 'numeric' });
-      const sheetTab = `${monthName} (selects)`;
+      const sheetTab = now.toLocaleString('en-US', { month: 'long', year: 'numeric' }) + ' (selects)';
 
       const values = articles.map(a => [
         a.title || '',
@@ -57,7 +54,7 @@ export async function POST(req: NextRequest) {
         a.source || '',
         a.published || '',
         a.caption || '',
-        a.approved ? '✅' : '❌'
+        a.approval === true ? '✅' : a.approval === false ? '❌' : ''
       ]);
 
       await sheets.spreadsheets.values.update({

@@ -38,21 +38,28 @@ export async function GET(req: NextRequest) {
     const ymd = yesterday.toISOString().slice(0, 10);
 
     const articles = rows
-    .map(row => ({
-        title: row[0] || '',
-        link: row[1] || '',
-        source: row[2] || '',
-        published: row[3] || '',
-        caption: row[4] || '',
-        approved: row[5]?.includes('✅') || false,
-    }))
-    .filter(a => {
-        const dateStr = new Date(a.published).toISOString().slice(0, 10);
-        return a.approved && dateStr === ymd;
-    })
-    .slice(0, 5); // Optional safety net
+      .map(row => ({
+      title: row[0] || '',
+      link: row[1] || '',
+      source: row[2] || '',
+      published: row[3] || '',
+      caption: row[4] || '',
+      approval: row[5] ?? null,
+      }))
+      .filter(a => a.published);
 
-    return NextResponse.json(articles);
+    const uniqueArticlesMap = new Map<string, typeof articles[0]>();
+    for (const article of articles.sort((a, b) =>
+      new Date(b.published).getTime() - new Date(a.published).getTime()
+    )) {
+      if (!uniqueArticlesMap.has(article.link)) {
+      uniqueArticlesMap.set(article.link, article);
+      }
+    }
+
+    const recent5UniqueArticles = Array.from(uniqueArticlesMap.values()).slice(0, 5);
+
+    return NextResponse.json(recent5UniqueArticles);
   } catch (err) {
     console.error("❌ Error loading from Google Sheets:", err);
     return NextResponse.json({ success: false, error: 'Failed to load data' }, { status: 500 });

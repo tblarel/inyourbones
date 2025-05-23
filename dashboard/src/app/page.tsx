@@ -11,7 +11,7 @@ export type Article = {
   source: string;
   published: string;
   caption: string;
-  approved: boolean;
+  approval: boolean | null;
 };
 
 export default function DashboardPage() {
@@ -26,7 +26,11 @@ export default function DashboardPage() {
       try {
         const res = await fetch("/api/load");
         if (!res.ok) throw new Error("Failed to fetch articles");
-        const data = await res.json();
+        let data = await res.json();
+        data = data.map((a: any) => ({
+          ...a,
+          approval: a.approval === true ? true : a.approval === false ? false : null
+        }));
         setArticles(data);
       } catch (err: any) {
         setError(err.message);
@@ -41,15 +45,29 @@ export default function DashboardPage() {
   const updateCaption = (index: number, newCaption: string) => {
     setArticles(prev => {
       const updated = [...prev];
-      updated[index].caption = newCaption;
+      updated[index] = { ...updated[index], caption: newCaption };
       return updated;
     });
   };
 
-  const toggleApproval = (index: number) => {
+  const toggleReject = (index: number) => {
     setArticles(prev => {
       const updated = [...prev];
-      updated[index].approved = !updated[index].approved;
+      updated[index] = {
+        ...updated[index],
+        approval: updated[index].approval === false ? null : false
+      };
+      return updated;
+    });
+  };
+
+  const toggleApprove = (index: number) => {
+    setArticles(prev => {
+      const updated = [...prev];
+      updated[index] = {
+        ...updated[index],
+        approval: updated[index].approval === true ? null : true
+      };
       return updated;
     });
   };
@@ -66,15 +84,10 @@ export default function DashboardPage() {
       if (!res.ok) throw new Error("Failed to save");
       setSaved(true);
 
-      // Trigger GitHub Action to regenerate RSS
-      await fetch("https://api.github.com/repos/tblarel/inyourbones/actions/workflows/rss_regen.yml/dispatches", {
+      await fetch("/api/dispatch", {
         method: "POST",
-        headers: {
-          "Authorization": `Bearer ${process.env.NEXT_PUBLIC_GITHUB_PAT}`,
-          "Accept": "application/vnd.github+json",
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ ref: "main" })
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({}),
       });
 
     } catch (err) {
@@ -104,12 +117,23 @@ export default function DashboardPage() {
               <span className="text-xs text-muted-foreground">
                 {article.published} — {article.source}
               </span>
-              <Button
-                variant={article.approved ? "default" : "outline"}
-                onClick={() => toggleApproval(index)}
-              >
-                {article.approved ? "Approved ✅" : "Approve"}
-              </Button>
+              <div className="space-x-2">
+                <Button
+                  variant={article.approval === true ? "default" : "outline"}
+                  onClick={() => toggleApprove(index)}
+                >
+                  {article.approval === true ? "✅ Approved" : "Approve"}
+                </Button>
+                <Button
+                  variant={article.approval === false ? "destructive" : "outline"}
+                  onClick={() => toggleReject(index)}
+                >
+                  {article.approval === false ? "❌ Rejected" : "Reject"}
+                </Button>
+                {article.approval === null && (
+                  <span className="text-xs text-muted-foreground">Pending</span>
+                )}
+              </div>
             </div>
           </CardContent>
         </Card>
