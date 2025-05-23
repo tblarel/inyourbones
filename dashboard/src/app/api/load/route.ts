@@ -34,14 +34,23 @@ export async function GET(req: NextRequest) {
     });
 
     const rows = res.data.values || [];
-    const articles = rows.map(row => ({
-      title: row[0] || '',
-      link: row[1] || '',
-      source: row[2] || '',
-      published: row[3] || '',
-      caption: row[4] || '',
-      approved: row[5]?.includes('✅') || false,
-    }));
+    const yesterday = new Date(Date.now() - 86400000);
+    const ymd = yesterday.toISOString().slice(0, 10);
+
+    const articles = rows
+    .map(row => ({
+        title: row[0] || '',
+        link: row[1] || '',
+        source: row[2] || '',
+        published: row[3] || '',
+        caption: row[4] || '',
+        approved: row[5]?.includes('✅') || false,
+    }))
+    .filter(a => {
+        const dateStr = new Date(a.published).toISOString().slice(0, 10);
+        return a.approved && dateStr === ymd;
+    })
+    .slice(0, 5); // Optional safety net
 
     return NextResponse.json(articles);
   } catch (err) {
