@@ -8,6 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      CREDS_B64: ${{ secrets.CREDS_B64 }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
     steps:
       - name: Checkout repo
@@ -40,7 +43,7 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add feed.xml top_articles.json top_articles_with_captions.json latest_articles.json
-          git commit -m "🔁 Auto update for $(date '+%Y-%m-%d')"
+          git commit -m "🔁 Auto update for $(date '+%Y-%m-%d')" || echo "No changes to commit"
           git push
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
