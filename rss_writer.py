@@ -37,10 +37,8 @@ def load_articles_from_sheets():
     articles = []
 
     for row in rows:
-        if len(row) < 6:
-            continue
-        approved = '✅' in row[5]
-        if not approved:
+        approved = row[5]
+        if approved == '❌':
             continue
         try:
             published_date = parser.parse(row[3])
