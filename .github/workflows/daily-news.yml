@@ -5,6 +5,9 @@ on:
     - cron: "0 13 * * *"  # Runs at 6AM PST (13:00 UTC)
   workflow_dispatch:      # Optional: allows manual trigger
 
+permissions:
+  contents: write
+  
 jobs:
   build:
     runs-on: ubuntu-latest

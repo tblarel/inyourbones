@@ -46,9 +46,9 @@ scope = ['https://spreadsheets.google.com/feeds',
          'https://www.googleapis.com/auth/drive']
 
 creds = ServiceAccountCredentials.from_json_keyfile_name('creds.json', scope)
-client = gspread.authorize(creds)
-print("Available spreadsheets:", [s.title for s in client.openall()])
-spreadsheet = client.open(GOOGLE_SHEET_NAME)
+gsheet = gspread.authorize(creds)
+print("Available spreadsheets:", [s.title for s in gsheet.openall()])
+spreadsheet = gsheet.open(GOOGLE_SHEET_NAME)
 
 # --- HELPER ---
 def is_from_yesterday_pst(published_dt):

@@ -8,6 +8,8 @@ from oauth2client.service_account import ServiceAccountCredentials
 import pytz
 import base64
 
+GOOGLE_SHEET_NAME = 'InYourBones Daily Music News'
+
 # --- SETUP OPENAI ---
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
@@ -28,7 +30,8 @@ scope = ['https://spreadsheets.google.com/feeds',
 
 creds = ServiceAccountCredentials.from_json_keyfile_name('creds.json', scope)
 gsheet = gspread.authorize(creds)
-spreadsheet = gsheet.open('InYourBones Daily Music News')
+print("Available spreadsheets:", [s.title for s in gsheet.openall()])
+spreadsheet = gsheet.open(GOOGLE_SHEET_NAME)
 
 # --- LOAD ARTICLES FROM JSON ---
 def load_articles(filepath='latest_articles.json'):
