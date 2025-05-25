@@ -1,14 +1,14 @@
 # rss_writer.py
+
 import os
-import argparse
 import json
 import datetime
+import base64
+import sys
 from xml.etree.ElementTree import Element, SubElement, ElementTree
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
-import base64
-from dateutil import parser
-import sys
+from dateutil import parser as date_parser
 
 SITE_URL = 'https://inyourbones.live/'
 FEED_TITLE = 'InYourBones Daily Music News'
@@ -19,7 +19,8 @@ def _get_output_file(loadAll):
 
 def load_articles_from_sheets(loadAll=False):
     print(f"🛠️  Running with loadAll={loadAll}")
-    print(f"📅 Today: {datetime.datetime.now().date()}")
+    today = datetime.datetime.now().date()
+    print(f"📅 Today: {today}")
 
     creds_b64 = os.getenv("CREDS_B64")
     sheet_id = os.getenv("SHEET_ID")
@@ -31,8 +32,7 @@ def load_articles_from_sheets(loadAll=False):
     creds = service_account.Credentials.from_service_account_info(json.loads(creds_json))
     service = build('sheets', 'v4', credentials=creds)
 
-    now = datetime.datetime.now()
-    tab_name = now.strftime('%B %Y (selects)')
+    tab_name = datetime.datetime.now().strftime('%B %Y (selects)')
 
     result = service.spreadsheets().values().get(
         spreadsheetId=sheet_id,
@@ -42,30 +42,33 @@ def load_articles_from_sheets(loadAll=False):
     rows = result.get('values', [])
     articles = []
     seen_links = set()
+    seen_titles = set()
 
     for row in rows:
         if len(row) < 5:
             print(f"⚠️ Skipping incomplete row: {row}")
             continue
 
-        approval = row[5] if len(row) >= 6 else ''
-        if approval == '❌':
-            continue
-
         try:
-            published_date = parser.parse(row[3])
+            published_date = date_parser.parse(row[3])
         except Exception as e:
             print(f"⚠️ Failed to parse date '{row[3]}' in row: {row} — {e}")
-            published_date = datetime.datetime.min
-
-        if row[1] in seen_links:
             continue
-        seen_links.add(row[1])
 
         if not loadAll:
-            if (now.date() - published_date.date()).days > 1:
-                print(f"⏭ Skipping row not from tyesterday or today: {published_date.date()}")
+            approval = row[5] if len(row) >= 6 else ''
+            if approval == '❌':
                 continue
+            if (today - published_date.date()).days > 1:
+                print(f"⏭ Skipping row not from today or yesterday: {published_date.date()}")
+                continue
+
+        # Deduplication
+        if row[1] in seen_links or row[0] in seen_titles:
+            continue
+        seen_links.add(row[1])
+        seen_titles.add(row[0])
+
         print(f"✅ Row accepted: {row[0]} ({published_date.isoformat()})")
 
         articles.append({
@@ -87,7 +90,7 @@ def load_articles_from_sheets(loadAll=False):
 def generate_rss(loadAll=False):
     print(f"🛠️  Running generateRSS with loadAll={loadAll}")
     print(f"📅 Today: {datetime.datetime.now().date()}")
-    
+
     try:
         articles = load_articles_from_sheets(loadAll=loadAll)
     except Exception as e:
@@ -113,11 +116,11 @@ def generate_rss(loadAll=False):
     output_file = _get_output_file(loadAll)
     tree = ElementTree(rss)
     tree.write(output_file, encoding='utf-8', xml_declaration=True)
-    print(f"✅ RSS feed written to {output_file} using {len(articles)} approved + sorted items")
-    
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--loadAll", action="store_true", help="Load all articles")
-    args = parser.parse_args()
-    generate_rss(loadAll=args.loadAll)
+    print(f"✅ RSS feed written to {output_file} using {len(articles)} item(s)")
 
+if __name__ == '__main__':
+    import argparse
+    arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument("--loadAll", action="store_true", help="Load all articles")
+    args = arg_parser.parse_args()
+    generate_rss(loadAll=args.loadAll)
