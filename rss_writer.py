@@ -18,6 +18,8 @@ def _get_output_file(loadAll):
     return 'feed_all.xml' if loadAll else 'feed.xml'
 
 def load_articles_from_sheets(loadAll=False):
+    print(f"🛠️  Running with loadAll={loadAll}")
+    print(f"📅 Today: {datetime.datetime.now().date()}")
 
     creds_b64 = os.getenv("CREDS_B64")
     sheet_id = os.getenv("SHEET_ID")
@@ -61,9 +63,9 @@ def load_articles_from_sheets(loadAll=False):
         seen_links.add(row[1])
 
         if not loadAll:
-            if published_date.date() != now.date():
+            if (now.date() - published_date.date()).days > 1:
+                print(f"⏭ Skipping row not from tyesterday or today: {published_date.date()}")
                 continue
-
         print(f"✅ Row accepted: {row[0]} ({published_date.isoformat()})")
 
         articles.append({
@@ -83,6 +85,9 @@ def load_articles_from_sheets(loadAll=False):
     return articles
 
 def generate_rss(loadAll=False):
+    print(f"🛠️  Running generateRSS with loadAll={loadAll}")
+    print(f"📅 Today: {datetime.datetime.now().date()}")
+    
     try:
         articles = load_articles_from_sheets(loadAll=loadAll)
     except Exception as e:
