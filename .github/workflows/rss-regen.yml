@@ -3,6 +3,10 @@ name: Regenerate RSS
 on:
   workflow_dispatch:  # This is what your dashboard triggers!
 
+
+permissions:
+  contents: write
+  
 jobs:
   build:
     runs-on: ubuntu-latest
