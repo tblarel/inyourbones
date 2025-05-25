@@ -110,7 +110,10 @@ def generate_rss(loadAll=False):
         print(f"❌ Error loading from Google Sheets: {e}")
         return
 
-    rss = Element('rss', version='2.0')
+    rss = Element('rss', {
+        'version': '2.0',
+        'xmlns:media': 'http://search.yahoo.com/mrss/'
+    })
     channel = SubElement(rss, 'channel')
 
     SubElement(channel, 'title').text = FEED_TITLE
@@ -126,10 +129,19 @@ def generate_rss(loadAll=False):
         SubElement(item, 'description').text = article.get('caption', '')
         SubElement(item, 'pubDate').text = article.get('published', '')
 
+        # ✅ Add image if available
+        image_url = article.get('image')
+        if image_url:
+            SubElement(item, 'media:content', {
+                'url': image_url,
+                'medium': 'image'
+            })
+
     output_file = _get_output_file(loadAll)
     tree = ElementTree(rss)
     tree.write(output_file, encoding='utf-8', xml_declaration=True)
     print(f"\n✅ RSS feed written to {output_file} using {len(articles)} item(s)")
+
 
 if __name__ == '__main__':
     import argparse
