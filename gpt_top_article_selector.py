@@ -74,7 +74,6 @@ Return exactly {count} headlines, each on a new line, using the original wording
     for t in selected_titles:
         for a in articles:
             if a['title'] == t and t not in seen_titles:
-                # Check for similar keyword overlap
                 keywords = set(a['title'].lower().split())
                 if all(len(keywords & set(k.lower().split())) < 3 for k in seen_keywords):
                     top_articles.append(a)
@@ -84,7 +83,6 @@ Return exactly {count} headlines, each on a new line, using the original wording
 
     print(f"GPT returned {len(top_articles)} unique articles.")
 
-    # Fill in missing slots with non-overlapping fallbacks
     if len(top_articles) < count:
         fallback_pool = [a for a in articles if a['title'] not in seen_titles]
         for candidate in fallback_pool:
@@ -113,28 +111,38 @@ def update_selects_sheet(articles):
     try:
         worksheet = spreadsheet.worksheet(month_tab)
     except gspread.exceptions.WorksheetNotFound:
-        worksheet = spreadsheet.add_worksheet(title=month_tab, rows="1000", cols="4")
-        worksheet.append_row(['Title', 'Link', 'Source', 'Published'])
+        worksheet = spreadsheet.add_worksheet(title=month_tab, rows="1000", cols="5")
+        worksheet.append_row(['Title', 'Link', 'Source', 'Published', 'Image'])
 
     all_values = worksheet.get_all_values()
-    headers = all_values[0] if all_values else ['Title', 'Link', 'Source', 'Published']
+    default_headers = ['Title', 'Link', 'Source', 'Published', 'Image']
+    headers = all_values[0] if all_values else default_headers
+
+    if 'Image' not in headers:
+        headers.append('Image')
+
     filtered_values = []
     removed_count = 0
 
     for row in all_values[1:]:
-        if row and len(row) > 3:
+        if row and len(row) >= 4:
             try:
                 parsed_date = parser.parse(row[3]).astimezone(pacific).date()
                 if parsed_date.strftime('%Y-%m-%d') != today_str:
+                    while len(row) < len(headers):
+                        row.append('')
                     filtered_values.append(row)
                 else:
                     removed_count += 1
             except Exception as e:
                 print(f"Error parsing row date: {row[3]} -> {e}")
+                while len(row) < len(headers):
+                    row.append('')
                 filtered_values.append(row)
+
     print(f"Removed {removed_count} rows from today in selects sheet")
 
-    new_rows = [[a['title'], a['link'], a['source'], a['published']] for a in articles]
+    new_rows = [[a['title'], a['link'], a['source'], a['published'], a.get('image', '')] for a in articles]
     unique_rows = []
     seen = set()
     for row in new_rows:
@@ -146,6 +154,7 @@ def update_selects_sheet(articles):
     worksheet.clear()
     worksheet.update(values=final_data, range_name='A1')
 
+# --- MAIN ---
 if __name__ == '__main__':
     all_articles = load_articles()
     top_five = rank_top_articles(all_articles, count=5)
