@@ -55,10 +55,11 @@ def load_articles_from_sheets(loadAll=False):
             print(f"⚠️ Failed to parse date '{row[3]}' in row: {row} — {e}")
             continue
 
+        approval = row[5] if len(row) >= 6 else ''
+        if approval == '❌':
+            continue
+
         if not loadAll:
-            approval = row[5] if len(row) >= 6 else ''
-            if approval == '❌':
-                continue
             if (today - published_date.date()).days > 1:
                 print(f"⏭ Skipping row not from today or yesterday: {published_date.date()}")
                 continue
