@@ -7,6 +7,8 @@ import json
 from dateutil import parser
 from oauth2client.service_account import ServiceAccountCredentials
 import pytz
+import requests
+from bs4 import BeautifulSoup
 
 # --- HANDLE CREDS FROM ENV ---
 creds_b64 = os.getenv("CREDS_B64")
@@ -50,7 +52,7 @@ gsheet = gspread.authorize(creds)
 print("Available spreadsheets:", [s.title for s in gsheet.openall()])
 spreadsheet = gsheet.open(GOOGLE_SHEET_NAME)
 
-# --- HELPER ---
+# --- HELPERS ---
 def is_from_yesterday_pst(published_dt):
     pacific = pytz.timezone("America/Los_Angeles")
     now_pst = datetime.datetime.now(pacific)
@@ -66,6 +68,34 @@ def is_relevant(title):
     title_lower = title.lower()
     return not any(keyword in title_lower for keyword in EXCLUDE_KEYWORDS)
 
+def extract_image(entry):
+    for key in ['media_content', 'media_thumbnail']:
+        if key in entry:
+            media = entry[key]
+            if isinstance(media, list) and 'url' in media[0]:
+                return media[0]['url']
+            elif isinstance(media, dict) and 'url' in media:
+                return media['url']
+
+    if 'enclosures' in entry and entry.enclosures:
+        for enclosure in entry.enclosures:
+            if 'image' in enclosure.type or 'jpg' in enclosure.href:
+                return enclosure.href
+
+    try:
+        response = requests.get(entry.link, timeout=5)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        og_image = soup.find("meta", property="og:image")
+        if og_image and og_image.get("content"):
+            return og_image["content"]
+        twitter_image = soup.find("meta", attrs={"name": "twitter:image"})
+        if twitter_image and twitter_image.get("content"):
+            return twitter_image["content"]
+    except Exception as e:
+        print(f"Failed to fetch image from {entry.link}: {e}")
+
+    return None
+
 # --- MAIN SCRAPER ---
 def fetch_recent_articles():
     results = []
@@ -77,11 +107,13 @@ def fetch_recent_articles():
                 title = entry.title.strip()
                 if title not in seen_titles:
                     seen_titles.add(title)
+                    image_url = extract_image(entry)
                     results.append({
                         'title': title,
                         'link': entry.link,
                         'source': feed.feed.title,
-                        'published': entry.published
+                        'published': entry.published,
+                        'image': image_url
                     })
     print(f"Fetched {len(results)} articles from yesterday (PST) (deduplicated by title)")
     return sorted(results, key=lambda a: a['published'], reverse=True)
@@ -98,40 +130,54 @@ def update_monthly_sheet(articles):
     try:
         worksheet = spreadsheet.worksheet(sheet_tab)
     except gspread.exceptions.WorksheetNotFound:
-        worksheet = spreadsheet.add_worksheet(title=sheet_tab, rows="1000", cols="4")
+        worksheet = spreadsheet.add_worksheet(title=sheet_tab, rows="1000", cols="5")
 
     all_values = worksheet.get_all_values()
     print(f"Current sheet row count: {len(all_values)}")
-    headers = all_values[0] if all_values else ['Title', 'Link', 'Source', 'Published']
+
+    # Set or update headers
+    default_headers = ['Title', 'Link', 'Source', 'Published', 'Image']
+    if all_values:
+        headers = all_values[0]
+        if 'Image' not in headers:
+            headers.append('Image')
+    else:
+        headers = default_headers
+
     filtered_values = []
     removed_count = 0
 
     for row in all_values[1:]:
-        if row and len(row) > 3:
+        if row and len(row) >= 4:
             try:
                 parsed_date = parser.parse(row[3]).astimezone(pacific).date()
                 if parsed_date.strftime('%Y-%m-%d') != date_str:
+                    while len(row) < len(headers):
+                        row.append('')
                     filtered_values.append(row)
                 else:
                     removed_count += 1
             except Exception as e:
                 print(f"Error parsing row date: {row[3]} -> {e}")
+                while len(row) < len(headers):
+                    row.append('')
                 filtered_values.append(row)
     print(f"Removed {removed_count} rows from {date_str}")
 
-    new_rows = [[a['title'], a['link'], a['source'], a['published']] for a in articles[:MAX_RESULTS]]
+    new_rows = [[a['title'], a['link'], a['source'], a['published'], a.get('image', '')] for a in articles[:MAX_RESULTS]]
     unique_rows = []
     seen = set()
     for row in new_rows:
         if row[0] not in seen:
             seen.add(row[0])
             unique_rows.append(row)
-    print(f"Appending {len(unique_rows)} new unique rows")
 
+    print(f"Appending {len(unique_rows)} new unique rows")
     final_data = [headers] + filtered_values + unique_rows
     worksheet.clear()
     worksheet.update(values=final_data, range_name='A1')
 
+# --- MAIN ---
 if __name__ == '__main__':
     articles = fetch_recent_articles()
     update_monthly_sheet(articles)
