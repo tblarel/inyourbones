@@ -6,7 +6,7 @@ on:
 
 permissions:
   contents: write
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add feed.xml
+          git add feed.xml feed_all.xml
           git commit -m "♻️ Auto-regenerated RSS feed"
           git push
         env:
