@@ -56,7 +56,11 @@ def load_articles_from_sheets(loadAll=False):
             published = row[3]
             caption = row[4] if len(row) > 4 else ''
             image = row[5] if len(row) > 5 else ''
-            approval = row[6] if len(row) > 6 else ''
+            approval = row[6].strip() if len(row) > 6 else ''
+            print(f"🔍 Processing row {row_num}: {title} ({published}) with approval status ({approval})")
+            if approval == '❌':
+                print(f"🚫 Skipping disapproved row {row_num}: {title}")
+                continue
 
             published_date = date_parser.parse(published)
         except Exception as e:
