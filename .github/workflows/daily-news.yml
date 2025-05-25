@@ -39,11 +39,14 @@ jobs:
       - name: Run Caption Generator
         run: python caption_generator.py
 
-      - name: Run RSS Writer
+      - name: Run RSS Writer (latest articles)
         run: python rss_writer.py
         env:
           CREDS_B64: ${{ secrets.CREDS_B64 }}
           SHEET_ID: ${{ secrets.SHEET_ID }}
+
+      - name: Run RSS Writer (all articles)
+        run: python rss_writer.py --loadAll
 
       - name: Commit and push changes
         run: |

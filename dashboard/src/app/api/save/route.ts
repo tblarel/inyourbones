@@ -12,26 +12,23 @@ export async function POST(req: NextRequest) {
     if (!Array.isArray(articles)) throw new Error("Invalid data format: expected an array");
     console.log("✅ Received in API route:", articles);
 
-    // --- Save to local JSON files ---
+    // Save to local and public folders
     const jsonString = JSON.stringify(articles, null, 2);
     try {
       const rootPath = path.join(process.cwd(), 'top_articles_with_captions.json');
       const publicPath = path.join(process.cwd(), 'public', 'top_articles_with_captions.json');
-
       fs.writeFileSync(rootPath, jsonString);
       fs.writeFileSync(publicPath, jsonString);
-
       console.log("✅ JSON written to both root and public folders.");
     } catch (err) {
       console.error("❌ Failed to write local JSON:", err);
       return NextResponse.json({ success: false, error: 'Failed to save JSON locally' }, { status: 500 });
     }
 
-    // --- Update Google Sheet ---
+    // Update Google Sheet
     try {
       const credsB64 = process.env.CREDS_B64;
       const sheetId = process.env.SHEET_ID;
-
       if (!credsB64 || !sheetId) throw new Error("Missing Google credentials or Sheet ID");
 
       const creds = JSON.parse(Buffer.from(credsB64, 'base64').toString('utf8'));
@@ -46,22 +43,37 @@ export async function POST(req: NextRequest) {
 
       const sheets = google.sheets({ version: 'v4', auth: jwt });
       const now = new Date();
-      const sheetTab = now.toLocaleString('en-US', { month: 'long', year: 'numeric' }) + ' (selects)';
+      const monthName = now.toLocaleString('en-US', { month: 'long', year: 'numeric' });
+      const sheetTab = `${monthName} (selects)`;
 
-      const values = articles.map(a => [
-        a.title || '',
-        a.link || '',
-        a.source || '',
-        a.published || '',
-        a.caption || '',
-        a.approval === true ? '✅' : a.approval === false ? '❌' : ''
-      ]);
+      // Get existing rows
+      const existing = await sheets.spreadsheets.values.get({
+        spreadsheetId: sheetId,
+        range: `${sheetTab}!A2:F`
+      });
+      const existingRows = existing.data.values || [];
+
+      // Build updated rows
+      const updatedRows = existingRows.map(row => {
+        const match = articles.find(a => a.link === row[1]);
+        if (match) {
+          return [
+            match.title || '',
+            match.link || '',
+            match.source || '',
+            match.published || '',
+            match.caption || '',
+            match.approval === true ? '✅' : match.approval === false ? '❌' : ''
+          ];
+        }
+        return row;
+      });
 
       await sheets.spreadsheets.values.update({
         spreadsheetId: sheetId,
         range: `${sheetTab}!A2`,
         valueInputOption: 'RAW',
-        requestBody: { values }
+        requestBody: { values: updatedRows }
       });
 
       console.log(`✅ Google Sheet updated in tab: ${sheetTab}`);

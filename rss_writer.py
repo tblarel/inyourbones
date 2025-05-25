@@ -1,6 +1,6 @@
 # rss_writer.py
-
 import os
+import argparse
 import json
 import datetime
 from xml.etree.ElementTree import Element, SubElement, ElementTree
@@ -8,13 +8,17 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 import base64
 from dateutil import parser
+import sys
 
-OUTPUT_FILE = 'feed.xml'
 SITE_URL = 'https://inyourbones.live/'
 FEED_TITLE = 'InYourBones Daily Music News'
 FEED_DESCRIPTION = 'Top 5 daily music stories handpicked by InYourBones'
 
-def load_articles_from_sheets():
+def _get_output_file(loadAll):
+    return 'feed_all.xml' if loadAll else 'feed.xml'
+
+def load_articles_from_sheets(loadAll=False):
+
     creds_b64 = os.getenv("CREDS_B64")
     sheet_id = os.getenv("SHEET_ID")
 
@@ -56,6 +60,10 @@ def load_articles_from_sheets():
             continue
         seen_links.add(row[1])
 
+        if not loadAll:
+            if published_date.date() != now.date():
+                continue
+
         print(f"✅ Row accepted: {row[0]} ({published_date.isoformat()})")
 
         articles.append({
@@ -74,9 +82,9 @@ def load_articles_from_sheets():
 
     return articles
 
-def generate_rss():
+def generate_rss(loadAll=False):
     try:
-        articles = load_articles_from_sheets()
+        articles = load_articles_from_sheets(loadAll=loadAll)
     except Exception as e:
         print(f"❌ Error loading from Google Sheets: {e}")
         return
@@ -98,8 +106,12 @@ def generate_rss():
         SubElement(item, 'pubDate').text = article.get('published', '')
 
     tree = ElementTree(rss)
-    tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
-    print(f"✅ RSS feed written to {OUTPUT_FILE} using {len(articles)} approved + sorted items")
+    tree.write(_get_output_file, encoding='utf-8', xml_declaration=True)
+    print(f"✅ RSS feed written to {_get_output_file} using {len(articles)} approved + sorted items")
+    
+    if __name__ == '__main__':
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--loadAll", action="store_true", help="Load all articles")
+        args = parser.parse_args()
+        generate_rss(loadAll=args.loadAll)
 
-if __name__ == '__main__':
-    generate_rss()

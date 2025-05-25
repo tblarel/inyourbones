@@ -10,3 +10,4 @@ test_creds.py
 creds_b64.txt
 dashboard\.env.local
 !feed.xml
+scripts/

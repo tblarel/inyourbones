@@ -1,9 +1,7 @@
-// /src/app/api/dispatch/route.ts
+// src/app/api/dispatch/route.ts
 import { NextRequest, NextResponse } from 'next/server';
 
 export async function POST(req: NextRequest) {
-  const body = await req.json();
-
   const res = await fetch('https://api.github.com/repos/tblarel/inyourbones/actions/workflows/rss_regen.yml/dispatches', {
     method: 'POST',
     headers: {
@@ -13,11 +11,29 @@ export async function POST(req: NextRequest) {
     },
     body: JSON.stringify({ ref: 'main' }),
   });
-
-  if (!res.ok) {
-    const errorText = await res.text();
-    return new NextResponse(errorText, { status: res.status });
-  }
-
-  return new NextResponse('Dispatched', { status: 200 });
 }
+//   const res = await fetch('https://api.github.com/repos/tblarel/inyourbones/actions/workflows/rss_regen.yml/dispatches', {
+//     method: 'POST',
+//     headers: {
+//         Authorization: '',
+//         Accept: 'application/vnd.github+json',
+//         'Content-Type': 'application/json',
+//     },
+//     body: JSON.stringify({ ref: 'main' }),
+//     });
+
+//   if (!res.ok) {
+//     const errorText = await res.text();
+//     return new NextResponse(errorText, { status: res.status });
+//   }
+
+//   return new NextResponse('Dispatched', { status: 200 });
+// }
+
+// export async function POST(req: NextRequest) {
+//   return new NextResponse("✅ POST route is working!", { status: 200 });
+// }
+
+// export async function GET() {
+//   return new NextResponse('Dispatch route reachable');
+// }
