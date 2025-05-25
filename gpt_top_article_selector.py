@@ -142,7 +142,16 @@ def update_selects_sheet(articles):
 
     print(f"Removed {removed_count} rows from today in selects sheet")
 
-    new_rows = [[a['title'], a['link'], a['source'], a['published'], a.get('image', '')] for a in articles]
+    new_rows = [
+    [
+        a['title'],
+        a['link'],
+        a['source'],
+        a['published'],
+        a.get('image', '')
+    ]
+    for a in articles
+    ]
     unique_rows = []
     seen = set()
     for row in new_rows:
