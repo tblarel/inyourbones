@@ -55,7 +55,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add feed.xml top_articles.json top_articles_with_captions.json latest_articles.json
+          git add feed.xml feed_all.xml top_articles.json top_articles_with_captions.json latest_articles.json
           git commit -m "🔁 Auto update for $(date '+%Y-%m-%d')" || echo "No changes to commit"
           git push
         env:

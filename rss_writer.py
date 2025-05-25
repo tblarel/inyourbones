@@ -80,7 +80,9 @@ def load_articles_from_sheets(loadAll=False):
             "published_dt": published_date
         })
 
-    articles = sorted(articles, key=lambda a: a["published_dt"], reverse=True)[:5]
+    articles = sorted(articles, key=lambda a: a["published_dt"], reverse=True)
+    if not loadAll:
+        articles = articles[:5]
     print("\n📝 Final sorted article titles:")
     for a in articles:
         print(f" - {a['title']} @ {a['published_dt']}")
