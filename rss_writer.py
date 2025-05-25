@@ -36,7 +36,7 @@ def load_articles_from_sheets(loadAll=False):
 
     result = service.spreadsheets().values().get(
         spreadsheetId=sheet_id,
-        range=f"{tab_name}!A2:F"
+        range=f"{tab_name}!A2:G"
     ).execute()
 
     rows = result.get('values', [])
@@ -44,47 +44,56 @@ def load_articles_from_sheets(loadAll=False):
     seen_links = set()
     seen_titles = set()
 
-    for row in rows:
-        if len(row) < 5:
-            print(f"⚠️ Skipping incomplete row: {row}")
+    for row_num, row in enumerate(rows, start=2):
+        if len(row) < 4:
+            print(f"⚠️ Skipping short row (less than 4 cols) at row {row_num}: {row}")
             continue
 
         try:
-            published_date = date_parser.parse(row[3])
+            title = row[0]
+            link = row[1]
+            source = row[2]
+            published = row[3]
+            caption = row[4] if len(row) > 4 else ''
+            image = row[5] if len(row) > 5 else ''
+            approval = row[6] if len(row) > 6 else ''
+
+            published_date = date_parser.parse(published)
         except Exception as e:
-            print(f"⚠️ Failed to parse date '{row[3]}' in row: {row} — {e}")
+            print(f"⚠️ Error processing row {row_num}: {row} — {e}")
             continue
 
-        approval = row[6] if len(row) >= 7 else ''
         if approval == '❌':
+            print(f"🚫 Skipping disapproved row {row_num}: {title}")
             continue
 
-        if not loadAll:
-            if (today - published_date.date()).days > 1:
-                print(f"⏭ Skipping row not from today or yesterday: {published_date.date()}")
-                continue
+        if not loadAll and (today - published_date.date()).days > 1:
+            print(f"⏭ Skipping row not from today or yesterday ({published_date.date()}) at row {row_num}")
+            continue
 
         # Deduplication
-        if row[1] in seen_links or row[0] in seen_titles:
+        if link in seen_links or title in seen_titles:
+            print(f"🔁 Duplicate skipped at row {row_num}: {title}")
             continue
-        seen_links.add(row[1])
-        seen_titles.add(row[0])
+        seen_links.add(link)
+        seen_titles.add(title)
 
-        print(f"✅ Row accepted: {row[0]} ({published_date.isoformat()})")
+        print(f"✅ Row accepted at row {row_num}: {title} ({published_date.isoformat()})")
 
         articles.append({
-            "title": row[0],
-            "link": row[1],
-            "source": row[2],
-            "published": row[3],
-            "caption": row[4],
-            "image": row[5] if loadAll else '',
+            "title": title,
+            "link": link,
+            "source": source,
+            "published": published,
+            "caption": caption,
+            "image": image if loadAll else '',
             "published_dt": published_date
         })
 
     articles = sorted(articles, key=lambda a: a["published_dt"], reverse=True)
     if not loadAll:
         articles = articles[:5]
+
     print("\n📝 Final sorted article titles:")
     for a in articles:
         print(f" - {a['title']} @ {a['published_dt']}")
@@ -120,7 +129,7 @@ def generate_rss(loadAll=False):
     output_file = _get_output_file(loadAll)
     tree = ElementTree(rss)
     tree.write(output_file, encoding='utf-8', xml_declaration=True)
-    print(f"✅ RSS feed written to {output_file} using {len(articles)} item(s)")
+    print(f"\n✅ RSS feed written to {output_file} using {len(articles)} item(s)")
 
 if __name__ == '__main__':
     import argparse

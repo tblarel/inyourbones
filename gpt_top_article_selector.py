@@ -30,7 +30,7 @@ scope = ['https://spreadsheets.google.com/feeds',
 
 creds = ServiceAccountCredentials.from_json_keyfile_name('creds.json', scope)
 gsheet = gspread.authorize(creds)
-print("Available spreadsheets:", [s.title for s in gsheet.openall()])
+print("✅ Google Sheets connected.")
 spreadsheet = gsheet.open(GOOGLE_SHEET_NAME)
 
 # --- LOAD ARTICLES FROM JSON ---
@@ -81,7 +81,7 @@ Return exactly {count} headlines, each on a new line, using the original wording
                     seen_keywords.add(a['title'])
                     break
 
-    print(f"GPT returned {len(top_articles)} unique articles.")
+    print(f"🧠 GPT selected {len(top_articles)} unique articles.")
 
     if len(top_articles) < count:
         fallback_pool = [a for a in articles if a['title'] not in seen_titles]
@@ -101,7 +101,7 @@ def save_top_articles(articles, filepath='top_articles.json'):
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(articles, f, indent=2)
 
-# --- UPDATE SELECTS SHEET ---
+# --- WRITE TO MONTHLY SELECTS SHEET ---
 def update_selects_sheet(articles):
     pacific = pytz.timezone("America/Los_Angeles")
     now = datetime.datetime.now(pacific)
@@ -110,28 +110,29 @@ def update_selects_sheet(articles):
 
     try:
         worksheet = spreadsheet.worksheet(month_tab)
+        print(f"📝 Writing to sheet tab: {month_tab}")
     except gspread.exceptions.WorksheetNotFound:
         worksheet = spreadsheet.add_worksheet(title=month_tab, rows="1000", cols="6")
         worksheet.append_row(['Title', 'Link', 'Source', 'Published', 'Caption', 'Image'])
+        print(f"➕ Created new sheet tab: {month_tab}")
 
     all_values = worksheet.get_all_values()
     headers = all_values[0] if all_values else ['Title', 'Link', 'Source', 'Published', 'Caption', 'Image']
-
-    # Make sure headers have 6 fields
     while len(headers) < 6:
         headers.append('')
 
-    # Build set of existing (title, link) pairs to avoid duplicates
+    # Create set of (title, link) to detect duplicates
     existing_keys = set()
     for row in all_values[1:]:
         if len(row) >= 2:
-            existing_keys.add((row[0].strip(), row[1].strip()))
+            key = (row[0].strip(), row[1].strip())
+            existing_keys.add(key)
 
-    # Filter out rows from today
+    # Filter out today's rows
     filtered_values = []
     removed_count = 0
     for row in all_values[1:]:
-        if row and len(row) >= 4:
+        if len(row) >= 4:
             try:
                 parsed_date = parser.parse(row[3]).astimezone(pacific).date()
                 if parsed_date.strftime('%Y-%m-%d') != today_str:
@@ -141,14 +142,13 @@ def update_selects_sheet(articles):
                 else:
                     removed_count += 1
             except Exception as e:
-                print(f"Error parsing row date: {row[3]} -> {e}")
+                print(f"⚠️ Error parsing date '{row[3]}': {e}")
                 while len(row) < len(headers):
                     row.append('')
                 filtered_values.append(row)
+    print(f"🗑️ Removed {removed_count} rows from today")
 
-    print(f"Removed {removed_count} rows from today in selects sheet")
-
-    # Generate captions and build new rows
+    # Add new rows
     new_rows = []
     for a in articles:
         key = (a['title'].strip(), a['link'].strip())
@@ -156,27 +156,35 @@ def update_selects_sheet(articles):
             print(f"⏭️ Skipping duplicate: {a['title']}")
             continue
 
-        # You can customize this caption logic or call generate_caption()
-        caption = f"{a['title'].split(':')[0]} – more to come..."  # placeholder
-        new_rows.append([
+        caption = f"{a['title'].split(':')[0]} – more to come..."  # Placeholder
+        row = [
             a['title'],
             a['link'],
             a['source'],
             a['published'],
             caption,
             a.get('image', '')
-        ])
+        ]
+        print(f"✅ Adding row: {row[0][:40]}... | Image: {row[5]}")
+        new_rows.append(row)
 
-    print(f"Appending {len(new_rows)} new unique rows")
     final_data = [headers] + filtered_values + new_rows
     worksheet.clear()
     worksheet.update(values=final_data, range_name='A1')
-
+    print(f"✅ Sheet updated with {len(new_rows)} new row(s).")
 
 # --- MAIN ---
 if __name__ == '__main__':
+    print("🔄 Loading latest articles...")
     all_articles = load_articles()
+
+    print("🧠 Selecting top 5 with GPT...")
     top_five = rank_top_articles(all_articles, count=5)
+
+    print("💾 Saving to top_articles.json...")
     save_top_articles(top_five)
+
+    print("📤 Writing to selects sheet...")
     update_selects_sheet(top_five)
-    print("Top 5 articles selected and posted to selects sheet.")
+
+    print("🎉 Done.")
