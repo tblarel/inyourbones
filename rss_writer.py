@@ -55,7 +55,7 @@ def load_articles_from_sheets(loadAll=False):
             print(f"⚠️ Failed to parse date '{row[3]}' in row: {row} — {e}")
             continue
 
-        approval = row[5] if len(row) >= 6 else ''
+        approval = row[6] if len(row) >= 7 else ''
         if approval == '❌':
             continue
 
@@ -78,6 +78,7 @@ def load_articles_from_sheets(loadAll=False):
             "source": row[2],
             "published": row[3],
             "caption": row[4],
+            "image": row[5] if loadAll else '',
             "published_dt": published_date
         })
 
