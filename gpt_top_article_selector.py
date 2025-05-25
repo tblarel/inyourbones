@@ -101,7 +101,7 @@ def save_top_articles(articles, filepath='top_articles.json'):
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(articles, f, indent=2)
 
-# --- WRITE TO MONTHLY SELECTS SHEET ---
+# --- UPDATE SELECTS SHEET ---
 def update_selects_sheet(articles):
     pacific = pytz.timezone("America/Los_Angeles")
     now = datetime.datetime.now(pacific)
@@ -111,19 +111,25 @@ def update_selects_sheet(articles):
     try:
         worksheet = spreadsheet.worksheet(month_tab)
     except gspread.exceptions.WorksheetNotFound:
-        worksheet = spreadsheet.add_worksheet(title=month_tab, rows="1000", cols="5")
-        worksheet.append_row(['Title', 'Link', 'Source', 'Published', 'Image'])
+        worksheet = spreadsheet.add_worksheet(title=month_tab, rows="1000", cols="6")
+        worksheet.append_row(['Title', 'Link', 'Source', 'Published', 'Caption', 'Image'])
 
     all_values = worksheet.get_all_values()
-    default_headers = ['Title', 'Link', 'Source', 'Published', 'Image']
-    headers = all_values[0] if all_values else default_headers
+    headers = all_values[0] if all_values else ['Title', 'Link', 'Source', 'Published', 'Caption', 'Image']
 
-    if 'Image' not in headers:
-        headers.append('Image')
+    # Make sure headers have 6 fields
+    while len(headers) < 6:
+        headers.append('')
 
+    # Build set of existing (title, link) pairs to avoid duplicates
+    existing_keys = set()
+    for row in all_values[1:]:
+        if len(row) >= 2:
+            existing_keys.add((row[0].strip(), row[1].strip()))
+
+    # Filter out rows from today
     filtered_values = []
     removed_count = 0
-
     for row in all_values[1:]:
         if row and len(row) >= 4:
             try:
@@ -142,26 +148,30 @@ def update_selects_sheet(articles):
 
     print(f"Removed {removed_count} rows from today in selects sheet")
 
-    new_rows = [
-    [
-        a['title'],
-        a['link'],
-        a['source'],
-        a['published'],
-        a.get('image', '')
-    ]
-    for a in articles
-    ]
-    unique_rows = []
-    seen = set()
-    for row in new_rows:
-        if row[0] not in seen:
-            seen.add(row[0])
-            unique_rows.append(row)
+    # Generate captions and build new rows
+    new_rows = []
+    for a in articles:
+        key = (a['title'].strip(), a['link'].strip())
+        if key in existing_keys:
+            print(f"⏭️ Skipping duplicate: {a['title']}")
+            continue
 
-    final_data = [headers] + filtered_values + unique_rows
+        # You can customize this caption logic or call generate_caption()
+        caption = f"{a['title'].split(':')[0]} – more to come..."  # placeholder
+        new_rows.append([
+            a['title'],
+            a['link'],
+            a['source'],
+            a['published'],
+            caption,
+            a.get('image', '')
+        ])
+
+    print(f"Appending {len(new_rows)} new unique rows")
+    final_data = [headers] + filtered_values + new_rows
     worksheet.clear()
     worksheet.update(values=final_data, range_name='A1')
+
 
 # --- MAIN ---
 if __name__ == '__main__':
