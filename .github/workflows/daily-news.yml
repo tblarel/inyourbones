@@ -47,6 +47,9 @@ jobs:
 
       - name: Run RSS Writer (all articles)
         run: python rss_writer.py --loadAll
+        env:
+          CREDS_B64: ${{ secrets.CREDS_B64 }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
 
       - name: Commit and push changes
         run: |

@@ -105,13 +105,14 @@ def generate_rss(loadAll=False):
         SubElement(item, 'description').text = article.get('caption', '')
         SubElement(item, 'pubDate').text = article.get('published', '')
 
+    output_file = _get_output_file(loadAll)
     tree = ElementTree(rss)
-    tree.write(_get_output_file, encoding='utf-8', xml_declaration=True)
-    print(f"✅ RSS feed written to {_get_output_file} using {len(articles)} approved + sorted items")
+    tree.write(output_file, encoding='utf-8', xml_declaration=True)
+    print(f"✅ RSS feed written to {output_file} using {len(articles)} approved + sorted items")
     
-    if __name__ == '__main__':
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--loadAll", action="store_true", help="Load all articles")
-        args = parser.parse_args()
-        generate_rss(loadAll=args.loadAll)
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--loadAll", action="store_true", help="Load all articles")
+    args = parser.parse_args()
+    generate_rss(loadAll=args.loadAll)
 
