@@ -40,7 +40,7 @@ def load_articles_from_sheets(loadAll=False):
     ).execute()
 
     rows = result.get('values', [])
-    articles = []
+    all_articles = []
     seen_links = set()
     seen_titles = set()
 
@@ -58,21 +58,15 @@ def load_articles_from_sheets(loadAll=False):
             image = row[5] if len(row) > 5 else ''
             approval = row[6].strip() if len(row) > 6 else ''
             print(f"🔍 Processing row {row_num}: {title} ({published}) with approval status ({approval})")
+
             if approval == '❌':
                 print(f"🚫 Skipping disapproved row {row_num}: {title}")
                 continue
 
             published_date = date_parser.parse(published)
+
         except Exception as e:
             print(f"⚠️ Error processing row {row_num}: {row} — {e}")
-            continue
-
-        if approval == '❌':
-            print(f"🚫 Skipping disapproved row {row_num}: {title}")
-            continue
-
-        if not loadAll and (today - published_date.date()).days > 1:
-            print(f"⏭ Skipping row not from today or yesterday ({published_date.date()}) at row {row_num}")
             continue
 
         # Deduplication
@@ -82,9 +76,7 @@ def load_articles_from_sheets(loadAll=False):
         seen_links.add(link)
         seen_titles.add(title)
 
-        print(f"✅ Row accepted at row {row_num}: {title} ({published_date.isoformat()})")
-
-        articles.append({
+        article = {
             "title": title,
             "link": link,
             "source": source,
@@ -92,23 +84,32 @@ def load_articles_from_sheets(loadAll=False):
             "caption": caption,
             "image": image if loadAll else '',
             "published_dt": published_date
-        })
+        }
 
-    articles = sorted(articles, key=lambda a: a["published_dt"], reverse=True)
+        all_articles.append(article)
+        print(f"✅ Row accepted at row {row_num}: {title} ({published_date.isoformat()})")
+
+    # Sort by date descending
+    all_articles = sorted(all_articles, key=lambda a: a["published_dt"], reverse=True)
 
     if not loadAll:
-        recent = [a for a in articles if (today - a["published_dt"].date()).days <= 3]
-        if len(recent) < 5:
-            print(f"🔍 Only found {len(recent)} articles from the last 3 days, falling back to top 5 overall.")
-            articles = articles[:5]
+        # Try to get top 5 from the last 3 days
+        recent_articles = [a for a in all_articles if (today - a["published_dt"].date()).days <= 3]
+        if len(recent_articles) >= 5:
+            articles = recent_articles[:5]
+            print(f"🔍 Found {len(recent_articles)} recent articles, using top 5.")
         else:
-            articles = recent[:5]
+            print(f"🔍 Only found {len(recent_articles)} articles from the last 3 days, falling back to top 5 overall.")
+            articles = all_articles[:5]
+    else:
+        articles = all_articles
 
     print("\n📝 Final sorted article titles:")
     for a in articles:
         print(f" - {a['title']} @ {a['published_dt']}")
 
     return articles
+
 
 def generate_rss(loadAll=False):
     print(f"🛠️  Running generateRSS with loadAll={loadAll}")
