@@ -1,6 +1,7 @@
 # 📰 InYourBones Daily Music News Feed
 
-Welcome to the codebase behind **[InYourBones.live](https://inyourbones.live)** — a AI-powered, automated **daily music news** feed.
+Welcome to the codebase behind **[InYourBones.live](https://inyourbones.live)** 's AI-powered, automated **daily music news** feed.
+
 
 Each day, we deliver the top 5 most compelling music stories — curated through AI and automation.  
 This repository contains the tools powering our RSS feed and automated workflows:

@@ -21,6 +21,9 @@ else:
 
 # --- CONFIG ---
 RSS_FEEDS = [
+    'https://news.google.com/rss/search?q=music&hl=en-US&gl=US&ceid=US:en',
+    'https://news.google.com/rss/search?q=new+music+releases&hl=en-US&gl=US&ceid=US:en',
+    'https://news.google.com/rss/search?q=music+tour+2025&hl=en-US&gl=US&ceid=US:en',
     'https://pitchfork.com/rss/news/',
     'https://www.stereogum.com/feed/',
     'https://consequence.net/feed/',
@@ -30,10 +33,11 @@ RSS_FEEDS = [
     'https://www.billboard.com/feed/',
     'https://www.rollingstone.com/music/music-news/feed/',
     'https://www.pastemagazine.com/music/rss/',
+    'https://news.google.com/rss/search?q=music+industry+news&hl=en-US&gl=US&ceid=US:en',
 ]
 
 GOOGLE_SHEET_NAME = 'InYourBones Daily Music News'
-MAX_RESULTS = 50
+MAX_RESULTS = 100
 
 # --- LOAD FILTERS ---
 with open('filters.json', 'r', encoding='utf-8') as f:
