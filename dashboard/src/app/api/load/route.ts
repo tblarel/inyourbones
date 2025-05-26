@@ -30,7 +30,7 @@ export async function GET(req: NextRequest) {
 
     const res = await sheets.spreadsheets.values.get({
       spreadsheetId: sheetId,
-      range: `${sheetTab}!A2:F`,
+      range: `${sheetTab}!A2:G`,
     });
 
     const rows = res.data.values || [];
@@ -44,7 +44,8 @@ export async function GET(req: NextRequest) {
       source: row[2] || '',
       published: row[3] || '',
       caption: row[4] || '',
-      approval: row[5] ?? null,
+      image: row[5] ?? null,
+      approval: row[6] === '✅' ? true : row[6] === '❌' ? false : null,
       }))
       .filter(a => a.published);
 
@@ -57,9 +58,8 @@ export async function GET(req: NextRequest) {
       }
     }
 
-    const recent5UniqueArticles = Array.from(uniqueArticlesMap.values()).slice(0, 5);
-
-    return NextResponse.json(recent5UniqueArticles);
+    const articlesArray = Array.from(uniqueArticlesMap.values())
+    return NextResponse.json(articlesArray);
   } catch (err) {
     console.error("❌ Error loading from Google Sheets:", err);
     return NextResponse.json({ success: false, error: 'Failed to load data' }, { status: 500 });

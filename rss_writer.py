@@ -96,7 +96,11 @@ def load_articles_from_sheets(loadAll=False):
 
     articles = sorted(articles, key=lambda a: a["published_dt"], reverse=True)
     if not loadAll:
-        articles = articles[:5]
+        print(f"🔍 Mot loadAll, Filtering to recent articles (last 2 days) with {len(articles)} total articles")
+        recent = [a for a in articles if (today - a["published_dt"].date()).days <= 2]
+        print(f"🔍 Found {len(recent)} articles from the last 2 days")
+        articles = recent[:5] if len(recent) >= 5 else articles[:5]
+        print(f"🔍 Final selection: {len(articles)} articles")
 
     print("\n📝 Final sorted article titles:")
     for a in articles:

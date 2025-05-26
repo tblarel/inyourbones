@@ -63,6 +63,7 @@ export async function POST(req: NextRequest) {
             match.source || '',
             match.published || '',
             match.caption || '',
+            match.image || '',
             match.approval === true ? '✅' : match.approval === false ? '❌' : ''
           ];
         }

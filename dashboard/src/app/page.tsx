@@ -9,10 +9,23 @@ export type Article = {
   title: string;
   link: string;
   source: string;
-  published: string;
+  published: string; // ISO string
   caption: string;
   approval: boolean | null;
 };
+
+type GroupedArticles = Record<string, Article[]>;
+
+const PAGE_SIZE = 3; // Number of date groups per page
+
+function groupByDate(articles: Article[]): GroupedArticles {
+  return articles.reduce((acc, article) => {
+    const date = article.published.slice(0, 10); // YYYY-MM-DD
+    if (!acc[date]) acc[date] = [];
+    acc[date].push(article);
+    return acc;
+  }, {} as GroupedArticles);
+}
 
 export default function DashboardPage() {
   const [articles, setArticles] = useState<Article[]>([]);
@@ -20,6 +33,7 @@ export default function DashboardPage() {
   const [error, setError] = useState<string | null>(null);
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
+  const [page, setPage] = useState(0);
 
   useEffect(() => {
     async function fetchArticles() {
@@ -38,38 +52,50 @@ export default function DashboardPage() {
         setLoading(false);
       }
     }
-
     fetchArticles();
   }, []);
 
-  const updateCaption = (index: number, newCaption: string) => {
-    setArticles(prev => {
-      const updated = [...prev];
-      updated[index] = { ...updated[index], caption: newCaption };
-      return updated;
-    });
+  // Group and sort articles by date (descending)
+  const grouped = groupByDate(articles);
+  const sortedDates = Object.keys(grouped).sort(
+    (a, b) => new Date(b).getTime() - new Date(a).getTime()
+  );
+  const totalPages = Math.ceil(sortedDates.length / PAGE_SIZE);
+
+  // Get date groups for current page
+  const pageDates = sortedDates.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
+
+  const updateCaption = (date: string, idx: number, newCaption: string) => {
+    setArticles(prev =>
+      prev.map(a =>
+        a.published.slice(0, 10) === date && grouped[date][idx] === a
+          ? { ...a, caption: newCaption }
+          : a
+      )
+    );
+    setSaved(false);
   };
 
-  const toggleReject = (index: number) => {
-    setArticles(prev => {
-      const updated = [...prev];
-      updated[index] = {
-        ...updated[index],
-        approval: updated[index].approval === false ? null : false
-      };
-      return updated;
-    });
+  const toggleReject = (date: string, idx: number) => {
+    setArticles(prev =>
+      prev.map(a =>
+        a.published.slice(0, 10) === date && grouped[date][idx] === a
+          ? { ...a, approval: a.approval === false ? null : false }
+          : a
+      )
+    );
+    setSaved(false);
   };
 
-  const toggleApprove = (index: number) => {
-    setArticles(prev => {
-      const updated = [...prev];
-      updated[index] = {
-        ...updated[index],
-        approval: updated[index].approval === true ? null : true
-      };
-      return updated;
-    });
+  const toggleApprove = (date: string, idx: number) => {
+    setArticles(prev =>
+      prev.map(a =>
+        a.published.slice(0, 10) === date && grouped[date][idx] === a
+          ? { ...a, approval: a.approval === true ? null : true }
+          : a
+      )
+    );
+    setSaved(false);
   };
 
   const saveChanges = async () => {
@@ -87,7 +113,7 @@ export default function DashboardPage() {
       await fetch("/api/dispatch", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({}),
+        body: JSON.stringify({articles}),
       });
 
     } catch (err) {
@@ -103,42 +129,64 @@ export default function DashboardPage() {
 
   return (
     <div className="p-4 space-y-4">
-      {articles.map((article, index) => (
-        <Card key={index}>
-          <CardContent className="space-y-2">
-            <div className="font-semibold">{article.title}</div>
-            <Textarea
-              value={article.caption}
-              onChange={e => updateCaption(index, e.target.value)}
-              className="w-full"
-              rows={2}
-            />
-            <div className="flex justify-between items-center">
-              <span className="text-xs text-muted-foreground">
-                {article.published} — {article.source}
-              </span>
-              <div className="space-x-2">
-                <Button
-                  variant={article.approval === true ? "default" : "outline"}
-                  onClick={() => toggleApprove(index)}
-                >
-                  {article.approval === true ? "✅ Approved" : "Approve"}
-                </Button>
-                <Button
-                  variant={article.approval === false ? "destructive" : "outline"}
-                  onClick={() => toggleReject(index)}
-                >
-                  {article.approval === false ? "❌ Rejected" : "Reject"}
-                </Button>
-                {article.approval === null && (
-                  <span className="text-xs text-muted-foreground">Pending</span>
-                )}
-              </div>
-            </div>
-          </CardContent>
-        </Card>
+      {pageDates.map((date, dayIdx) => (
+        <div
+          key={date}
+          className={`border-t pt-6 ${dayIdx > 0 ? "mt-10" : ""}`}
+        >
+          <div className="font-bold text-xl mb-4">{date}</div>
+          <div className="space-y-4">
+            {grouped[date].map((article, idx) => (
+              <Card key={idx}>
+                <CardContent className="space-y-2">
+                  <div className="font-semibold">{article.title}</div>
+                  <Textarea
+                    value={article.caption}
+                    onChange={e => updateCaption(date, idx, e.target.value)}
+                    className="w-full"
+                    rows={2}
+                  />
+                  <div className="flex justify-between items-center">
+                    <span className="text-xs text-muted-foreground">
+                      {article.published} — {article.source}
+                    </span>
+                    <div className="space-x-2">
+                      <Button
+                        variant={article.approval === true ? "default" : "outline"}
+                        onClick={() => toggleApprove(date, idx)}
+                      >
+                        {article.approval === true ? "✅ Approved" : "Approve"}
+                      </Button>
+                      <Button
+                        variant={article.approval === false ? "destructive" : "outline"}
+                        onClick={() => toggleReject(date, idx)}
+                      >
+                        {article.approval === false ? "❌ Rejected" : "Reject"}
+                      </Button>
+                      {article.approval === null && (
+                        <span className="text-xs text-muted-foreground">Pending</span>
+                      )}
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
       ))}
-      <div className="text-center pt-4">
+
+      <div className="flex justify-between items-center pt-4">
+        <Button onClick={() => setPage(p => Math.max(0, p - 1))} disabled={page === 0}>
+          Previous
+        </Button>
+        <span>
+          Page {page + 1} of {totalPages}
+        </span>
+        <Button onClick={() => setPage(p => Math.min(totalPages - 1, p + 1))} disabled={page >= totalPages - 1}>
+          Next
+        </Button>
+      </div>
+      <div className="fixed bottom-0 left-0 w-full bg-white border-t py-4 flex justify-center z-50 shadow">
         <Button onClick={saveChanges} disabled={saving}>
           {saving ? "Saving..." : saved ? "✅ Saved!" : "Save Changes"}
         </Button>
