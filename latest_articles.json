@@ -1,548 +1,506 @@
 [
   {
-    "title": "Black Sabbath Members Pay Tribute to Ozzy Osbourne: \u2018Goodbye Dear\u00a0Friend\u2019",
-    "link": "https://www.billboard.com/music/rock/black-sabbath-tribute-ozzy-osbourne-death-1236027900/",
+    "title": "Justin Timberlake Goes Viral For Sucking In Transylvania",
+    "link": "https://www.stereogum.com/2316747/justin-timberlake-goes-viral-for-lackluster-transylvania-show/news/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 23:58:04 +0000",
+    "image": null
+  },
+  {
+    "title": "Hayley Williams Debuts New Song \u201cMirtazapine\u201d On Nashville Public Radio",
+    "link": "https://www.stereogum.com/2316741/hayley-williams-debuts-new-song-mirtazapine-on-nashville-public-radio/news/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 23:35:59 +0000",
+    "image": null
+  },
+  {
+    "title": "Lucy Dacus Seeks To Officiate Fans\u2019 Weddings On Upcoming Tour",
+    "link": "https://www.stereogum.com/2316736/lucy-dacus-seeks-to-officiate-fans-weddings-on-upcoming-tour/news/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 22:54:53 +0000",
+    "image": null
+  },
+  {
+    "title": "Drake Honors Ozzy Osbourne at Birmingham Concert",
+    "link": "https://www.rollingstone.com/music/music-news/drake-ozzy-osbourne-tribute-birmingham-concert-1235392810/",
+    "source": "Music News",
+    "published": "Wed, 23 Jul 2025 22:53:01 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/07/drake-ozzy.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Cardi B Sued for Battery After Las Vegas Mic-Throwing Incident",
+    "link": "https://www.rollingstone.com/music/music-news/cardi-b-sued-battery-las-vegas-mic-throwing-incident-1235392747/",
+    "source": "Music News",
+    "published": "Wed, 23 Jul 2025 22:35:20 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/07/cardi-b-lawsuit-mic.jpg?crop=0px%2C0px%2C1800px%2C1014px&resize=1600%2C900"
+  },
+  {
+    "title": "18 New Songs Out Today",
+    "link": "https://www.brooklynvegan.com/18-new-songs-out-today-81/",
+    "source": "BrooklynVegan",
+    "published": "Wed, 23 Jul 2025 21:56:07 +0000",
+    "image": null
+  },
+  {
+    "title": "Pynch Announce New Album Beautiful Noise: Hear \u201cPost-Punk/New-Wave\u201d",
+    "link": "https://www.stereogum.com/2316712/pynch-announce-new-album-beautiful-noise-hear-post-punk-new-wave/music/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 21:22:34 +0000",
+    "image": null
+  },
+  {
+    "title": "Hans Zimmer Joins Labrinth To Score Euphoria Season 3",
+    "link": "https://www.stereogum.com/2316685/hans-zimmer-joins-labrinth-to-score-euphoria-season-3/news/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 21:17:31 +0000",
+    "image": null
+  },
+  {
+    "title": "Post Malone\u2019s Ex-Fianc\u00e9e Drops California Custody Case Over Daughter",
+    "link": "https://www.rollingstone.com/music/music-news/post-malone-ex-drops-california-custody-case-daughter-1235392689/",
+    "source": "Music News",
+    "published": "Wed, 23 Jul 2025 21:16:27 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/07/Post-Malone-custody-case.jpg?crop=0px%2C25px%2C1800px%2C1014px&resize=1600%2C900"
+  },
+  {
+    "title": "Skylar Spence Announces Prom King 10th Anniversary Reissue: Hear Two Bonus Tracks",
+    "link": "https://www.stereogum.com/2316722/skylar-spence-announces-prom-king-10th-anniversary-reissue-hear-two-bonus-tracks/music/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 21:13:13 +0000",
+    "image": null
+  },
+  {
+    "title": "Fat Joe Says He Drinks Up To 40 Diet Pepsis A Day",
+    "link": "https://www.stereogum.com/2316675/fat-joe-says-he-drinks-up-to-40-diet-pepsis-a-day/news/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 21:09:31 +0000",
+    "image": null
+  },
+  {
+    "title": "Florry announce fall tour with Dari Bay & John Andrews and the Yawns",
+    "link": "https://www.brooklynvegan.com/florry-announce-fall-tour-with-dari-bay-john-andrews-and-the-yawns/",
+    "source": "BrooklynVegan",
+    "published": "Wed, 23 Jul 2025 21:05:36 +0000",
+    "image": null
+  },
+  {
+    "title": "Lucy Dacus Will Officiate Your Wedding at One of Her Shows",
+    "link": "https://pitchfork.com/news/lucy-dacus-will-officiate-your-wedding-at-one-of-her-shows",
+    "source": "RSS: News",
+    "published": "Wed, 23 Jul 2025 21:00:38 +0000",
+    "image": "https://media.pitchfork.com/photos/688149275ba5d3c2444ec62c/master/pass/GettyImages-2219680818.jpg"
+  },
+  {
+    "title": "Golden Earring\u2019s George Kooymans Dead At 77",
+    "link": "https://www.stereogum.com/2316697/golden-earrings-george-kooymans-dead-at-77/news/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 20:42:10 +0000",
+    "image": null
+  },
+  {
+    "title": "Primus brought out Ty Segall & Sean Ono Lennon in NYC, paid tribute to Ozzy in CT (pics, video)",
+    "link": "https://www.brooklynvegan.com/primus-brought-out-ty-segall-sean-ono-lennon-in-nyc-paid-tribute-to-ozzy-in-ct-pics-video/",
+    "source": "BrooklynVegan",
+    "published": "Wed, 23 Jul 2025 20:17:28 +0000",
+    "image": null
+  },
+  {
+    "title": "Fiddlehead\u2019s Pat Flynn Meets Crass, Launches New Band How Much Art",
+    "link": "https://www.stereogum.com/2316661/fiddleheads-pat-flynn-meets-crass-launches-new-band-how-much-art/music/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 20:13:57 +0000",
+    "image": null
+  },
+  {
+    "title": "Tame Impala Tease New Single \u201cEnd of Summer\u201d",
+    "link": "https://consequence.net/2025/07/tame-impala-new-single-end-of-summer/",
+    "source": "Consequence",
+    "published": "Wed, 23 Jul 2025 20:06:59 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/07/Untitled_7af21c.jpeg?quality=80"
+  },
+  {
+    "title": "Hans Zimmer to Serve as Composer on \u2018Euphoria\u2019 Season 3, Joining Labrinth",
+    "link": "https://www.rollingstone.com/music/music-news/hans-zimmer-composer-euphoria-season-3-labrinth-1235392649/",
+    "source": "Music News",
+    "published": "Wed, 23 Jul 2025 20:02:41 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/07/GettyImages-2221719854.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Zak Starkey Reveals He Turned Down Request To Be Black Sabbath\u2019s Drummer",
+    "link": "https://www.stereogum.com/2316672/zak-starkey-reveals-he-turned-down-request-to-be-black-sabbaths-drummer/news/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 19:47:46 +0000",
+    "image": null
+  },
+  {
+    "title": "How Much Art (Fiddlehead, Gel) sign to Convulse for debut EP, share \u201cPR\u201d",
+    "link": "https://www.brooklynvegan.com/how-much-art-fiddlehead-gel-sign-to-convulse-for-debut-ep-share-pr/",
+    "source": "BrooklynVegan",
+    "published": "Wed, 23 Jul 2025 19:43:45 +0000",
+    "image": null
+  },
+  {
+    "title": "Nyxy Nyx Announce Debut Studio Album Cult Classics Vol. 1: Hear \u201cin haze\u201d",
+    "link": "https://www.stereogum.com/2316683/nyxy-nyx-announce-debut-studio-album-cult-classics-vol-1-hear-in-haze/music/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 19:36:29 +0000",
+    "image": null
+  },
+  {
+    "title": "Phish began Forest Hills Stadium run, Page McConnell threw 1st pitch at Mets game (pics, video, setlist)",
+    "link": "https://www.brooklynvegan.com/phish-began-forest-hills-stadium-run-page-mcconnell-threw-1st-pitch-at-mets-game-pics-video-setlist/",
+    "source": "BrooklynVegan",
+    "published": "Wed, 23 Jul 2025 19:15:22 +0000",
+    "image": null
+  },
+  {
+    "title": "Death To All celebrating \u2018Spiritual Healing\u2019 & \u2018Symbolic\u2019 on tour with Gorguts & Phobophilic",
+    "link": "https://www.brooklynvegan.com/death-to-all-celebrating-spiritual-healing-symbolic-on-tour-with-gorguts-phobophilic/",
+    "source": "BrooklynVegan",
+    "published": "Wed, 23 Jul 2025 19:15:05 +0000",
+    "image": null
+  },
+  {
+    "title": "Netflix Renews Wednesday for Season 3, with Spinoff in the Works",
+    "link": "https://consequence.net/2025/07/wednesday-renewed-season-3-netflix-spinoff/",
+    "source": "Consequence",
+    "published": "Wed, 23 Jul 2025 18:31:45 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/07/WEDNESDAY_202_Unit_03439RC.jpg?quality=80"
+  },
+  {
+    "title": "Chappell Roan Teases New Single \u201cThe Subway\u201d",
+    "link": "https://consequence.net/2025/07/chappell-roan-teases-new-single-the-subway/",
+    "source": "Consequence",
+    "published": "Wed, 23 Jul 2025 18:29:17 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/07/Chappell-Roan.jpg?quality=80"
+  },
+  {
+    "title": "Justin Bieber\u2019s \u2018Swag\u2019 Lands at Number 2. It\u2019s Still His Biggest Streaming Debut Yet",
+    "link": "https://www.rollingstone.com/music/music-news/justin-bieber-swag-number-two-still-strong-on-albums-chart-1235392323/",
+    "source": "Music News",
+    "published": "Wed, 23 Jul 2025 18:04:53 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/07/bieber-strong-charts.jpg?crop=0px%2C114px%2C1800px%2C1015px&resize=1600%2C900"
+  },
+  {
+    "title": "Happy Gilmore 2 Director Kyle Newacheck on Reviving \u201990s Comedy and Bad Bunny\u2019s Surprise Star Turn: Podcast",
+    "link": "https://consequence.net/2025/07/happy-gilmore-2-kyle-newacheck-podcast/",
+    "source": "Consequence",
+    "published": "Wed, 23 Jul 2025 18:01:10 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/07/Kyle-Newacheck-kmw.jpg?quality=80"
+  },
+  {
+    "title": "Buckingham Nicks Reissue Confirmed For September",
+    "link": "https://www.stereogum.com/2316647/buckingham-nicks-reissue-confirmed-for-september/music/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 17:45:36 +0000",
+    "image": null
+  },
+  {
+    "title": "George Kooymans, Guitarist for \u2018Radar Love\u2019 Rockers Golden Earring, Dead at 77",
+    "link": "https://www.rollingstone.com/music/music-news/george-kooymans-guitarist-golden-earring-dead-obituary-1235392319/",
+    "source": "Music News",
+    "published": "Wed, 23 Jul 2025 17:26:14 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/07/GettyImages-575757169.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Death to All Announce 2025 North American Tour Celebrating Death\u2019s Spiritual Healing and Symbolic Albums",
+    "link": "https://consequence.net/2025/07/death-to-all-2025-symbolic-healing-tour/",
+    "source": "Consequence",
+    "published": "Wed, 23 Jul 2025 17:22:37 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/07/Death-to-All.jpg?quality=80"
+  },
+  {
+    "title": "South Park to Stream Exclusively on Paramount+ As Part of New $1.5 Billion Deal",
+    "link": "https://consequence.net/2025/07/south-park-billion-dollar-deal-paramount/",
+    "source": "Consequence",
+    "published": "Wed, 23 Jul 2025 17:07:45 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/07/South-Park-Deal.jpg?quality=80"
+  },
+  {
+    "title": "George Kooymans, Golden Earring Singer-Guitarist, Dead at 77",
+    "link": "https://consequence.net/2025/07/george-kooymans-golden-earring-dead/",
+    "source": "Consequence",
+    "published": "Wed, 23 Jul 2025 16:59:54 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/07/George-Kooymans.jpg?quality=80"
+  },
+  {
+    "title": "Ike Barinholtz to Play Elon Musk in Luca Guadagnino\u2019s OpenAI Movie",
+    "link": "https://consequence.net/2025/07/ike-barinholtz-elon-musk-openai-movie/",
+    "source": "Consequence",
+    "published": "Wed, 23 Jul 2025 16:52:53 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/07/ike-barinholtz-openai-movie.jpg?quality=80"
+  },
+  {
+    "title": "bloodsports Announce Debut Album Anything Can Be A Hammer: Hear \u201cRosary\u201d",
+    "link": "https://www.stereogum.com/2316628/bloodsports-announce-debut-album-anything-can-be-a-hammer-hear-rosary/music/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 16:52:10 +0000",
+    "image": null
+  },
+  {
+    "title": "Drake Pours One Out For Ozzy Osbourne At Black Sabbath Bench",
+    "link": "https://www.stereogum.com/2316610/drake-pours-one-out-for-ozzy-osbourne-at-black-sabbath-bench/news/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 16:49:05 +0000",
+    "image": null
+  },
+  {
+    "title": "Spinal Tap Begrudgingly Reunite in First Look at Long-Awaited Sequel",
+    "link": "https://consequence.net/2025/07/spinal-tap-ii-the-end-continues-first-look-photos/",
+    "source": "Consequence",
+    "published": "Wed, 23 Jul 2025 16:26:40 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/07/SPINAL_TAP_01680-EW_Credit_-Bleecker-Street-Authorized-Spinal-Tap-LLC.jpeg?quality=80"
+  },
+  {
+    "title": "Jawbreaker announce fall shows with Texas is the Reason, The Get Up Kids, Bratmobile & Bully (BV Presale for NYC)",
+    "link": "https://www.brooklynvegan.com/jawbreaker-announce-fall-shows-brooklyn-paramount-included/",
+    "source": "BrooklynVegan",
+    "published": "Wed, 23 Jul 2025 16:24:12 +0000",
+    "image": null
+  },
+  {
+    "title": "Avalon Emerson \u2013 \u201cSort Of Like A Dream\u201d (Feat. Anunaku) & \u201cYou\u2019re My World\u201d (Feat. Priori)",
+    "link": "https://www.stereogum.com/2316644/avalon-emerson-sort-of-like-a-dream-feat-anunaku-youre-my-world-feat-priori/music/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 16:15:45 +0000",
+    "image": null
+  },
+  {
+    "title": "Tyler the Creator announces surprise NYC show TONIGHT at Under the K Bridge",
+    "link": "https://www.brooklynvegan.com/tyler-the-creator-announces-surprise-nyc-show-tonight-at-under-the-k-bridge/",
+    "source": "BrooklynVegan",
+    "published": "Wed, 23 Jul 2025 15:50:21 +0000",
+    "image": null
+  },
+  {
+    "title": "Pantera, Primus, Ghost Pay Tribute to Ozzy During Their Respective Concerts: Watch",
+    "link": "https://consequence.net/2025/07/pantera-primus-ghost-ozzy-osbourne-tributes/",
+    "source": "Consequence",
+    "published": "Wed, 23 Jul 2025 15:42:22 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/07/pantera-primus-ghost-ozzy-live-tributes.jpg?quality=80"
+  },
+  {
+    "title": "Cornelius Shares Song With Intellectually Disabled Artists Following Criticism Of His Offensive Past Remarks",
+    "link": "https://www.stereogum.com/2316581/cornelius-shares-song-with-intellectually-disabled-artists-following-criticism-of-his-offensive-past-remarks/music/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 15:39:48 +0000",
+    "image": null
+  },
+  {
+    "title": "Martin Solveig Announces Retirement From DJing",
+    "link": "https://www.stereogum.com/2316599/martin-solveig-announces-retirement-from-djing/news/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 15:39:13 +0000",
+    "image": null
+  },
+  {
+    "title": "Stevie Nicks & Lindsey Buckingham announce first ever \u2018Buckingham Nicks\u2019 reissue",
+    "link": "https://www.brooklynvegan.com/stevie-nicks-lindsey-buckingham-announce-first-ever-buckingham-nicks-reissue/",
+    "source": "BrooklynVegan",
+    "published": "Wed, 23 Jul 2025 15:37:23 +0000",
+    "image": null
+  },
+  {
+    "title": "Ozzy Osbourne Saluted By Lady Gaga, Coldplay, Dave Matthews, & More In Concert",
+    "link": "https://www.stereogum.com/2316618/ozzy-osbourne-saluted-by-lady-gaga-coldplay-dave-matthews-more-in-concert/news/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 15:23:31 +0000",
+    "image": null
+  },
+  {
+    "title": "Flock of Dimes Announces Tour and New Album, Shares Video for New Song: Watch",
+    "link": "https://pitchfork.com/news/flock-of-dimes-announces-tour-and-new-album-shares-video-for-new-song-watch",
+    "source": "RSS: News",
+    "published": "Wed, 23 Jul 2025 15:12:38 +0000",
+    "image": "https://media.pitchfork.com/photos/68810009fe75b0cf0ae9be6a/master/pass/Flock-of-Dimes-Jenn-Wasner.jpeg"
+  },
+  {
+    "title": "Scooter Braun on Taylor Swift Fans: \u201cThey Made the Horrible Miscalculation That I Care\u201d",
+    "link": "https://consequence.net/2025/07/scooter-braun-taylor-swift-fans-drama/",
+    "source": "Consequence",
+    "published": "Wed, 23 Jul 2025 15:03:10 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/07/scooter-braun-taylor-swift.jpg?quality=80"
+  },
+  {
+    "title": "Lamb of God\u2019s Randy Blythe Thanks Ozzy Osbourne for Helping Him During Imprisonment",
+    "link": "https://consequence.net/2025/07/lamb-of-god-randy-blythe-ozzy-osbourne-tribute/",
+    "source": "Consequence",
+    "published": "Wed, 23 Jul 2025 15:02:58 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/07/lamb-of-god-randy-blythe-ozzy-tribute.jpg?quality=80"
+  },
+  {
+    "title": "Nicole Glover Reflects",
+    "link": "https://www.stereogum.com/2316239/nicole-glover-interview/columns/ugly-beauty/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 14:47:07 +0000",
+    "image": null
+  },
+  {
+    "title": "Unicode Consortium Approves Trombone Emoji",
+    "link": "https://www.stereogum.com/2316583/unicode-consortium-approves-trombone-emoji/news/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 14:32:23 +0000",
+    "image": null
+  },
+  {
+    "title": "Stevie Nicks and Lindsey Buckingham Announce Long-Awaited Buckingham Nicks Reissue",
+    "link": "https://pitchfork.com/news/stevie-nicks-and-lindsey-buckingham-announce-long-awaited-buckingham-nicks-reissue",
+    "source": "RSS: News",
+    "published": "Wed, 23 Jul 2025 14:24:15 +0000",
+    "image": "https://media.pitchfork.com/photos/6880ebff5a47f497a3c84eb9/master/pass/Buckingham%20Nicks_Licensed%20for%20Digital%20marketing%20&%20Promo,%20press%20related%20to%20Buckingham%20Nicks%20title_Photo%20credit%20%C2%A9%20Jimmy%20Wachtel.jpg"
+  },
+  {
+    "title": "C.Y.M. \u2013 \u201cCatania\u201d & \u201cJustify\u201d",
+    "link": "https://www.stereogum.com/2316604/c-y-m-catania-justify/music/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 14:23:06 +0000",
+    "image": null
+  },
+  {
+    "title": "Wolfgang Van Halen Honors Ozzy Osbourne with \u201cMama, I\u2019m Coming Home\u201d Cover: Watch",
+    "link": "https://consequence.net/2025/07/wolfgang-van-halen-mammoth-ozzy-osbourne-mama-im-coming-home-cover/",
+    "source": "Consequence",
+    "published": "Wed, 23 Jul 2025 14:21:56 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/07/Wolfgang-Van-Halen-Ozzy-Osbourne.jpg?quality=80"
+  },
+  {
+    "title": "Flock Of Dimes Announces New Album The Life You Save: Hear \u201cLong After Midnight\u201d",
+    "link": "https://www.stereogum.com/2316547/flock-of-dimes-announces-new-album-the-life-you-save-hear-long-after-midnight/music/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 14:08:37 +0000",
+    "image": null
+  },
+  {
+    "title": "Coldplay, Geordie Greep, and More Cover Black Sabbath to Honor Ozzy Osbourne: Watch",
+    "link": "https://pitchfork.com/news/coldplay-geordie-greep-and-more-cover-black-sabbath-to-honor-ozzy-osbourne-watch",
+    "source": "RSS: News",
+    "published": "Wed, 23 Jul 2025 14:04:08 +0000",
+    "image": "https://media.pitchfork.com/photos/6880eb4ef16fbf9d076cc809/master/pass/ozzy%20osbourne%20black%20sabbath%20tribute%20covers%20coldplay%20geordie%20greep.jpg"
+  },
+  {
+    "title": "Ada Lea \u2013 \u201cmidnight magic\u201d",
+    "link": "https://www.stereogum.com/2316556/ada-lea-midnight-magic/music/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 14:00:48 +0000",
+    "image": null
+  },
+  {
+    "title": "Lindsey Buckingham, Stevie Nicks\u2019 Pre-Fleetwood Mac LP Set For Reissue",
+    "link": "https://www.spin.com/2025/07/lindsey-buckingham-stevie-nicks-pre-fleetwood-mac-lp-set-for-reissue/",
+    "source": "SPIN",
+    "published": "Wed, 23 Jul 2025 14:00:00 +0000",
+    "image": null
+  },
+  {
+    "title": "Daniel Avery preps new LP ft yeule, Walter Schreifels & more, shares \u201cRapture in Blue\u201d ft Ride\u2019s Andy Bell & Cecile Believe",
+    "link": "https://www.brooklynvegan.com/daniel-avery-preps-new-lp-ft-yeule-walter-schreifels-more-shares-rapture-in-blue-ft-rides-andy-bell-cecile-believe/",
+    "source": "BrooklynVegan",
+    "published": "Wed, 23 Jul 2025 13:32:45 +0000",
+    "image": null
+  },
+  {
+    "title": "Vampire Weekend\u2019s Chris Baio and Fort Romeau Reunite for New C.Y.M. Songs: Listen",
+    "link": "https://pitchfork.com/news/vampire-weekend-chris-baio-and-fort-romeau-reunite-for-new-cym-songs-listen",
+    "source": "RSS: News",
+    "published": "Wed, 23 Jul 2025 13:16:59 +0000",
+    "image": "https://media.pitchfork.com/photos/687fab93b7402dc6635f4731/master/pass/CYM.jpg"
+  },
+  {
+    "title": "Daniel Avery Announces New Album Tremor Feat. Walter Schreifels, Alison Mosshart, yeule, bdrmm, & More",
+    "link": "https://www.stereogum.com/2316559/daniel-avery-announces-new-album-tremor-feat-walter-schreifels-alison-mosshart-yeule-bdrmm-more/music/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 13:13:24 +0000",
+    "image": null
+  },
+  {
+    "title": "The Alternative Number Ones: Green Day\u2019s \u201cWhen I Come Around\u201d",
+    "link": "https://www.stereogum.com/2315278/the-alternative-number-ones-green-days-when-i-come-around/columns/the-alternative-number-ones/",
+    "source": "Stereogum",
+    "published": "Wed, 23 Jul 2025 13:06:19 +0000",
+    "image": null
+  },
+  {
+    "title": "Michael \u2018Fitz\u2019 Fitzpatrick of Fitz and the Tantrums Shares His 10 Essential Vacation Destinations",
+    "link": "https://www.spin.com/2025/07/michael-fitz-fitzpatrick-of-fitz-and-the-tantrums-shares-his-10-essential-vacation-destinations/",
+    "source": "SPIN",
+    "published": "Wed, 23 Jul 2025 12:30:00 +0000",
+    "image": null
+  },
+  {
+    "title": "Lucy Dacus Will Officiate Your Wedding on Her Upcoming Tour",
+    "link": "https://www.rollingstone.com/music/music-news/lucy-dacus-officiate-wedding-tour-1235392984/",
+    "source": "Music News",
+    "published": "Thu, 24 Jul 2025 06:42:26 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/07/GettyImages-2219680818.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Sabrina Carpenter Reveals \u2018Man\u2019s Best Friend\u2019 Tracklist via Golden\u00a0Retriever",
+    "link": "https://www.billboard.com/music/pop/sabrina-carpenter-mans-best-friend-tracklist-1236028943/",
     "source": "Billboard",
-    "published": "Wed, 23 Jul 2025 06:43:11 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/07/black-sabbath-1970-billboard-1548.jpg?w=1024"
+    "published": "Thu, 24 Jul 2025 06:32:33 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2025/06/sabrina-carpenter-brit-awards-2025-red-carpet-a-billboard-1548.jpg?w=1024"
   },
   {
-    "title": "Talks Reportedly \u2018Failed\u2019 in Efforts to Bring ABBA Voyage to\u00a0Australia",
-    "link": "https://www.billboard.com/music/music-news/talks-failed-efforts-bring-abba-voyage-australia-1236027897/",
+    "title": "Hit-Boy\u2019s \u201cfirst independent release\u201d is here with new song & video \u201cWhat\u2019s the Deal?\u201d",
+    "link": "https://www.brooklynvegan.com/hit-boys-first-independent-release-is-here-with-new-song-video-whats-the-deal/",
+    "source": "BrooklynVegan",
+    "published": "Thu, 24 Jul 2025 05:12:04 +0000",
+    "image": null
+  },
+  {
+    "title": "Lucy Dacus Will Be Officiating Fans\u2019 Weddings on Her Upcoming\u00a0Tour",
+    "link": "https://www.billboard.com/music/music-news/lucy-dacus-officiate-fans-weddings-upcoming-tour-1236028933/",
     "source": "Billboard",
-    "published": "Wed, 23 Jul 2025 06:02:53 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2021/11/abba-2021-publicity-baillie-walsh-billboard-1548-1636935344.jpg?w=1024"
+    "published": "Thu, 24 Jul 2025 04:28:49 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2025/03/Lucy-Dacus-jan-2025-live-ln-billboard-1548.jpg?w=1024"
   },
   {
-    "title": "The Damned Cancel North American Concert Dates Following \u2018Catastrophic\u00a0Event\u2019",
-    "link": "https://www.billboard.com/music/music-news/the-damned-cancel-north-american-dates-catastrophic-event-1236027895/",
+    "title": "Zak Starkey Recalls Turning Down Offer to Drum for Black\u00a0Sabbath",
+    "link": "https://www.billboard.com/music/music-news/zak-starkey-turned-down-offer-drum-black-sabbath-1236028929/",
     "source": "Billboard",
-    "published": "Wed, 23 Jul 2025 05:03:18 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2023/04/The-Damned-cr-Timo-Jager-billboard-1548.jpg?w=1024"
+    "published": "Thu, 24 Jul 2025 03:38:30 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2025/04/Zak-Starkey-of-The-Who-las-vegas-2017-billboard-1548.jpg?w=1024"
   },
   {
-    "title": "Lizzo Gives SZA Her \u2018Public Flowers\u2019: \u2018The Light Always Shines on You\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/lizzo-celebrates-sza-light-always-shines-on-you-1235391935/",
-    "source": "Music News",
-    "published": "Wed, 23 Jul 2025 04:31:06 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/07/sza-lizzo-flowers.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "French Producer Martin Solveig Announces Retirement From\u00a0DJing",
-    "link": "https://www.billboard.com/music/music-news/french-producer-martin-solveig-announces-retirement-djing-1236027891/",
+    "title": "HANA\u2019s \u2018Blue Jeans\u2019 Bows at No. 1 With Biggest Week for Any Act in 2025 on Japan Hot\u00a0100",
+    "link": "https://www.billboard.com/music/chart-beat/hana-blue-jeans-tops-japan-hot-100-biggest-week-2025-1236028924/",
     "source": "Billboard",
-    "published": "Wed, 23 Jul 2025 03:50:03 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/media/12-prezoo-bb-dance-event-aug-31-2017-billboard-1548.jpg?w=1024"
+    "published": "Thu, 24 Jul 2025 02:30:39 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2025/07/HANA.jpg?w=1024"
   },
   {
-    "title": "Jess Glynne Meets Fellow Voice Behind Viral Jet2holidays Audio",
-    "link": "https://www.stereogum.com/2316572/jess-glynne-meets-fellow-voice-behind-viral-jet2holidays-audio/news/",
+    "title": "TOPS \u2013 \u201cAnnihilation\u201d",
+    "link": "https://www.stereogum.com/2316775/tops-annihilation/music/",
     "source": "Stereogum",
-    "published": "Wed, 23 Jul 2025 02:00:47 +0000",
+    "published": "Thu, 24 Jul 2025 01:31:51 +0000",
     "image": null
   },
   {
-    "title": "Watch Geordie Greep Play Black Sabbath Covers Medley In Birmingham In Tribute To Ozzy Osbourne",
-    "link": "https://www.stereogum.com/2316567/watch-geordie-greep-play-black-sabbath-covers-medley-in-birmingham-in-tribute-to-ozzy-osbourne/news/",
-    "source": "Stereogum",
-    "published": "Wed, 23 Jul 2025 01:27:35 +0000",
-    "image": null
-  },
-  {
-    "title": "Watch Liam Payne Dance to One Direction With \u2018Building the Band\u2019 Audience",
-    "link": "https://www.rollingstone.com/music/music-news/liam-payne-one-direction-dances-filming-building-the-band-1235391818/",
+    "title": "Sabrina Carpenter Enlists a Puppy to Help Reveal \u2018Man\u2019s Best Friend\u2019 Track List",
+    "link": "https://www.rollingstone.com/music/music-news/sabrina-carpenter-mans-best-friend-track-list-1235392876/",
     "source": "Music News",
-    "published": "Wed, 23 Jul 2025 00:46:15 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/07/building-the-band-liam-payne-1.jpg?w=1600&h=900&crop=1"
+    "published": "Thu, 24 Jul 2025 01:23:01 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/07/sabrina-mans-best-friend-track-list.jpg?w=1600&h=900&crop=1"
   },
   {
-    "title": "Watch Bright Eyes\u2019 Video for New Song \u201c1st World Blues\u201d",
-    "link": "https://pitchfork.com/news/watch-bright-eyes-video-for-new-song-1st-world-blues",
-    "source": "RSS: News",
-    "published": "Wed, 23 Jul 2025 00:30:03 +0000",
-    "image": "https://media.pitchfork.com/photos/688026ac5a47f497a3c84eb3/master/pass/Bright-Eyes-Conor-Oberst.jpeg"
-  },
-  {
-    "title": "David Geffen\u2019s Estranged Husband Sues Billionaire Mogul for Breach of Oral Contract",
-    "link": "https://www.rollingstone.com/music/music-news/david-geffen-estranged-husband-sues-billionaire-divorce-1235391686/",
-    "source": "Music News",
-    "published": "Wed, 23 Jul 2025 00:15:37 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/07/Donovan-Michaels-lawsuit.jpg?crop=0px%2C42px%2C1800px%2C1014px&resize=1600%2C900"
-  },
-  {
-    "title": "Metallica Honor Ozzy Osbourne: \u201cHero, Icon, Pioneer, Inspiration, Mentor\u201d",
-    "link": "https://consequence.net/2025/07/metallica-honor-ozzy-osbourne/",
-    "source": "Consequence",
-    "published": "Tue, 22 Jul 2025 23:43:41 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/07/Metallica-Ozzy-Osbourne.jpg?quality=80"
-  },
-  {
-    "title": "Metallica Remember Their Friend Ozzy Osbourne: \u2018Hero, Icon, Pioneer, Inspiration, Mentor\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/metallica-tribute-ozzy-osbourne-1235391874/",
-    "source": "Music News",
-    "published": "Tue, 22 Jul 2025 23:37:02 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/07/ozzy-Osbourne-Metallica-James-Hetfield.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Black Sabbath Members Share Tributes To Ozzy Osbourne",
-    "link": "https://www.stereogum.com/2316552/black-sabbath-members-share-tributes-to-ozzy-osbourne/news/",
+    "title": "John Maus \u2013 \u201cCame & Got\u201d",
+    "link": "https://www.stereogum.com/2316757/john-maus-came-got/music/",
     "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 23:34:21 +0000",
+    "published": "Thu, 24 Jul 2025 01:14:34 +0000",
     "image": null
   },
   {
-    "title": "Black Sabbath\u2019s Tony Iommi on Ozzy\u2019s Passing: \u201cGeezer, Bill and Myself Have Lost Our Brother\u201d",
-    "link": "https://consequence.net/2025/07/black-sabbath-tony-iommi-ozzy-tribute/",
-    "source": "Consequence",
-    "published": "Tue, 22 Jul 2025 23:15:59 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2022/07/Tony-Iommi-and-Ozzy-Osbourne.jpg?quality=80"
-  },
-  {
-    "title": "Ozzy Osbourne\u2019s Final Memoir Last Rites to Be Posthumously Released",
-    "link": "https://consequence.net/2025/07/ozzy-osbourne-memoir-last-rites/",
-    "source": "Consequence",
-    "published": "Tue, 22 Jul 2025 23:05:00 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/07/Osbourne-memoir.jpg?quality=80"
-  },
-  {
-    "title": "In Television as in Music, Ozzy Osbourne Was the Revolution",
-    "link": "https://consequence.net/2025/07/ozzy-osbourne-the-osbournes-reality-tv/",
-    "source": "Consequence",
-    "published": "Tue, 22 Jul 2025 22:29:16 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/07/The-Osbournes.jpeg?quality=80"
-  },
-  {
-    "title": "Teethe \u2013 \u201cPush You Forever\u201d",
-    "link": "https://www.stereogum.com/2316543/teethe-push-you-forever/music/",
+    "title": "The World Is A Beautiful Place & I Am No Longer Afraid To Die \u2013 \u201cDissolving\u201d",
+    "link": "https://www.stereogum.com/2316769/the-world-is-a-beautiful-place-i-am-no-longer-afraid-to-die-dissolving/music/",
     "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 22:26:01 +0000",
+    "published": "Thu, 24 Jul 2025 01:05:21 +0000",
     "image": null
   },
   {
-    "title": "\u201cOzzy Forever\u201d: Black Sabbath, Elton John, Tom Morello, and Others Pay Tribute to Ozzy Osbourne",
-    "link": "https://pitchfork.com/news/ozzy-forever-black-sabbath-elton-john-tom-morello-pay-tribute-to-ozzy-osbourne",
-    "source": "RSS: News",
-    "published": "Tue, 22 Jul 2025 22:16:40 +0000",
-    "image": "https://media.pitchfork.com/photos/687fe74d1b2066323bb8cb3b/master/pass/Ozzy-Osbourne.jpeg"
-  },
-  {
-    "title": "The Alamo Remembers Ozzy Osbourne Urinating to Mark His Passing in Bizarre Tribute",
-    "link": "https://consequence.net/2025/07/ozzy-osbourne-the-alamo-urinating/",
-    "source": "Consequence",
-    "published": "Tue, 22 Jul 2025 22:14:46 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/07/Ozzy-Alamo.jpeg?quality=80"
-  },
-  {
-    "title": "Tour News: Sunami / Scowl, Loathe, Ryan Davis & The Roadhouse Band, State Faults, Oakwood, more",
-    "link": "https://www.brooklynvegan.com/tour-news-sunami-scowl-loathe-ryan-davis-the-roadhouse-band-state-faults-oakwood-more/",
-    "source": "BrooklynVegan",
-    "published": "Tue, 22 Jul 2025 22:05:40 +0000",
-    "image": null
-  },
-  {
-    "title": "Where to Stream The Osbournes",
-    "link": "https://consequence.net/2025/07/the-osbournes-how-to-stream/",
-    "source": "Consequence",
-    "published": "Tue, 22 Jul 2025 22:01:44 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/07/The-Osbournes-MTV.jpeg?quality=80"
-  },
-  {
-    "title": "14 New Songs Out Today",
-    "link": "https://www.brooklynvegan.com/14-new-songs-out-today-53/",
-    "source": "BrooklynVegan",
-    "published": "Tue, 22 Jul 2025 21:43:44 +0000",
-    "image": null
-  },
-  {
-    "title": "Deftones\u00a0Announce D\u00eda De Los Deftones Festival 2025 With Clipse, Deafheaven, & More",
-    "link": "https://www.stereogum.com/2316502/deftones-announce-dia-de-los-deftones-festival-2025-with-clipse-deafheaven-more/news/",
+    "title": "Giant Day Announce New Album Alarm: Hear \u201cDevil Dog\u201d",
+    "link": "https://www.stereogum.com/2316752/giant-day-announce-new-album-alarm-hear-devil-dog/music/",
     "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 21:03:52 +0000",
+    "published": "Thu, 24 Jul 2025 00:21:20 +0000",
     "image": null
-  },
-  {
-    "title": "Isaac Hayes III Says Scientology Forced His Father to Quit South Park",
-    "link": "https://consequence.net/2025/07/isaac-hayes-south-park-scientology/",
-    "source": "Consequence",
-    "published": "Tue, 22 Jul 2025 20:51:57 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/07/Untitled-4.jpeg?quality=80"
-  },
-  {
-    "title": "That\u2019s Dr. PinkPantheress To You",
-    "link": "https://www.stereogum.com/2316523/pinkpantheress-honorary-doctorate-from-university-of-kent/news/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 20:47:23 +0000",
-    "image": null
-  },
-  {
-    "title": "Read Ozzy Osbourne tributes by Black Sabbath, Metallica, Jack White, Smashing Pumpkins, Pixies, Elton John & more",
-    "link": "https://www.brooklynvegan.com/read-ozzy-osbourne-tributes-by-black-sabbath-metallica-jack-white-smashing-pumpkins-pixies-elton-john-more/",
-    "source": "BrooklynVegan",
-    "published": "Tue, 22 Jul 2025 20:38:59 +0000",
-    "image": null
-  },
-  {
-    "title": "PETA Thanks Ozzy Osbourne, Doesn\u2019t Mention Bats",
-    "link": "https://consequence.net/2025/07/peta-ozzy-osbourne-cats-bats/",
-    "source": "Consequence",
-    "published": "Tue, 22 Jul 2025 20:35:29 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/07/ozzy-osbourne-peta-bat-tribute-death.png"
-  },
-  {
-    "title": "Liquid Mike \u2013 \u201cClaws\u201d",
-    "link": "https://www.stereogum.com/2316469/liquid-mike-claws/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 20:19:54 +0000",
-    "image": null
-  },
-  {
-    "title": "Kelly Clarkson, John Legend, Adam Levine to Return for \u2018The Voice\u2019 Season 29",
-    "link": "https://www.rollingstone.com/music/music-news/kelly-clarkson-john-legend-adam-levine-return-the-voice-1235391513/",
-    "source": "Music News",
-    "published": "Tue, 22 Jul 2025 20:18:15 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/07/kelly-adam-john-the-voice.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Deftones, Clipse, Deafheaven, and More to Play 2025 Dia de los Deftones Festival",
-    "link": "https://pitchfork.com/news/deftones-clipse-deafheaven-to-play-2025-dia-de-los-deftones-festival",
-    "source": "RSS: News",
-    "published": "Tue, 22 Jul 2025 20:16:11 +0000",
-    "image": "https://media.pitchfork.com/photos/687ff07c322d6e41187069cd/master/pass/Clipse-Deftones-Deafheaven.jpeg"
-  },
-  {
-    "title": "Nation Of Language \u2013 \u201cUnder The Water\u201d",
-    "link": "https://www.stereogum.com/2316493/nation-of-language-under-the-water/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 20:14:19 +0000",
-    "image": null
-  },
-  {
-    "title": "MAVI \u2013 \u201cJammers Anonymous\u201d (Feat. Niontay)",
-    "link": "https://www.stereogum.com/2316471/mavi-jammers-anonymous-feat-niontay/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 20:00:24 +0000",
-    "image": null
-  },
-  {
-    "title": "Black Sabbath, Pearl Jam, Elton John Remember Ozzy Osbourne, \u2018The Greatest of All Time\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/ozzy-osbourne-death-tributes-1235391454/",
-    "source": "Music News",
-    "published": "Tue, 22 Jul 2025 19:51:12 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/07/ozzy-tributes.jpg?crop=0px%2C146px%2C1800px%2C1014px&resize=1600%2C900"
-  },
-  {
-    "title": "Every Black Sabbath Album, Ranked",
-    "link": "https://www.spin.com/2025/07/every-black-sabbath-albums-ranked/",
-    "source": "SPIN",
-    "published": "Tue, 22 Jul 2025 19:37:48 +0000",
-    "image": null
-  },
-  {
-    "title": "Watch Ozzy Osbourne Sing \u2018Paranoid\u2019 in His Final Live Performance",
-    "link": "https://www.rollingstone.com/music/music-news/ozzy-osbourne-final-performance-paranoid-1235391423/",
-    "source": "Music News",
-    "published": "Tue, 22 Jul 2025 19:33:31 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/07/ozzy-final-show-paranoid.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Ozzy Osbourne\u2019s Isolated Vocals on \u201cMama, I\u2019m Coming Home\u201d at Final Show Were Heart-Wrenching",
-    "link": "https://consequence.net/2025/07/ozzy-osbourne-isolated-vocals-back-to-the-beginning/",
-    "source": "Consequence",
-    "published": "Tue, 22 Jul 2025 19:27:27 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/07/Ozzy.jpeg?quality=80"
-  },
-  {
-    "title": "\u201cLong Live the Oz!\u201d Artists, Musicians, Actors, and More React to Ozzy Osbourne\u2019s Death",
-    "link": "https://consequence.net/2025/07/ozzy-osbourne-death-reactions-musicians/",
-    "source": "Consequence",
-    "published": "Tue, 22 Jul 2025 19:11:05 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/07/Ozzy-Osbourne-1.jpeg?quality=80"
-  },
-  {
-    "title": "Minelli Reclaims Creative Freedom on Mixed Feelings (Opening Season)",
-    "link": "https://www.spin.com/2025/07/minelli-reclaims-creative-freedom-on-mixed-feelings-opening-season/",
-    "source": "SPIN",
-    "published": "Tue, 22 Jul 2025 19:04:15 +0000",
-    "image": null
-  },
-  {
-    "title": "Ozzy Osbourne, Godfather of Heavy Metal, Dead at 76",
-    "link": "https://consequence.net/2025/07/ozzy-osbourne-dead/",
-    "source": "Consequence",
-    "published": "Tue, 22 Jul 2025 19:00:18 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/07/ozzy-osbourne-isolated-vocals-back-to-the-beginning.jpg?quality=80"
-  },
-  {
-    "title": "Ozzy Osbourne, Black Sabbath Frontman and Heavy Metal Icon, Dies at 76",
-    "link": "https://pitchfork.com/news/ozzy-osbourne-black-sabbath-frontman-and-heavy-metal-icon-dies-at-76",
-    "source": "RSS: News",
-    "published": "Tue, 22 Jul 2025 18:28:42 +0000",
-    "image": "https://media.pitchfork.com/photos/687fd79db7402dc6635f4739/master/pass/Ozzy-Osbourne.jpeg"
-  },
-  {
-    "title": "Ozzy Osbourne Dead At 76",
-    "link": "https://www.stereogum.com/2316483/ozzy-osbourne-dead-at-76/news/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 18:23:29 +0000",
-    "image": null
-  },
-  {
-    "title": "Ozzy Osbourne dead at 76",
-    "link": "https://www.brooklynvegan.com/ozzy-osbourne-dead-at-76/",
-    "source": "BrooklynVegan",
-    "published": "Tue, 22 Jul 2025 18:20:43 +0000",
-    "image": null
-  },
-  {
-    "title": "Rock Legend And Black Sabbath Frontman Ozzy Osbourne Dies At 76",
-    "link": "https://www.spin.com/2025/07/rock-legend-ozzy-osbourne-dies-at-76/",
-    "source": "SPIN",
-    "published": "Tue, 22 Jul 2025 18:19:39 +0000",
-    "image": null
-  },
-  {
-    "title": "Good Charlotte Take Over a Motel in New Video for \u201cStepper\u201d: Watch",
-    "link": "https://consequence.net/2025/07/good-charlotte-new-video-stepper/",
-    "source": "Consequence",
-    "published": "Tue, 22 Jul 2025 18:07:36 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/07/good-charlotte-new-music-video-stepper.jpg?quality=80"
-  },
-  {
-    "title": "Tyler, the Creator \u2013 \u2018Don\u2019t Tap the Glass\u2019 Album Review",
-    "link": "https://www.brooklynvegan.com/tyler-the-creator-dont-tap-the-glass-album-review/",
-    "source": "BrooklynVegan",
-    "published": "Tue, 22 Jul 2025 18:04:23 +0000",
-    "image": null
-  },
-  {
-    "title": "Fcukers \u2013 \u201cPlay Me\u201d",
-    "link": "https://www.stereogum.com/2316242/fcukers-play-me/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 18:00:08 +0000",
-    "image": null
-  },
-  {
-    "title": "Deftones Unveil 2025 Dia De Los Deftones Lineup Featuring Clipse, Deafheaven, and 2hollis",
-    "link": "https://consequence.net/2025/07/deftones-2025-dia-de-los-deftones-lineup/",
-    "source": "Consequence",
-    "published": "Tue, 22 Jul 2025 17:56:43 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/07/Deftones-2025-Dia-De-Los-Deftones.jpg?quality=80"
-  },
-  {
-    "title": "Wet Leg Shave Pits To Celebrate #1 Album",
-    "link": "https://www.stereogum.com/2316461/wet-leg-shave-pits-to-celebrate-1-album/news/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 17:49:45 +0000",
-    "image": null
-  },
-  {
-    "title": "Album Of The Week: Nihilistic Easyrider Deluxe Edition",
-    "link": "https://www.stereogum.com/2316344/album-of-the-week-nihilistic-easyrider-deluxe-edition/reviews/album-of-the-week/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 17:37:45 +0000",
-    "image": null
-  },
-  {
-    "title": "Deftones tap Clipse, 2hollis, Deafheaven, Rico Nasty & more for Dia De Los Deftones 2025",
-    "link": "https://www.brooklynvegan.com/deftones-tap-clipse-2hollis-deafheaven-rico-nasty-more-for-dia-de-los-deftones-2025/",
-    "source": "BrooklynVegan",
-    "published": "Tue, 22 Jul 2025 17:34:05 +0000",
-    "image": null
-  },
-  {
-    "title": "Mavi and Niontay Link Up for New Song and Video: Watch",
-    "link": "https://pitchfork.com/news/mavi-and-niontay-link-up-for-new-song-and-video-watch",
-    "source": "RSS: News",
-    "published": "Tue, 22 Jul 2025 17:15:51 +0000",
-    "image": "https://media.pitchfork.com/photos/687fc48eb8976e2e13f105ff/master/pass/Mavi-Niontay.jpeg"
-  },
-  {
-    "title": "Fcukers share new single \u201cPlay Me\u201d",
-    "link": "https://www.brooklynvegan.com/fcukers-share-new-single-play-me/",
-    "source": "BrooklynVegan",
-    "published": "Tue, 22 Jul 2025 16:52:19 +0000",
-    "image": null
-  },
-  {
-    "title": "Converge announce Boston fest ft. Touch\u00e9 Amor\u00e9, Coalesce, The Hope Conspiracy, Soul Glo, more",
-    "link": "https://www.brooklynvegan.com/converge-announce-boston-fest-ft-touche-amore-coalesce-the-hope-conspiracy-soul-glo-more/",
-    "source": "BrooklynVegan",
-    "published": "Tue, 22 Jul 2025 16:24:21 +0000",
-    "image": null
-  },
-  {
-    "title": "Shallowater Announce New Album God\u2019s Gonna Give You A Million Dollars: Hear \u201cHighway\u201d",
-    "link": "https://www.stereogum.com/2316451/shallowater-announce-new-album-gods-gonna-give-you-a-million-dollars-hear-highway/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 15:59:42 +0000",
-    "image": null
-  },
-  {
-    "title": "The Sound of Animals Fighting announce first LP in 17 years, share \u201cLady of the Cosmos\u201d",
-    "link": "https://www.brooklynvegan.com/the-sound-of-animals-fighting-announce-first-lp-in-17-years-share-lady-of-the-cosmos/",
-    "source": "BrooklynVegan",
-    "published": "Tue, 22 Jul 2025 15:45:31 +0000",
-    "image": null
-  },
-  {
-    "title": "Automatic Announce New Album Is It Now?: Hear \u201cMercury\u201d",
-    "link": "https://www.stereogum.com/2316378/automatic-announce-new-album-is-it-now-hear-mercury/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 15:24:20 +0000",
-    "image": null
-  },
-  {
-    "title": "Listen to Bright Eyes\u2019 new ska song, \u201c1st World Blues\u201d",
-    "link": "https://www.brooklynvegan.com/listen-to-bright-eyes-new-ska-song-1st-world-blues/",
-    "source": "BrooklynVegan",
-    "published": "Tue, 22 Jul 2025 15:19:03 +0000",
-    "image": null
-  },
-  {
-    "title": "Kitba Announces New Album Hold The Edges: Hear The Title Track",
-    "link": "https://www.stereogum.com/2316420/kitba-announces-new-album-hold-the-edges-hear-the-title-track/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 14:52:39 +0000",
-    "image": null
-  },
-  {
-    "title": "Bright Eyes Go Ska On New Single \u201c1st World Blues\u201d",
-    "link": "https://www.stereogum.com/2316406/bright-eyes-go-ska-on-new-single-1st-world-blues/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 14:38:24 +0000",
-    "image": null
-  },
-  {
-    "title": "Tom Morello announces full band fall tour (BV Presale for NYC shows)",
-    "link": "https://www.brooklynvegan.com/tom-morello-announces-full-band-fall-tour-bv-presale-for-nyc-shows/",
-    "source": "BrooklynVegan",
-    "published": "Tue, 22 Jul 2025 14:34:25 +0000",
-    "image": null
-  },
-  {
-    "title": "Jobber \u2013 \u201cPillman\u2019s Got A Gun\u201d",
-    "link": "https://www.stereogum.com/2316372/jobber-pillmans-got-a-gun/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 14:32:43 +0000",
-    "image": null
-  },
-  {
-    "title": "Cate Le Bon \u2013 \u201cIs It Worth It (Happy Birthday)\u201d",
-    "link": "https://www.stereogum.com/2316266/cate-le-bon-is-it-worth-it-happy-birthday/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 14:27:59 +0000",
-    "image": null
-  },
-  {
-    "title": "New Jim Jarmusch, Yorgos Lanthimos, Noah Baumbach, and Luca Guadagnino Films to Premiere at Venice Film Festival",
-    "link": "https://pitchfork.com/news/new-jim-jarmusch-yorgos-lanthimos-noah-baumbach-and-luca-guadagnino-films-to-premiere-at-venice-film-festival",
-    "source": "RSS: News",
-    "published": "Tue, 22 Jul 2025 14:14:33 +0000",
-    "image": "https://media.pitchfork.com/photos/687f9badb7402dc6635f46b3/master/pass/venice%20film%20festival%202025%20jim%20jarmusch%20new%20movie.jpg"
-  },
-  {
-    "title": "Drive-By Truckers\u2019 Patterson Hood tells us about 6 great indie country albums he\u2019s loving",
-    "link": "https://www.brooklynvegan.com/drive-by-truckers-patterson-hood-tells-us-about-6-great-indie-country-albums-hes-loving/",
-    "source": "BrooklynVegan",
-    "published": "Tue, 22 Jul 2025 14:14:16 +0000",
-    "image": null
-  },
-  {
-    "title": "Stream Johnny Jewel & Italians Do It Better Artists\u2019 Wheel World Soundtrack",
-    "link": "https://www.stereogum.com/2316283/stream-johnny-jewel-italians-do-it-better-artists-wheel-world-soundtrack/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 14:11:11 +0000",
-    "image": null
-  },
-  {
-    "title": "Thrice get very heavy on \u201cGnash,\u201d announce new album \u2018Horizons/West\u2019 (exclusive vinyl)",
-    "link": "https://www.brooklynvegan.com/thrice-get-very-heavy-on-gnash-announce-new-album-horizons-west-exclusive-vinyl/",
-    "source": "BrooklynVegan",
-    "published": "Tue, 22 Jul 2025 14:11:00 +0000",
-    "image": null
-  },
-  {
-    "title": "Folk Bitch Trio \u2013 \u201cHotel TV\u201d",
-    "link": "https://www.stereogum.com/2316396/folk-bitch-trio-hotel-tv/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 14:10:02 +0000",
-    "image": null
-  },
-  {
-    "title": "Mac DeMarco \u2013 \u201cHoly\u201d",
-    "link": "https://www.stereogum.com/2316391/mac-demarco-holy/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 14:04:44 +0000",
-    "image": null
-  },
-  {
-    "title": "Ryan Davis & the Roadhouse Band Announce Tour, Share Video for New Song: Watch",
-    "link": "https://pitchfork.com/news/ryan-davis-and-the-roadhouse-band-announce-tour-share-video-for-new-song-watch",
-    "source": "RSS: News",
-    "published": "Tue, 22 Jul 2025 14:04:13 +0000",
-    "image": "https://media.pitchfork.com/photos/687ef79f762cdfa6fd56a7a6/master/pass/%5BHi-Res%20Image%5D%20Ryan%20Davis%20%20by%20Justin%20Murphy.jpg"
-  },
-  {
-    "title": "Every Paramore Album, Ranked",
-    "link": "https://www.spin.com/2025/07/every-paramore-album-ranked/",
-    "source": "SPIN",
-    "published": "Tue, 22 Jul 2025 14:00:00 +0000",
-    "image": null
-  },
-  {
-    "title": "Cold Gawd \u2013 \u201cGolden Postcard\u201d",
-    "link": "https://www.stereogum.com/2316407/cold-gawd-golden-postcard/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 13:59:03 +0000",
-    "image": null
-  },
-  {
-    "title": "Superchunk \u2013 \u201cStuck In A Dream\u201d",
-    "link": "https://www.stereogum.com/2316387/superchunk-stuck-in-a-dream/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 13:47:08 +0000",
-    "image": null
-  },
-  {
-    "title": "Shallowater announce new album \u2018God\u2019s Gonna Give You A Million Dollars,\u201d share \u201cHighway\u201d",
-    "link": "https://www.brooklynvegan.com/shallowater-announce-new-album-gods-gonna-give-you-a-million-dollars-share-highway/",
-    "source": "BrooklynVegan",
-    "published": "Tue, 22 Jul 2025 13:45:22 +0000",
-    "image": null
-  },
-  {
-    "title": "The Weeknd and Shakira to Headline Global Citizen Festival 2025",
-    "link": "https://pitchfork.com/news/the-weeknd-and-shakira-to-headline-global-citizen-festival-2025",
-    "source": "RSS: News",
-    "published": "Tue, 22 Jul 2025 13:40:25 +0000",
-    "image": "https://media.pitchfork.com/photos/687f917c034a87cbc9b63593/master/pass/The-Weeknd-Shakira.jpeg"
-  },
-  {
-    "title": "Joanne Robertson Announces New Album Blurrr: Hear \u201cGown\u201d",
-    "link": "https://www.stereogum.com/2316404/joanne-robertson-announces-new-album-blurrr-hear-gown/music/",
-    "source": "Stereogum",
-    "published": "Tue, 22 Jul 2025 13:39:08 +0000",
-    "image": null
-  },
-  {
-    "title": "Post Animal Answers the Question: \u201cWhat\u2019s a Good Life?\u201d",
-    "link": "https://www.spin.com/2025/07/post-animal-answers-the-question-whats-a-good-life/",
-    "source": "SPIN",
-    "published": "Tue, 22 Jul 2025 13:30:00 +0000",
-    "image": null
-  },
-  {
-    "title": "Cate Le Bon Shares Video for New Song \u201cIs It Worth It (Happy Birthday)?\u201d: Watch",
-    "link": "https://pitchfork.com/news/cate-le-bon-shares-video-for-new-song-is-it-worth-it-happy-birthday-watch",
-    "source": "RSS: News",
-    "published": "Tue, 22 Jul 2025 13:20:27 +0000",
-    "image": "https://media.pitchfork.com/photos/687eb4e8759497ed4d3240cd/master/pass/Cate-Le-Bon.jpeg"
-  },
-  {
-    "title": "Mac DeMarco Shares Video for New Song \u201cHoly\u201d: Watch",
-    "link": "https://pitchfork.com/news/mac-demarco-shares-video-for-new-song-holy-watch",
-    "source": "RSS: News",
-    "published": "Tue, 22 Jul 2025 13:15:47 +0000",
-    "image": "https://media.pitchfork.com/photos/687ebc2c1054fc4d7c4b3626/master/pass/Mac%20DeMarco%20-%20holy.jpeg"
   }
 ]
