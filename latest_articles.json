@@ -1,401 +1,93 @@
 [
   {
-    "title": "Kneecap Blasts Norwegian Government at Oslo Festival, Accusing It of Funding \u2018Genocide\u2019 Against\u00a0Palestinians",
-    "link": "https://www.billboard.com/music/music-news/kneecap-norway-israel-oslo-festival-1236040087/",
-    "source": "Billboard",
-    "published": "Sat, 09 Aug 2025 00:14:16 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/08/Kneecap-glastonbury-25-jli-billboard-1800.jpg?w=1024"
-  },
-  {
-    "title": "The 12 Best Moments of ENHYPEN\u2019s \u2018WALK THE LINE\u2019 U.S. Tour Kick-Off in New\u00a0York",
-    "link": "https://www.billboard.com/lists/enhypen-walk-the-line-in-us-world-tour-ny-review/",
-    "source": "Billboard",
-    "published": "Fri, 08 Aug 2025 23:35:52 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/08/02-ENHYPEN-usb-arena-aug-2025-billboard-1800.jpg?w=1024"
-  },
-  {
-    "title": "In Canada: Morgan Wallen, Bruno Mars & Lady Gaga Top List of Most Popular Albums & Songs at\u00a0Midyear",
-    "link": "https://www.billboard.com/pro/morgan-wallen-bruno-mars-lady-gaga-canadian-midyear-charts/",
-    "source": "Billboard",
-    "published": "Fri, 08 Aug 2025 23:19:17 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/08/morgan-wallen-darius-and-friends-benefit-2025-billboard-1800.jpg?w=1024"
-  },
-  {
-    "title": "2025 Q2 Earnings: Here\u2019s What Every Music Company\u00a0Made",
-    "link": "https://www.billboard.com/pro/2025-q2-earnings-recap-every-music-company/",
-    "source": "Billboard",
-    "published": "Fri, 08 Aug 2025 22:59:07 +0000",
-    "image": null
-  },
-  {
-    "title": "Outside Lands 2025 Livestream: How to Watch Tyler, the Creator, Doja Cat & Doechii Online for\u00a0Free",
-    "link": "https://www.billboard.com/culture/product-recommendations/outside-lands-2025-livestream-watch-online-1236040043/",
-    "source": "Billboard",
-    "published": "Fri, 08 Aug 2025 22:11:30 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/08/tyler-the-creator-chromakopia-tour-2025-la-billboard-1800.jpg?w=1024"
-  },
-  {
-    "title": "Staff Picks: Best Songs of the Week August 2nd \u2013 August 8th",
-    "link": "https://consequence.net/2025/08/staff-picks-best-songs-of-the-week-august-2-8/",
-    "source": "Consequence",
-    "published": "Fri, 08 Aug 2025 21:37:54 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/08/songs-of-the-week.jpeg?quality=80"
-  },
-  {
-    "title": "Gunna\u2019s \u2018The Last Wun\u2019: All 25 Tracks\u00a0Ranked",
-    "link": "https://www.billboard.com/lists/gunna-the-last-wun-tracks-ranked/",
-    "source": "Billboard",
-    "published": "Fri, 08 Aug 2025 21:32:47 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/08/Gunna-cr-Morgan-Maher-press-2024-billboard-1800.jpg?w=1024"
-  },
-  {
-    "title": "MGK Reveals What Taylor Swift Said to Him While Watching the Chiefs Lose the 2025 Super\u00a0Bowl",
-    "link": "https://www.billboard.com/music/music-news/mgk-reveals-taylor-swift-cheifs-lost-2025-super-bowl-1236039966/",
-    "source": "Billboard",
-    "published": "Fri, 08 Aug 2025 20:54:24 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/08/mgk-taylor-swift-2025-billboard-1800.jpg?w=1024"
-  },
-  {
-    "title": "Ravyn Lenae\u00a0Says Listening to\u00a0Magdalena Bay Makes Her Feel Like She\u2019s on Shrooms",
-    "link": "https://www.rollingstone.com/music/music-news/ravyn-lanae-lollapalooza-song-shuffle-1235404275/",
-    "source": "Music News",
-    "published": "Fri, 08 Aug 2025 20:52:12 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/08/ravyn-lenae-song-shuffle.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Queer Jams of the Week: New Music From Ethel Cain, Lucy Dacus, Sasha Keable &\u00a0More",
-    "link": "https://www.billboard.com/culture/pride/ethel-cain-lucy-dacus-queer-jams-of-the-week-1236039716/",
-    "source": "Billboard",
-    "published": "Fri, 08 Aug 2025 20:44:11 +0000",
-    "image": null
-  },
-  {
-    "title": "Punk-Themed Movie And Out Comes the Wolf Takes Inspiration from Rancid: Watch Trailer",
-    "link": "https://consequence.net/2025/08/movie-and-out-comes-the-wolf-trailer/",
-    "source": "Consequence",
-    "published": "Fri, 08 Aug 2025 20:43:43 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/08/And-Out-Comes-the-Wolf.jpg?quality=80"
-  },
-  {
-    "title": "Watch \u2018South Park\u2019 co-creator Matt Stone play drums for Primus",
-    "link": "https://www.nme.com/news/music/watch-south-park-co-creator-matt-stone-play-drums-for-primus-3883753?utm_source=rss&utm_medium=rss&utm_campaign=watch-south-park-co-creator-matt-stone-play-drums-for-primus",
+    "title": "Crowdfunder saves Winchester\u2019s Railway Inn: \u201cWe get to keep doing what we do \u2013 but better\u201d",
+    "link": "https://www.nme.com/news/music/crowdfunder-saves-winchesters-railway-inn-we-get-to-keep-doing-what-we-do-but-better-3883844?utm_source=rss&utm_medium=rss&utm_campaign=crowdfunder-saves-winchesters-railway-inn-we-get-to-keep-doing-what-we-do-but-better",
     "source": "News | NME",
-    "published": "Fri, 08 Aug 2025 20:41:01 +0000",
-    "image": "https://www.nme.com/wp-content/uploads/2025/08/south_park_primus.jpg"
+    "published": "Sat, 09 Aug 2025 21:32:03 +0000",
+    "image": "https://www.nme.com/wp-content/uploads/2025/08/frank_turner_live.jpg"
   },
   {
-    "title": "Outside Lands 2025: Amazon Music Livestream Schedule & Details",
-    "link": "https://pitchfork.com/news/outside-lands-2025-amazon-music-livestream-schedule-and-details",
-    "source": "RSS: News",
-    "published": "Fri, 08 Aug 2025 20:22:40 +0000",
-    "image": "https://media.pitchfork.com/photos/6894b997393a263328ab85f9/master/pass/GettyImages-2165591407.jpg"
+    "title": "Selena Gomez Reveals Which Old Song She Wants to Re-Record and Perform\u00a0Again",
+    "link": "https://www.billboard.com/music/music-news/selena-gomez-reveals-old-she-wants-to-re-record-1236040223/",
+    "source": "Billboard",
+    "published": "Sat, 09 Aug 2025 21:15:54 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2025/03/selena-gomez-march-2-2025-beverly-hills-billboard-1548.jpg?w=1024"
   },
   {
-    "title": "Our Favorite Songs of the Week (playlist)",
-    "link": "https://www.brooklynvegan.com/our-favorite-songs-of-the-week-playlist-211/",
+    "title": "James Gunn denies Robin will appear in \u2018The Batman 2\u2019: \u201cPlease stop believing this nonsense\u201d",
+    "link": "https://www.nme.com/news/film/james-gunn-denies-robin-will-appear-in-the-batman-2-please-stop-believing-this-nonsense-3883841?utm_source=rss&utm_medium=rss&utm_campaign=james-gunn-denies-robin-will-appear-in-the-batman-2-please-stop-believing-this-nonsense",
+    "source": "News | NME",
+    "published": "Sat, 09 Aug 2025 20:21:24 +0000",
+    "image": "https://www.nme.com/wp-content/uploads/2022/02/The_Batman_Robert_Pattinson.jpg"
+  },
+  {
+    "title": "Justin Bieber Shares Sweet Father-Son Moment With 11-Month-Old Son Jack\u00a0Blues",
+    "link": "https://www.billboard.com/music/music-news/justin-bieber-son-jack-blues-cuddle-instagram-photos-1236040217/",
+    "source": "Billboard",
+    "published": "Sat, 09 Aug 2025 19:59:29 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2025/07/Justin-Bieber-Renell-Medrano-2025-press-billboard-1548.jpg?w=1024"
+  },
+  {
+    "title": "Fans Create Their Dream Team of Idols for Ultimate \u2018KPop Demon Hunters\u2019 Group | Billboard\u00a0News",
+    "link": "https://www.billboard.com/video/fans-create-team-of-idols-ultimate-kpop-demon-hunters-group/",
+    "source": "Billboard",
+    "published": "Sat, 09 Aug 2025 19:00:00 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2025/08/bbnews_kpopdemonhunters_thumb_v3.jpg?w=1024"
+  },
+  {
+    "title": "Here\u2019s Why Bunnie XO Has Stayed Out of the Spotlight With Jelly Roll Amid IVF\u00a0Journey",
+    "link": "https://www.billboard.com/music/music-news/bunnie-xo-explains-public-absence-jelly-roll-ivf-journey-1236040210/",
+    "source": "Billboard",
+    "published": "Sat, 09 Aug 2025 17:55:41 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2024/08/Jelly-Roll-and-Bunnie-Xo-june-8-2024-billboard-1548.jpg?w=1024"
+  },
+  {
+    "title": "Tour news: Of Monsters and Men / Arny Margret, Many Eyes, Meatbodies, more",
+    "link": "https://www.brooklynvegan.com/tour-news-of-monsters-and-men-arny-margret-many-eyes-meatbodies-more/",
     "source": "BrooklynVegan",
-    "published": "Fri, 08 Aug 2025 20:19:12 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2022/10/20/attachment-algernon-warsaw-25.jpg"
+    "published": "Sat, 09 Aug 2025 17:42:16 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2025/08/08/of-monsters-and-men.jpg"
   },
   {
-    "title": "Livestream Outside Lands 2025 For Free",
-    "link": "https://www.stereogum.com/2318611/livestream-outside-lands-2025-for-free/news/",
+    "title": "Secret Chiefs 3 Say They\u2019ve Been Kicked Off Budos Band Tour \u201cFor Reasons Unknown\u201d",
+    "link": "https://www.stereogum.com/2318711/secret-chiefs-3-say-theyve-been-kicked-off-budos-band-tour-for-reasons-unknown/news/",
     "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 19:51:15 +0000",
+    "published": "Sat, 09 Aug 2025 14:34:20 +0000",
     "image": null
   },
   {
-    "title": "10 New Songs Out Today",
-    "link": "https://www.brooklynvegan.com/10-new-songs-out-today-33/",
-    "source": "BrooklynVegan",
-    "published": "Fri, 08 Aug 2025 19:45:07 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2025/08/08/Arthur-Buck-Photo-by-Dean-Karr.jpg"
-  },
-  {
-    "title": "The 5 Best Songs Of The Week",
-    "link": "https://www.stereogum.com/2318534/the-5-best-songs-of-the-week-590/lists/the-5-best-songs-of-the-week/",
-    "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 19:41:04 +0000",
-    "image": null
-  },
-  {
-    "title": "Michael Lydon, Founding \u2018Rolling Stone\u2019 Editor, Dead at 82",
-    "link": "https://www.rollingstone.com/music/music-news/michael-lydon-rolling-stone-editor-dead-obituary-1235399974/",
-    "source": "Music News",
-    "published": "Fri, 08 Aug 2025 19:35:23 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/08/rs-original-logo-paper.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Outside Lands 2025 livestream schedule",
-    "link": "https://www.brooklynvegan.com/outside-lands-2025-livestream-schedule/",
-    "source": "BrooklynVegan",
-    "published": "Fri, 08 Aug 2025 19:13:12 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2025/08/08/outsidelands-2025-livestream.jpg"
-  },
-  {
-    "title": "They Put an IKEA in Your Best Buy So You Can Shop at IKEA While You Shop at Best Buy",
-    "link": "https://consequence.net/2025/08/ikea-best-buy-mini-store/",
+    "title": "Bob Dylan Hits Recording Studio",
+    "link": "https://consequence.net/2025/08/bob-dylan-recording-studio/",
     "source": "Consequence",
-    "published": "Fri, 08 Aug 2025 18:39:48 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/08/ikea-best-buy.jpg?quality=80"
+    "published": "Sat, 09 Aug 2025 14:23:51 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/02/Bob-Dylan-expands-2025-tour-with-new-solo-dates.jpg?quality=80"
   },
   {
-    "title": "Watch Amaarae\u2019s Video for New Song \u201cFineshyt\u201d",
-    "link": "https://pitchfork.com/news/watch-amaaraes-video-for-new-song-fineshyt",
-    "source": "RSS: News",
-    "published": "Fri, 08 Aug 2025 18:22:31 +0000",
-    "image": "https://media.pitchfork.com/photos/68963fd2cf761d1afab54028/master/pass/Amaarae-Fineshyt.jpeg"
+    "title": "Bob Dylan Was Back In The Studio This Week",
+    "link": "https://www.stereogum.com/2318706/bob-dylan-was-back-in-the-studio-this-week/news/",
+    "source": "Stereogum",
+    "published": "Sat, 09 Aug 2025 14:10:17 +0000",
+    "image": null
   },
   {
-    "title": "Heavy Song of the Week: AFI\u2019s \u201cBehind the Clock\u201d Is Goth-Rock Bliss",
-    "link": "https://consequence.net/2025/08/heavy-song-of-the-week-afi-behind-the-clock/",
+    "title": "Celia Cruz Centennial Celebration to Light Up Central Park with Cuban All-Star Lineup & More Uplifting Moments in Latin\u00a0Music",
+    "link": "https://www.billboard.com/music/latin/celia-cruz-centennial-celebration-uplifting-moments-1236039925/",
+    "source": "Billboard",
+    "published": "Sat, 09 Aug 2025 14:00:00 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2025/08/celia-cruz-vh1-2001-billboard-1800.jpg?w=1024"
+  },
+  {
+    "title": "Dr. Phil Flustered After Bill Maher Calls Him Out for Joining ICE Raids",
+    "link": "https://consequence.net/2025/08/dr-phil-immigration-bill-maher/",
     "source": "Consequence",
-    "published": "Fri, 08 Aug 2025 18:18:33 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/08/afi-heavy-song-of-the-week-behind-the-clock.jpg?quality=80"
+    "published": "Sat, 09 Aug 2025 13:22:39 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/08/Dr-Phil-.jpeg?quality=80"
   },
   {
-    "title": "Sam Gellaitry \u2013 \u201cStart Up A Rumour\u201d",
-    "link": "https://www.stereogum.com/2318677/sam-gellaitry-start-up-a-rumour/music/",
+    "title": "Doja Cat Debuts \u201cJealous Type\u201d And Makes Up With \u201cMusty\u201d Fan At Outside Lands",
+    "link": "https://www.stereogum.com/2318702/doja-cat-debuts-jealous-type-and-makes-up-with-musty-fan-at-outside-lands/news/",
     "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 18:16:22 +0000",
+    "published": "Sat, 09 Aug 2025 13:13:04 +0000",
     "image": null
-  },
-  {
-    "title": "Clipse played Terminal 5 with EarthGang & surprise guest Stove God Cooks (pics, video, setlist)",
-    "link": "https://www.brooklynvegan.com/clipse-played-terminal-5-with-earthgang-surprise-guest-stove-god-cooks-pics-video-setlist/",
-    "source": "BrooklynVegan",
-    "published": "Fri, 08 Aug 2025 17:29:43 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2025/08/08/clipse-terminal5-34.jpg"
-  },
-  {
-    "title": "Watch Gracie Abrams Cover Taylor Swift\u2019s \u2018All Too Well\u2019 During L.A. Concert",
-    "link": "https://www.rollingstone.com/music/music-news/gracie-abrams-covers-all-too-well-during-los-angeles-show-1235403929/",
-    "source": "Music News",
-    "published": "Fri, 08 Aug 2025 17:25:12 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/08/gracie-abrams-covers-taylor-swift.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Real Lies \u2013 \u201cLet The Lips Fall Where They May\u201d",
-    "link": "https://www.stereogum.com/2318661/real-lies-let-the-lips-fall-where-they-may/music/",
-    "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 16:53:11 +0000",
-    "image": null
-  },
-  {
-    "title": "Halestorm Unveil Video for \u201cLike a Woman Can,\u201d an \u201cOde to Bisexuality\u201d: Watch",
-    "link": "https://consequence.net/2025/08/halestorm-like-a-woman-can-video-everest-album-stream/",
-    "source": "Consequence",
-    "published": "Fri, 08 Aug 2025 16:48:51 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/08/Halestorm.jpg?quality=80"
-  },
-  {
-    "title": "Deftones Share New Song \u201cMilk of the Madonna\u201d: Listen",
-    "link": "https://pitchfork.com/news/deftones-share-new-song-milk-of-the-madonna-listen",
-    "source": "RSS: News",
-    "published": "Fri, 08 Aug 2025 16:35:59 +0000",
-    "image": "https://media.pitchfork.com/photos/68961e44b2054be76e066c11/master/pass/Deftones.jpeg"
-  },
-  {
-    "title": "MGK Details Rehab Stay, Split From Megan Fox on New Album: \u2018There Could Have Been Zero Drama\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/machine-gun-kelly-lost-americana-rehab-megan-fox-1235403665/",
-    "source": "Music News",
-    "published": "Fri, 08 Aug 2025 16:29:48 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/08/mgk-rehab-fox-split.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Stream JID\u2019s New Album God Does Like Ugly Feat. Clipse, Vince Staples, Westside Gunn, More",
-    "link": "https://www.stereogum.com/2318656/stream-jids-new-album-god-does-like-ugly-feat-clipse-vince-staples-westside-gunn-more/music/",
-    "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 16:29:19 +0000",
-    "image": null
-  },
-  {
-    "title": "Slothrust \u2013 \u201cWildcard\u201d",
-    "link": "https://www.stereogum.com/2318493/slothrust-wildcard/music/",
-    "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 16:16:03 +0000",
-    "image": null
-  },
-  {
-    "title": "Did Dijon Announce a New Album?",
-    "link": "https://pitchfork.com/news/did-dijon-announce-a-new-album",
-    "source": "RSS: News",
-    "published": "Fri, 08 Aug 2025 16:15:20 +0000",
-    "image": "https://media.pitchfork.com/photos/689617c87218b9e7d26a87b2/master/pass/Dijon.jpeg"
-  },
-  {
-    "title": "Clipse name their favorite albums of all time",
-    "link": "https://www.brooklynvegan.com/clipse-name-their-favorite-albums-of-all-time/",
-    "source": "BrooklynVegan",
-    "published": "Fri, 08 Aug 2025 16:09:53 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2025/05/29/Clipse-by-Cian-Moore.jpg"
-  },
-  {
-    "title": "Taylor Swift Directorial Debut Apparently Still Happening, Getting A Rewrite",
-    "link": "https://www.stereogum.com/2318650/taylor-swift-directorial-debut-apparently-still-happening-getting-a-rewrite/news/",
-    "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 16:03:34 +0000",
-    "image": null
-  },
-  {
-    "title": "Backstage Portraits from Newport Folk Festival 2025: Maren Morris, John C. Reilly, Remi Wolf, and More",
-    "link": "https://consequence.net/2025/08/newport-folk-festival-2025-portraits/",
-    "source": "Consequence",
-    "published": "Fri, 08 Aug 2025 16:00:01 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/08/newport-folk-festival-2025-backstage-portriats-photos.jpg?quality=80"
-  },
-  {
-    "title": "Good Charlotte Bring New Song \u201cI Don\u2019t Work Here Anymore\u201d to Fallon: Watch",
-    "link": "https://consequence.net/2025/08/good-charlotte-i-dont-work-here-anymore-fallon-watch/",
-    "source": "Consequence",
-    "published": "Fri, 08 Aug 2025 15:32:10 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/08/Good-Charlotte-Fallon-I-Dont-Work-Here-Anymore.jpg?quality=80"
-  },
-  {
-    "title": "Listen to Lucy Dacus\u2019 New Songs \u201cBus Back to Richmond\u201d and \u201cMore Than Friends\u201d",
-    "link": "https://pitchfork.com/news/listen-to-lucy-dacus-new-songs-bus-back-to-richmond-and-more-than-friends",
-    "source": "RSS: News",
-    "published": "Fri, 08 Aug 2025 15:17:32 +0000",
-    "image": "https://media.pitchfork.com/photos/68960b417218b9e7d26a8772/master/pass/Lucy-Dacus.jpg"
-  },
-  {
-    "title": "Stream Amaarae\u2019s Hedonistic New Album Black Star Feat. PinkPantheress, Charlie Wilson, & Naomi Campbell",
-    "link": "https://www.stereogum.com/2318632/stream-amaaraes-hedonistic-new-album-black-star-feat-pinkpantheress-charlie-wilson-naomi-campbell/music/",
-    "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 15:02:20 +0000",
-    "image": null
-  },
-  {
-    "title": "Grateful Dead Fan Dies While Dancing at 60th Anniversary Concert",
-    "link": "https://consequence.net/2025/08/grateful-dead-fan-dies-60th-anniversary-show/",
-    "source": "Consequence",
-    "published": "Fri, 08 Aug 2025 14:46:24 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/08/grateful-dead-fan-dies-60th-anniversary-show.jpg?quality=80"
-  },
-  {
-    "title": "Snuggle Announce Debut Album Goodbyehouse: Hear \u201cPlaythings\u201d",
-    "link": "https://www.stereogum.com/2318582/snuggle-announce-debut-album-goodbyehouse-hear-playthings/music/",
-    "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 14:41:13 +0000",
-    "image": null
-  },
-  {
-    "title": "South Park\u2019s Matt Stone Joins Primus on Drums to Cover King Crimson: Watch",
-    "link": "https://consequence.net/2025/08/south-park-matt-stone-joins-primus-on-drums-watch/",
-    "source": "Consequence",
-    "published": "Fri, 08 Aug 2025 14:36:12 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/08/Matt-Stone-Primus-King-Crimson-Cover-Los-Angeles.jpg?quality=80"
-  },
-  {
-    "title": "Dijon Announces New Album Baby Out Next Week",
-    "link": "https://www.stereogum.com/2318608/dijon-announces-new-album-baby-out-next-week/news/",
-    "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 14:36:01 +0000",
-    "image": null
-  },
-  {
-    "title": "Jehnny Beth \u2013 \u201cHigh Resolution Sadness\u201d",
-    "link": "https://www.stereogum.com/2318622/jehnny-beth-high-resolution-sadness/music/",
-    "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 14:35:08 +0000",
-    "image": null
-  },
-  {
-    "title": "Carnie Wilson Says Dad Brian Wilson\u2019s Burial \u2018Gave Me More Closure\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/carnie-brian-wilson-beach-boys-burial-1235403581/",
-    "source": "Music News",
-    "published": "Fri, 08 Aug 2025 14:30:18 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/08/carnie-wilson-brian-insta.jpg?crop=0px%2C32px%2C1800px%2C1014px&resize=1600%2C900"
-  },
-  {
-    "title": "Rip Gerber Teams with Zo\u00eb Barry for an Unstoppable Mix of Love, Loss, and High-Speed Thrills in \u201cLimited Speed\u201d",
-    "link": "https://www.spin.com/2025/08/rip-gerber-teams-with-zoe-barry-for-an-unstoppable-mix-of-love-loss-and-high-speed-thrills-in-limited-speed/",
-    "source": "SPIN",
-    "published": "Fri, 08 Aug 2025 14:26:11 +0000",
-    "image": "https://static.spin.com/files/2025/08/Spin-Main-.jpg"
-  },
-  {
-    "title": "The Batman: Part II Will Introduce Robin as Robert Pattinson\u2019s Sidekick: Report",
-    "link": "https://consequence.net/2025/08/the-batman-part-ii-robin/",
-    "source": "Consequence",
-    "published": "Fri, 08 Aug 2025 14:11:39 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/08/the-batman-ii-2-robin-robert-pattinson-matt-reeves.jpg?quality=80"
-  },
-  {
-    "title": "5 Albums I Can\u2019t Live Without: Will Anderson",
-    "link": "https://www.spin.com/2025/08/5-albums-i-cant-live-without-will-anderson-of-parachute/",
-    "source": "SPIN",
-    "published": "Fri, 08 Aug 2025 14:00:00 +0000",
-    "image": "https://static.spin.com/files/2025/08/unnamed-45-e1754581880905.jpg"
-  },
-  {
-    "title": "Deep Cut Friday: \u201cDanube Incident\u201d by Lalo Schifrin",
-    "link": "https://www.spin.com/2025/08/deep-cut-friday-danube-incident-by-lalo-schifrin/",
-    "source": "SPIN",
-    "published": "Fri, 08 Aug 2025 13:53:00 +0000",
-    "image": "https://static.spin.com/files/2025/08/GettyImages-2171352516.jpg"
-  },
-  {
-    "title": "Notable Releases of the Week (8/8)",
-    "link": "https://www.brooklynvegan.com/blackbraid-ethel-cain-jid-dj-premier-roc-marciano-amaarae-charley-crockett-shrapknel-ada-lea-reviews/",
-    "source": "BrooklynVegan",
-    "published": "Fri, 08 Aug 2025 13:45:29 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2025/08/07/Blackbraid-by-Wolf-Mountain-Productions.jpg"
-  },
-  {
-    "title": "Watch The Trailer For New Rancid-Inspired Movie \u2026And Out Comes The Wolf",
-    "link": "https://www.stereogum.com/2318605/watch-the-trailer-for-new-rancid-inspired-movie-and-out-comes-the-wolf/news/",
-    "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 13:44:34 +0000",
-    "image": null
-  },
-  {
-    "title": "Zach Bryan \u2013 \u201cBowery\u201d (Feat. Kings Of Leon)",
-    "link": "https://www.stereogum.com/2318488/zach-bryan-bowery-feat-kings-of-leon/music/",
-    "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 13:36:48 +0000",
-    "image": null
-  },
-  {
-    "title": "10 New Albums You Should Listen to Now: Amaarae, Gunna, No Joy, and More",
-    "link": "https://pitchfork.com/news/10-new-albums-you-should-listen-to-now-amaarae-gunna-no-joy",
-    "source": "RSS: News",
-    "published": "Fri, 08 Aug 2025 13:22:06 +0000",
-    "image": "https://media.pitchfork.com/photos/6895f4afab9707156813a772/master/pass/Amaarae.jpeg"
-  },
-  {
-    "title": "Lucy Dacus Shares \u201cBus Back To Richmond\u201d & \u201cMore Than Friends,\u201d Updates Latest Album Cover",
-    "link": "https://www.stereogum.com/2318601/lucy-dacus-shares-bus-back-to-richmond-more-than-friends-updates-latest-album-cover/music/",
-    "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 13:15:23 +0000",
-    "image": null
-  },
-  {
-    "title": "Ada Lea Is Living On Her Own Terms",
-    "link": "https://www.stereogum.com/2318274/ada-lea-when-i-paint-my-masterpiece/interviews/qa/",
-    "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 13:05:31 +0000",
-    "image": null
-  },
-  {
-    "title": "Indie Basement (8/8): the week in classic indie, alternative & college rock",
-    "link": "https://www.brooklynvegan.com/album-reviews-wombo-for-those-i-love-sabres-of-paradise/",
-    "source": "BrooklynVegan",
-    "published": "Fri, 08 Aug 2025 13:03:28 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2025/08/07/indie-basement-8-8-no-joy-osees-wombo-for-those-i-love-sabres-of-paradise.jpeg"
-  },
-  {
-    "title": "Deftones \u2013 \u201cmilk of the madonna\u201d",
-    "link": "https://www.stereogum.com/2318597/deftones-milk-of-the-madonna/music/",
-    "source": "Stereogum",
-    "published": "Fri, 08 Aug 2025 12:47:03 +0000",
-    "image": null
-  },
-  {
-    "title": "Hear Deftones\u2019 second \u2018private music\u2019 single \u201cmilk of the madonna\u201d",
-    "link": "https://www.brooklynvegan.com/hear-deftones-second-private-music-single-milk-of-the-madonna/",
-    "source": "BrooklynVegan",
-    "published": "Fri, 08 Aug 2025 12:44:17 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2025/08/08/Deftones-milk-madonna.jpg"
   }
 ]
