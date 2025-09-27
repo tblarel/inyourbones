@@ -1,373 +1,429 @@
 [
   {
-    "title": "John Lennon\u2019s Famed \u2018Lost Weekend\u2019 Glasses Expected to Sell for $400,000 at Auction",
-    "link": "https://www.rollingstone.com/music/music-news/john-lennon-lost-weekend-glasses-auction-yoko-ono-1235435739/",
-    "source": "Music News",
-    "published": "Thu, 25 Sep 2025 23:26:06 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/09/lennon-lost-weekend.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "FKA twigs Confirms Eusexua Afterglow Release Date, Shares Video for New Song \u201cCheap Hotel\u201d: Watch",
-    "link": "https://pitchfork.com/news/fka-twigs-confirms-eusexua-afterglow-release-date-shares-video-for-new-song-cheap-hotel-watch",
-    "source": "RSS: News",
-    "published": "Thu, 25 Sep 2025 23:09:27 +0000",
-    "image": "https://media.pitchfork.com/photos/68d5a52d621ca5990a4c3e0a/master/pass/FKA-twigs.jpeg"
-  },
-  {
-    "title": "E.R. Visit \u2013 \u201cOn Earth As It Is In Heaven\u201d",
-    "link": "https://www.stereogum.com/2324227/e-r-visit-on-earth-as-it-is-in-heaven/music/",
-    "source": "Stereogum",
-    "published": "Thu, 25 Sep 2025 22:34:06 +0000",
-    "image": null
-  },
-  {
-    "title": "Jillian Lauren, Wife of Weezer Bassist Scott Shriner, Avoids Jail Time After Shooting at LAPD Officers",
-    "link": "https://consequence.net/2025/09/weezer-bassist-wife-jillian-lauren-avoids-jail-time-lapd-shooting/",
-    "source": "Consequence",
-    "published": "Thu, 25 Sep 2025 22:23:35 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/04/Scott-Shriner-and-Jillian-Lauren.jpeg?quality=80"
-  },
-  {
-    "title": "Limp Bizkit\u2019s Single \u201cMaking Love to Morgan Wallen\u201d Hits No. 1 on Multiple Billboard Charts",
-    "link": "https://consequence.net/2025/09/limp-bizkit-making-love-to-morgan-wallen-no-1-multiple-billboard-charts/",
-    "source": "Consequence",
-    "published": "Thu, 25 Sep 2025 21:51:26 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2024/10/Limp-Bizkit-featured.jpg?quality=80"
-  },
-  {
-    "title": "Wife of Weezer Bassist Gets Two-Year Mental Health Diversion in LAPD Shooting",
-    "link": "https://www.rollingstone.com/music/music-news/weezer-bassist-wife-shooting-mental-health-lapd-1235435703/",
-    "source": "Music News",
-    "published": "Thu, 25 Sep 2025 21:45:16 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/09/Jillian-Lauren-court-mental-health.jpg?crop=0px%2C65px%2C1800px%2C1014px&resize=1600%2C900"
-  },
-  {
-    "title": "Brian May: Queen Are \u201cHaving Conversations\u201d About Sphere Residency",
-    "link": "https://consequence.net/2025/09/brian-may-queen-conversations-sphere/",
-    "source": "Consequence",
-    "published": "Thu, 25 Sep 2025 20:52:19 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/09/Queen-Sphere.jpg?quality=80"
-  },
-  {
-    "title": "Canadian Mounties Seeking Victims Of Nickelback Concert Fraudster",
-    "link": "https://www.stereogum.com/2324203/canadian-mounties-seeking-victims-of-nickelback-concert-fraudster/news/",
-    "source": "Stereogum",
-    "published": "Thu, 25 Sep 2025 20:49:27 +0000",
-    "image": null
-  },
-  {
-    "title": "Ed Sheeran Reveals \u2018Play\u2019 Song \u2018Camera\u2019 Was Nearly a Justin Bieber Collaboration",
-    "link": "https://www.rollingstone.com/music/music-news/ed-sheeran-reveals-camera-was-nearly-justin-bieber-duet-1235435610/",
-    "source": "Music News",
-    "published": "Thu, 25 Sep 2025 20:25:21 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/09/justin-bieber-ed-sheeran-new.jpg?crop=0px%2C11px%2C1800px%2C1014px&resize=1600%2C900"
-  },
-  {
-    "title": "My Morning Jacket\u2019s Jim James Joins Goose for \u201cState of the Art (A.E.I.O.U.),\u201d The Band\u2019s \u201cDon\u2019t Do It\u201d in Louisville: Watch",
-    "link": "https://consequence.net/2025/09/goose-jim-james-my-morning-jacket-louisville/",
-    "source": "Consequence",
-    "published": "Thu, 25 Sep 2025 20:12:08 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/09/Goose-jim-james-my-morning-jacket-state-of-the-art-aeiou-the-band-dont-do-it-live-concert-cover-Louisville-palace.jpg?quality=80"
-  },
-  {
-    "title": "Chelsea Cutler and Jeremy Zucker Put Friendship in Focus at The Rolling Stone and Sonesta International Hotels Musicians on Musicians Event",
-    "link": "https://www.rollingstone.com/music/music-news/chelsea-cutler-jeremy-zucker-sonesta-1235429833/",
-    "source": "Music News",
-    "published": "Thu, 25 Sep 2025 18:55:33 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/09/20250903_ROLLING_STONE_SONESTA_JEREMY_ZUCKER_CHELSEA_CUTLER_KA_134589-11-1.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Jack Antonoff Says Live Nation CEO\u2019s Remark About \u2018Underpriced\u2019 Concert Tickets \u2018Breaks My Heart\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/jack-antonoff-responds-live-nation-ceo-ticket-prices-1235435531/",
-    "source": "Music News",
-    "published": "Thu, 25 Sep 2025 18:52:52 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/09/GettyImages-2229631467.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Yasmin Williams Says GOP Group Heckled Her Concert With Encouragement from Kennedy Center President",
-    "link": "https://consequence.net/2025/09/yasmin-williams-kennedy-center-president-log-cabin-republicans/",
-    "source": "Consequence",
-    "published": "Thu, 25 Sep 2025 18:39:11 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/09/Yasmin-Williams.jpeg?quality=80"
-  },
-  {
-    "title": "How to Soundtrack Without Losing Your Soul",
-    "link": "https://consequence.net/2025/09/soundtrack-denzel-curry-guapdad-4000-peele/",
-    "source": "Consequence",
-    "published": "Thu, 25 Sep 2025 17:30:41 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/09/DenzelCurry_Guapdad4000_HIM.png"
-  },
-  {
-    "title": "Megadeth Share 30-Second Clip of New Song \u201cTipping Point,\u201d First Single from Final Album",
-    "link": "https://consequence.net/2025/09/megadeth-tipping-point-teaser/",
-    "source": "Consequence",
-    "published": "Thu, 25 Sep 2025 17:21:28 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/09/megadeth-tipping-point-teaser.jpg?quality=80"
-  },
-  {
-    "title": "Stagecoach Reveals 2026 Lineup with Post Malone, Lainey Wilson, and Journey: How to Get Tickets",
-    "link": "https://consequence.net/2025/09/stagecoach-2026-how-to-get-tickets/",
-    "source": "Consequence",
-    "published": "Thu, 25 Sep 2025 17:16:16 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/09/Stagecoach-2026-Lineup.jpg?quality=80"
-  },
-  {
-    "title": "Harmlessness Turns 10",
-    "link": "https://www.stereogum.com/2324160/twiabp-harmlessness-turns-10/reviews/the-anniversary/",
-    "source": "Stereogum",
-    "published": "Thu, 25 Sep 2025 17:06:09 +0000",
-    "image": null
-  },
-  {
-    "title": "Mining Metal: Dark Watcher, Demon Sluice, Esoctrilihum, Heretoir, Heruvim, Kamra, Species, and Telesterion",
-    "link": "https://consequence.net/2025/09/mining-metal-september-2025/",
-    "source": "Consequence",
-    "published": "Thu, 25 Sep 2025 16:39:36 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/09/MM-FB-September-2025.jpg?quality=80"
-  },
-  {
-    "title": "Stagecoach Festival 2026 Lineup Announced: Post Malone, Lainey Wilson, and More",
-    "link": "https://pitchfork.com/news/stagecoach-festival-2026-lineup-announced-post-malone-lainey-wilson",
-    "source": "RSS: News",
-    "published": "Thu, 25 Sep 2025 16:21:59 +0000",
-    "image": "https://media.pitchfork.com/photos/68d56bafe21aa307db23c883/master/pass/Stagecoach-Festival.jpeg"
-  },
-  {
-    "title": "Queen Talk New Music And Potential Sphere Residency: \u201cI Don\u2019t Think We\u2019re Done\u201d",
-    "link": "https://www.stereogum.com/2324190/queen-talk-new-music-and-potential-sphere-residency-i-dont-think-were-done/news/",
-    "source": "Stereogum",
-    "published": "Thu, 25 Sep 2025 16:21:17 +0000",
-    "image": null
-  },
-  {
-    "title": "Alexa Rose Releasing New Album Atmosphere: Hear Three Tracks",
-    "link": "https://www.stereogum.com/2324175/alexa-rose-releasing-new-album-atmosphere-hear-three-tracks/music/",
-    "source": "Stereogum",
-    "published": "Thu, 25 Sep 2025 15:53:41 +0000",
-    "image": null
-  },
-  {
-    "title": "Sleep Token Cover Bruce Springsteen\u2019s \u201cDancing in the Dark\u201d in Philadelphia: Watch",
-    "link": "https://consequence.net/2025/09/sleep-token-cover-bruce-springsteen-dancing-in-the-dark/",
-    "source": "Consequence",
-    "published": "Thu, 25 Sep 2025 15:44:10 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/09/Sleep-Token-Bruce-Springsteen.jpg?quality=80"
-  },
-  {
-    "title": "Bush, Counting Crows, & Third Eye Blind Are Playing Country Mega-Fest Stagecoach In 2026",
-    "link": "https://www.stereogum.com/2324178/bush-counting-crows-third-eye-blind-are-playing-country-mega-fest-stagecoach-in-2026/news/",
-    "source": "Stereogum",
-    "published": "Thu, 25 Sep 2025 15:43:26 +0000",
-    "image": null
-  },
-  {
-    "title": "Juana Molina Announces First Album Since 2017, Shares New Song \u201cSiestas Ah\u00ed\u201d: Listen",
-    "link": "https://pitchfork.com/news/juana-molina-announces-first-album-since-2017-shares-new-song-siestas-ahi-listen",
-    "source": "RSS: News",
-    "published": "Thu, 25 Sep 2025 15:42:03 +0000",
-    "image": "https://media.pitchfork.com/photos/68d41915a671be712e22a695/master/pass/Juana-Molina.jpeg"
-  },
-  {
-    "title": "Spotify Cracks Down on AI, Removing 75 Million Tracks and Targeting Impersonators",
-    "link": "https://consequence.net/2025/09/spotify-ai-protections/",
-    "source": "Consequence",
-    "published": "Thu, 25 Sep 2025 15:22:59 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/09/spotify-ai-protections.jpg?quality=80"
-  },
-  {
-    "title": "Olivia O. \u2013 \u201cThat\u2019s What Did It\u201d & \u201cDon\u2019t Make Me Cry\u201d",
-    "link": "https://www.stereogum.com/2324173/olivia-o-thats-what-did-it-dont-make-me-cry/music/",
-    "source": "Stereogum",
-    "published": "Thu, 25 Sep 2025 15:20:50 +0000",
-    "image": null
-  },
-  {
-    "title": "Bruce Springsteen Fed Up with Democrats: \u201cWe\u2019re Desperately in Need of an Effective Alternative Party\u201d",
-    "link": "https://consequence.net/2025/09/bruce-springsteen-democrats/",
-    "source": "Consequence",
-    "published": "Thu, 25 Sep 2025 15:01:06 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/09/bruce-springsteen-blasts-democrats-effective-alternate-party.jpg?quality=80"
-  },
-  {
-    "title": "Joni Mitchell, Jazz Artist?",
-    "link": "https://www.stereogum.com/2324112/joni-mitchell-jonis-jazz-box-set/columns/ugly-beauty/",
-    "source": "Stereogum",
-    "published": "Thu, 25 Sep 2025 15:00:56 +0000",
-    "image": null
-  },
-  {
-    "title": "Juana Molina Announces First New Album In Eight Years\u00a0DOGA: Hear \u201cSiestas ah\u00ed\u201d",
-    "link": "https://www.stereogum.com/2324151/juana-molina-announces-first-new-album-in-eight-years-doga-hear-siestas-ahi/music/",
-    "source": "Stereogum",
-    "published": "Thu, 25 Sep 2025 15:00:13 +0000",
-    "image": null
-  },
-  {
-    "title": "Hayley Williams Joins \u201cNo Music For Genocide\u201d Boycott, Sings With H2O In Nashville",
-    "link": "https://www.stereogum.com/2324166/hayley-williams-joins-no-music-for-genocide-boycott-sings-with-h2o-in-nashville/news/",
-    "source": "Stereogum",
-    "published": "Thu, 25 Sep 2025 14:55:55 +0000",
-    "image": null
-  },
-  {
-    "title": "Redveil and Smino Team Up for New Song \u201cBrown Sugar\u201d: Watch the Video",
-    "link": "https://pitchfork.com/news/redveil-and-smino-team-up-for-new-song-brown-sugar-watch-the-video",
-    "source": "RSS: News",
-    "published": "Thu, 25 Sep 2025 14:40:56 +0000",
-    "image": "https://media.pitchfork.com/photos/68d54fadee5f53450ca0dd66/master/pass/Redveil-Smino.jpeg"
-  },
-  {
-    "title": "Four Indie Artists to Follow This Fall",
-    "link": "https://www.spin.com/2025/09/four-indie-artists-to-follow-this-fall/",
-    "source": "SPIN",
-    "published": "Thu, 25 Sep 2025 14:27:24 +0000",
-    "image": "https://static.spin.com/files/2025/09/DUUNES2_photoby-Alex-Brown-scaled.jpg"
-  },
-  {
-    "title": "Watch Viagra Boys Play \u201cPyramid Of Health,\u201d Talk Mariah Carey & Being American In Sweden On The Daily Show",
-    "link": "https://www.stereogum.com/2324162/watch-viagra-boys-play-pyramid-of-health-talk-mariah-carey-being-american-in-sweden-on-the-daily-show/news/",
-    "source": "Stereogum",
-    "published": "Thu, 25 Sep 2025 14:22:09 +0000",
-    "image": null
-  },
-  {
-    "title": "redveil \u2013 \u201cbrown sugar\u201d (Feat. Smino)",
-    "link": "https://www.stereogum.com/2324152/redveil-brown-sugar-feat-smino/music/",
-    "source": "Stereogum",
-    "published": "Thu, 25 Sep 2025 13:57:31 +0000",
-    "image": null
-  },
-  {
-    "title": "Francis Of Delirium \u2013 \u201cLittle Black Dress\u201d",
-    "link": "https://www.stereogum.com/2324149/francis-of-delirium-little-black-dress/music/",
-    "source": "Stereogum",
-    "published": "Thu, 25 Sep 2025 13:55:53 +0000",
-    "image": null
-  },
-  {
-    "title": "Chicago Cubs Hosted Knocked Loose, Green Day, & John Mulaney At The Same Game",
-    "link": "https://www.stereogum.com/2324144/chicago-cubs-hosted-knocked-loose-green-day-john-mulaney-at-the-same-game/news/",
-    "source": "Stereogum",
-    "published": "Thu, 25 Sep 2025 13:24:35 +0000",
-    "image": null
-  },
-  {
-    "title": "Rihanna Announces Birth of Third Child With A$AP Rocky, Rocki Irish Mayers",
-    "link": "https://pitchfork.com/news/rihanna-announces-birth-of-third-child-with-asap-rocky-rocki-irish-mayers",
-    "source": "RSS: News",
-    "published": "Thu, 25 Sep 2025 13:18:14 +0000",
-    "image": "https://media.pitchfork.com/photos/68d53ec82561c6e54b6482a7/master/pass/Rihanna-ASAP-Rocky.jpeg"
-  },
-  {
-    "title": "Post Malone, Lainey Wilson Pull Up For Stagecoach Fest",
-    "link": "https://www.spin.com/2025/09/stagecoach-festival-lineup/",
-    "source": "SPIN",
-    "published": "Thu, 25 Sep 2025 13:03:00 +0000",
-    "image": "https://static.spin.com/files/2025/04/2212767717-1-scaled.jpg"
-  },
-  {
-    "title": "Bitchin Bajas Switch on and Bitch Out",
-    "link": "https://www.spin.com/2025/09/bitchin-bajas-switch-on-and-bitch-out/",
-    "source": "SPIN",
-    "published": "Thu, 25 Sep 2025 13:00:00 +0000",
-    "image": "https://static.spin.com/files/2025/09/a1078246609_16.jpg"
-  },
-  {
-    "title": "The Cure, My Bloody Valentine, the xx, and More to Play Primavera Sound Barcelona 2026",
-    "link": "https://pitchfork.com/news/the-cure-my-bloody-valentine-the-xx-to-play-primavera-sound-barcelona-2026",
-    "source": "RSS: News",
-    "published": "Thu, 25 Sep 2025 12:57:27 +0000",
-    "image": "https://media.pitchfork.com/photos/68d537bae21aa307db23c87f/master/pass/Primavera-Sound.jpg"
-  },
-  {
-    "title": "Primavera Sound Festival 2026 Lineup Has The Cure, the xx, My Bloody Valentine, Massive Attack, Much More",
-    "link": "https://www.stereogum.com/2324140/primavera-sound-festival-2026-lineup-has-the-cure-the-xx-my-bloody-valentine-massive-attack-much-more/news/",
-    "source": "Stereogum",
-    "published": "Thu, 25 Sep 2025 12:56:50 +0000",
-    "image": null
-  },
-  {
-    "title": "Primavera 2026: The Cure, My Bloody Valentine, The xx",
-    "link": "https://www.spin.com/2025/09/primavera-sound-2026-lineup/",
-    "source": "SPIN",
-    "published": "Thu, 25 Sep 2025 11:00:00 +0000",
-    "image": "https://static.spin.com/files/2024/10/GettyImages-1258549692-scaled.jpg"
-  },
-  {
-    "title": "Ice Spice Samples M.I.A. on Comeback Single \u2018Baddie Baddie\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/ice-spice-mia-baddie-baddie-single-1235435856/",
-    "source": "Music News",
-    "published": "Fri, 26 Sep 2025 06:53:58 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/09/Credit-Vijat-Mohindra.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Hear Tate McRae Take Control on Single \u2018Tit for Tat\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/tate-mcrae-tit-for-tat-single-1235435851/",
-    "source": "Music News",
-    "published": "Fri, 26 Sep 2025 06:34:10 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/09/GettyImages-2236368626.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Young Thug Has Plenty to Say With New Album \u2018UY Scuti\u2019: Stream It\u00a0Now",
-    "link": "https://www.billboard.com/music/rb-hip-hop/young-thug-uy-scuti-1236074867/",
+    "title": "In Canada: Universal Music Canada\u2019s Julie Adam Is Billboard Canada Women in Music\u2019s 2025 Executive of the\u00a0Year",
+    "link": "https://www.billboard.com/pro/julie-adam-billboard-canada-women-in-music-exec-of-year/",
     "source": "Billboard",
-    "published": "Fri, 26 Sep 2025 04:31:00 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/06/young-thug-press-2025-billboard-1548.jpg?w=1024"
+    "published": "Sat, 27 Sep 2025 01:59:31 +0000",
+    "image": null
   },
   {
-    "title": "Doja Cat Returns to Her Pop Roots With New Album \u2018Vie\u2019: Stream It\u00a0Now",
-    "link": "https://www.billboard.com/music/pop/doja-cat-new-album-vie-stream-it-now-1236074979/",
-    "source": "Billboard",
-    "published": "Fri, 26 Sep 2025 04:03:06 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/09/doja-cat-vma-2025-billboard-1800.jpg?w=1024"
-  },
-  {
-    "title": "Rauw Alejandro Continues to Bring His \u2018Roots to the World\u2019 on \u2018Cosa Nuestra: Cap\u00edtulo 0\u2019: Stream It\u00a0Now",
-    "link": "https://www.billboard.com/music/latin/rauw-alejandro-cosa-nuestra-capitulo-0-interview-stream-1236074972/",
-    "source": "Billboard",
-    "published": "Fri, 26 Sep 2025 04:02:11 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/09/01-Rauw-Alejandro-2025-cr-Marco-Perretta-billboard-1800.jpg?w=1024"
-  },
-  {
-    "title": "Mariah Carey Returns With \u2018Here for It All,\u2019 Her First Album in 7 Years: Stream It\u00a0Now",
-    "link": "https://www.billboard.com/music/rb-hip-hop/mariah-carey-here-for-it-all-1236075038/",
-    "source": "Billboard",
-    "published": "Fri, 26 Sep 2025 04:01:06 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/07/mariah-carey-bet-awards-2025-billboard-1800.jpg?w=1024"
-  },
-  {
-    "title": "FKA Twigs Offers a Taste of \u2018Eusexua Afterglow\u2019\u00a0With Hypnotic New Song and Video",
-    "link": "https://www.rollingstone.com/music/music-news/fka-twigs-eusexua-afterglow-release-date-cheap-hotel-video-1235435823/",
-    "source": "Music News",
-    "published": "Fri, 26 Sep 2025 03:03:31 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/09/EUSEXUA-Afterglow-fka-twigs.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "FKA twigs Announces New Album EUSEXUA Afterglow, Shares \u201cCheap Hotel\u201d: Stream",
-    "link": "https://consequence.net/2025/09/fka-twigs-new-album-eusexua-afterglow-cheap-hotel/",
+    "title": "Doja Cat Tries to Reframe Her Purpose in Pop on Vie: Review",
+    "link": "https://consequence.net/2025/09/doja-cat-vie-album-review/",
     "source": "Consequence",
-    "published": "Fri, 26 Sep 2025 02:16:27 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/09/EUSEXUA-Afterglow_DIGITAL_3000.jpg?quality=80"
+    "published": "Sat, 27 Sep 2025 00:08:01 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/09/Doja-Cat_Jealous-Type_PC_Jacob-Webster.jpg?quality=80"
   },
   {
-    "title": "Watch The Beta Band Reunite For First Show In 21 Years",
-    "link": "https://www.stereogum.com/2324202/watch-the-beta-band-reunite-for-first-show-in-21-years/news/",
-    "source": "Stereogum",
-    "published": "Fri, 26 Sep 2025 02:15:29 +0000",
+    "title": "Spinal Tap Tribute Album With Members of Foo Fighters, Tool & More Benefits Teen Cancer\u00a0America",
+    "link": "https://www.billboard.com/music/rock/spinal-tap-tribute-benefits-teen-cancer-america-1236077083/",
+    "source": "Billboard",
+    "published": "Sat, 27 Sep 2025 00:01:42 +0000",
     "image": null
   },
   {
-    "title": "Former Gel Guitarist Responds To Allegations That Led To Band\u2019s Acrimonious Breakup",
-    "link": "https://www.stereogum.com/2324242/former-gel-guitarist-responds-to-allegations-that-led-to-bands-acrimonious-breakup/news/",
-    "source": "Stereogum",
-    "published": "Fri, 26 Sep 2025 01:25:49 +0000",
+    "title": "AxMxP Is Billboard\u2019s K-Pop Rookie of the Month for September: Exclusive\u00a0Photos",
+    "link": "https://www.billboard.com/photos/axmxp-kpop-rookie-of-the-month-september-1236076698/",
+    "source": "Billboard",
+    "published": "Sat, 27 Sep 2025 00:00:40 +0000",
     "image": null
   },
   {
-    "title": "FKA twigs \u2013 \u201ccheap hotel\u201d",
-    "link": "https://www.stereogum.com/2324237/fka-twigs-cheap-hotel/music/",
+    "title": "Papa Roach Hits Milestone Among Acts With Most No. 1s on Mainstream Rock Airplay\u00a0Chart",
+    "link": "https://www.billboard.com/music/chart-beat/papa-roach-milestone-number-1-mainstream-rock-airplay-chart-1236077079/",
+    "source": "Billboard",
+    "published": "Fri, 26 Sep 2025 22:51:43 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2025/09/Papa-Roach-2025-cr-Bryson-Roatch.jpg?w=1024"
+  },
+  {
+    "title": "HYBE Shares Fall on YG Plus Sale, SM Entertainment Stock Slips After Failed EXO\u00a0Mediation",
+    "link": "https://www.billboard.com/pro/hybe-shares-fall-sm-entertainment-stock-exo-mediation/",
+    "source": "Billboard",
+    "published": "Fri, 26 Sep 2025 22:50:54 +0000",
+    "image": null
+  },
+  {
+    "title": "Young Thug Reveals What Drake Told Him After Jail-Call Leaks: \u2018F\u2014 \u2018Em, Drop That\u00a0Music\u2019",
+    "link": "https://www.billboard.com/music/rb-hip-hop/young-thug-drake-jail-call-leaks-advice-1236077023/",
+    "source": "Billboard",
+    "published": "Fri, 26 Sep 2025 22:30:22 +0000",
+    "image": null
+  },
+  {
+    "title": "Staff Picks: Best Songs of the Week September 20th \u2013 September 26th",
+    "link": "https://consequence.net/2025/09/best-songs-of-the-week-september-20th-26th/",
+    "source": "Consequence",
+    "published": "Fri, 26 Sep 2025 22:22:37 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/09/hey-arnold-songs-of-the-week-best-new-music-bartees-strange-chat-pile-chika.jpg?quality=80"
+  },
+  {
+    "title": "Steelers vs. Vikings: How to Watch the NFL Dublin Game Online With Sling\u00a0TV",
+    "link": "https://www.billboard.com/culture/product-recommendations/nfl-dublin-game-steelers-vs-vikings-watch-online-1236076847/",
+    "source": "Billboard",
+    "published": "Fri, 26 Sep 2025 22:04:11 +0000",
+    "image": null
+  },
+  {
+    "title": "Italian Rapper Rondodasosa Is Ready for the American\u00a0Dream",
+    "link": "https://www.billboard.com/music/rb-hip-hop/rondodasosa-interview-mattia-italian-rapper-1236077053/",
+    "source": "Billboard",
+    "published": "Fri, 26 Sep 2025 22:02:04 +0000",
+    "image": null
+  },
+  {
+    "title": "Crystal Kay Brings Comprehensive, Fun-Filled 25th-Anniversary Set to L.A.: Concert\u00a0Recap",
+    "link": "https://www.billboard.com/music/music-news/crystal-kay-los-angeles-concert-recap-miracle-theater-1236077049/",
+    "source": "Billboard",
+    "published": "Fri, 26 Sep 2025 21:57:31 +0000",
+    "image": null
+  },
+  {
+    "title": "Sabrina Carpenter Thinks Kevin Bacon\u2019s\u00a0Cover of Her Song Has \u2018Immaculate\u2019 Vibes",
+    "link": "https://www.rollingstone.com/music/music-news/sabrina-carpenter-kevin-bacon-cover-of-her-song-1235436391/",
+    "source": "Music News",
+    "published": "Fri, 26 Sep 2025 21:14:32 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/09/kevin-sabrina.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Snapped: KLP\u2019s Ibiza Debut at H\u00ef (A Photo Essay)",
+    "link": "https://www.spin.com/2025/09/snapped-klps-ibiza-debut-at-hi-a-photo-essay/",
+    "source": "SPIN",
+    "published": "Fri, 26 Sep 2025 20:59:47 +0000",
+    "image": "https://static.spin.com/files/2025/09/KLP_SPIN_IBIZA_13-1.jpg"
+  },
+  {
+    "title": "The 5 Best Songs Of The Week",
+    "link": "https://www.stereogum.com/2324206/the-5-best-songs-of-the-week-597/lists/the-5-best-songs-of-the-week/",
     "source": "Stereogum",
-    "published": "Fri, 26 Sep 2025 00:21:57 +0000",
+    "published": "Fri, 26 Sep 2025 20:57:02 +0000",
+    "image": null
+  },
+  {
+    "title": "Viagra Boys Got Their Own Adidas",
+    "link": "https://www.stereogum.com/2324368/viagra-boys-got-their-own-adidas/news/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 20:24:08 +0000",
+    "image": null
+  },
+  {
+    "title": "Sonic Youth Tease 2026 News On Washing Machine\u2019s 30th Anniversary",
+    "link": "https://www.stereogum.com/2324349/sonic-youth-tease-2026-news-on-washing-machines-30th-anniversary/news/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 20:14:27 +0000",
+    "image": null
+  },
+  {
+    "title": "Benny Safdie\u2019s The Smashing Machine Has Nala Sinephro\u2019s First Score And A Cleaners From Venus Song Played In Full",
+    "link": "https://www.stereogum.com/2324361/benny-safdies-the-smashing-machine-has-nala-sinephros-first-score-and-a-cleaners-from-venus-song-played-in-full/news/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 20:00:48 +0000",
+    "image": null
+  },
+  {
+    "title": "Premature Evaluation: Jeff Tweedy Twilight Override",
+    "link": "https://www.stereogum.com/2324357/premature-evaluation-jeff-tweedy-twilight-override/reviews/premature-evaluation/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 19:42:10 +0000",
+    "image": null
+  },
+  {
+    "title": "Trouble in Mind Records Ceases Operations",
+    "link": "https://pitchfork.com/news/trouble-in-mind-records-ceases-operations",
+    "source": "RSS: News",
+    "published": "Fri, 26 Sep 2025 18:40:59 +0000",
+    "image": "https://media.pitchfork.com/photos/5c478ffa49ee6a1432c8dbba/master/pass/GenericNewsImage-1.jpg"
+  },
+  {
+    "title": "Leonardo DiCaprio Loved Oasis\u2019 \u2018Tip of the Hat\u2019 to Paul McCartney at Their L.A. Show",
+    "link": "https://www.rollingstone.com/music/music-news/leonardo-dicaprio-loved-oasis-tip-hat-paul-mccartney-1235436193/",
+    "source": "Music News",
+    "published": "Fri, 26 Sep 2025 18:37:37 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/09/leo-on-oasis.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Sinclair to Begin Airing Jimmy Kimmel Live! After Pointless Nine-Day Suspension",
+    "link": "https://consequence.net/2025/09/sinclair-ends-kimmel-boycott/",
+    "source": "Consequence",
+    "published": "Fri, 26 Sep 2025 18:23:28 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/09/Jimmy-Kimmel.jpeg?quality=80"
+  },
+  {
+    "title": "Geese Come Alive with Getting Killed, the Most Creative Indie Rock Album of the Year: Review",
+    "link": "https://consequence.net/2025/09/geese-getting-killed-album-review/",
+    "source": "Consequence",
+    "published": "Fri, 26 Sep 2025 18:15:28 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/09/geese-getting-killed-review.jpg?quality=80"
+  },
+  {
+    "title": "Aaron Sorkin\u2019s Social Network Follow-Up Gets New Title, Release Date, and Confirmed Cast",
+    "link": "https://consequence.net/2025/09/social-network-sequel-release-date-cast/",
+    "source": "Consequence",
+    "published": "Fri, 26 Sep 2025 18:02:26 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/09/the-social-reckoning-jeremy-strong-jeremy-allen-white-mikey-madison.jpg?quality=80"
+  },
+  {
+    "title": "Ed Sheeran, Conan Gray, Nelly, Zara Larsson Join iHeartRadio\u2019s Jingle Ball Tour",
+    "link": "https://www.rollingstone.com/music/music-news/ed-sheeran-conan-gray-zara-larsson-join-jingle-ball-tour-1235436098/",
+    "source": "Music News",
+    "published": "Fri, 26 Sep 2025 17:27:48 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/09/jingle-ball-lineup.jpg?crop=0px%2C37px%2C1800px%2C1014px&resize=1600%2C900"
+  },
+  {
+    "title": "Trouble In Mind Records Has Shut Down",
+    "link": "https://www.stereogum.com/2324339/trouble-in-mind-records-has-shut-down/news/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 17:25:07 +0000",
+    "image": null
+  },
+  {
+    "title": "M\u00f6tley Cr\u00fce Announce Theatre of Pain 40th Anniversary Deluxe Box Set",
+    "link": "https://consequence.net/2025/09/motley-crue-theatre-of-pain-40th-anniversary-deluxe-box-set/",
+    "source": "Consequence",
+    "published": "Fri, 26 Sep 2025 17:18:46 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/09/Motley-Crue.jpg?quality=80"
+  },
+  {
+    "title": "Spotify Says It\u2019s Cleaning Up AI Slop (But Hasn\u2019t Gotten To Volcano Choir\u2019s Page Yet)",
+    "link": "https://www.stereogum.com/2324329/spotify-says-its-cleaning-up-ai-slop-but-hasnt-gotten-to-volcano-choirs-page-yet/news/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 17:08:05 +0000",
+    "image": null
+  },
+  {
+    "title": "Jackzebra Announces Hunched Jack Mixtape, Teams Up With James Ferraro and Glasear for New Song: Watch the Video",
+    "link": "https://pitchfork.com/news/jackzebra-announces-hunched-jack-mixtape-teams-up-with-james-ferraro-and-glasear-for-new-song-watch-the-video",
+    "source": "RSS: News",
+    "published": "Fri, 26 Sep 2025 16:53:20 +0000",
+    "image": "https://media.pitchfork.com/photos/68d6c0fa899177b1d67c90d5/master/pass/Jackzebra.jpg"
+  },
+  {
+    "title": "Tony Hawk\u2019s \u201c900 Skateboard\u201d Sells for Record-Breaking $1.15 Million",
+    "link": "https://consequence.net/2025/09/tony-hawk-900-skateboard-auction-1-15-million/",
+    "source": "Consequence",
+    "published": "Fri, 26 Sep 2025 16:44:49 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/09/Tony-Hawk-900.jpeg?quality=80"
+  },
+  {
+    "title": "Magdalena Bay \u2013 \u201cSecond Sleep\u201d & \u201cStar Eyes\u201d",
+    "link": "https://www.stereogum.com/2324267/magdalena-bay-second-sleep-star-eyes/music/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 16:36:09 +0000",
+    "image": null
+  },
+  {
+    "title": "Jonny Greenwood Unveils Score for Paul Thomas Anderson\u2019s One Battle After Another: Stream",
+    "link": "https://consequence.net/2025/09/jonny-greenwood-one-battle-after-another-score-stream/",
+    "source": "Consequence",
+    "published": "Fri, 26 Sep 2025 16:31:35 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/09/one-battle-after-another-soundtrack.jpg?quality=80"
+  },
+  {
+    "title": "1010Benja Announces New 3X10 EP, Shares New Song \u201cYAM\u201d: Listen",
+    "link": "https://pitchfork.com/news/1010benja-announces-new-3x10-ep-shares-new-song-yam-listen",
+    "source": "RSS: News",
+    "published": "Fri, 26 Sep 2025 16:31:21 +0000",
+    "image": "https://media.pitchfork.com/photos/68d439199da8c207f3a4705f/master/pass/1010Benja.jpeg"
+  },
+  {
+    "title": "Yung Lean & Bladee \u2013 \u201cEvil World\u201d",
+    "link": "https://www.stereogum.com/2324325/yung-lean-bladee-evil-world/music/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 16:30:28 +0000",
+    "image": null
+  },
+  {
+    "title": "Shlohmo Announces New Album Repulsor: Hear \u201cChore Boy\u201d (Feat. SALEM)",
+    "link": "https://www.stereogum.com/2324311/shlohmo-announces-new-album-repulsor-hear-chore-boy-feat-salem/music/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 16:14:21 +0000",
+    "image": null
+  },
+  {
+    "title": "Marc Maron, Shane Gillis, Zach Woods Rip Saudi Arabia Comedy Festival Performers: \u201cYou Don\u2019t 9/11 Your Friends\u201d",
+    "link": "https://consequence.net/2025/09/riyadh-comedy-festival-criticism-marc-maron-shane-gillis-zach-woods/",
+    "source": "Consequence",
+    "published": "Fri, 26 Sep 2025 16:09:30 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/09/Saudi-fest.jpeg?quality=80"
+  },
+  {
+    "title": "Heavy Song of the Week: Elder Return with 13-Minute Shoegaze-Prog Epic \u201cLiminality\u201d",
+    "link": "https://consequence.net/2025/09/heavy-song-of-the-week-elder-liminality/",
+    "source": "Consequence",
+    "published": "Fri, 26 Sep 2025 16:07:29 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/09/heavy-song-of-the-week-elder-liminality.jpg?quality=80"
+  },
+  {
+    "title": "Ichiko Aoba Announces 2026 Tour Dates",
+    "link": "https://pitchfork.com/news/ichiko-aoba-announces-2026-tour-dates",
+    "source": "RSS: News",
+    "published": "Fri, 26 Sep 2025 16:06:12 +0000",
+    "image": "https://media.pitchfork.com/photos/68d5a02e9bf3478a7c75f4b9/master/pass/Ichiko-Aoba.jpeg"
+  },
+  {
+    "title": "Hop Along\u2019s Frances Quinlan Launches New Project Parts Work, Shares Debut Single \u201cTrenton\u201d",
+    "link": "https://www.stereogum.com/2324313/hop-alongs-frances-quinlan-launches-new-project-parts-work-shares-debut-single-trenton/music/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 16:03:03 +0000",
+    "image": null
+  },
+  {
+    "title": "Magdalena Bay Share New Songs \u201cSecond Sleep\u201d and \u201cStar Eyes\u201d: Listen",
+    "link": "https://pitchfork.com/news/magdalena-bay-share-new-songs-second-sleep-and-star-eyes-listen",
+    "source": "RSS: News",
+    "published": "Fri, 26 Sep 2025 16:00:00 +0000",
+    "image": "https://media.pitchfork.com/photos/68d6a5ed0f3275dabf461e21/master/pass/Magdalena-Bay.jpeg"
+  },
+  {
+    "title": "Ice Spice Samples M.I.A.\u2019s \u201cBad Girls\u201d on New Song \u201cBaddie Baddie\u201d: Listen",
+    "link": "https://pitchfork.com/news/ice-spice-samples-mia-bad-girls-on-new-song-baddie-baddie-listen",
+    "source": "RSS: News",
+    "published": "Fri, 26 Sep 2025 15:51:38 +0000",
+    "image": "https://media.pitchfork.com/photos/68d6b37b5f5b3138f77ed769/master/pass/Ice-Spice.jpeg"
+  },
+  {
+    "title": "Doja Cat\u2019s New Album Vie Is A Lot Of Fun",
+    "link": "https://www.stereogum.com/2324307/doja-cats-new-album-vie-is-a-lot-of-fun/music/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 15:27:51 +0000",
+    "image": null
+  },
+  {
+    "title": "Paul McCartney to Kick Off 2025 North American Tour",
+    "link": "https://consequence.net/2025/09/paul-mccartney-to-kick-off-2025-north-american-tour/",
+    "source": "Consequence",
+    "published": "Fri, 26 Sep 2025 15:27:13 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/09/Paul-McCartney-to-Kick-Off-2025-Tour.jpg?quality=80"
+  },
+  {
+    "title": "Kreator Announce New Album, Unveil Single \u201cSeven Serpents\u201d: Stream",
+    "link": "https://consequence.net/2025/09/kreator-new-album-single-seven-serpents/",
+    "source": "Consequence",
+    "published": "Fri, 26 Sep 2025 15:25:49 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/09/Kreator-UK-EU-Tour-poster-2026.jpg?quality=80"
+  },
+  {
+    "title": "My Chemical Romance Map Out Massive 2026 \u201cThe Black Parade\u201d Tour: How to Get Tickets",
+    "link": "https://consequence.net/2025/09/my-chemical-romance-2026-black-parade-tour-how-to-get-tickets/",
+    "source": "Consequence",
+    "published": "Fri, 26 Sep 2025 15:20:50 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/09/My-Chemical-Romance-2026-Tour-How-to-Buy.jpg?quality=80"
+  },
+  {
+    "title": "A Fever You Can\u2019t Sweat Out Turns 20",
+    "link": "https://www.stereogum.com/2324245/panic-at-the-disco-a-fever-you-cant-sweat-out-turns-20/reviews/the-anniversary/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 14:49:10 +0000",
+    "image": null
+  },
+  {
+    "title": "Watch Alex G Soothe The Jimmy Kimmel Studio Audience With \u201cOranges\u201d",
+    "link": "https://www.stereogum.com/2324297/watch-alex-g-sooth-the-jimmy-kimmel-studio-audience-with-oranges/news/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 14:48:43 +0000",
+    "image": null
+  },
+  {
+    "title": "Yasmin Williams Says Organized Republican Group Heckled Her at Kennedy Center",
+    "link": "https://pitchfork.com/news/yasmin-williams-says-organized-republican-group-heckled-her-at-kennedy-center",
+    "source": "RSS: News",
+    "published": "Fri, 26 Sep 2025 14:27:37 +0000",
+    "image": "https://media.pitchfork.com/photos/68d69a950f3275dabf461dde/master/pass/Yasmin-Williams.jpeg"
+  },
+  {
+    "title": "Syd \u2013 \u201cGMFU\u201d",
+    "link": "https://www.stereogum.com/2324293/syd-gmfu/music/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 14:25:41 +0000",
+    "image": null
+  },
+  {
+    "title": "Jonny Greenwood Releases Soundtrack for Paul Thomas Anderson\u2019s New Movie One Battle After Another: Listen",
+    "link": "https://pitchfork.com/news/jonny-greenwood-releases-soundtrack-for-paul-thomas-anderson-new-movie-one-battle-after-another-listen",
+    "source": "RSS: News",
+    "published": "Fri, 26 Sep 2025 14:22:10 +0000",
+    "image": "https://media.pitchfork.com/photos/68d414216610b370ca173d0c/master/pass/Jonny-Greenwood-Paul-Thomas-Anderson.jpeg"
+  },
+  {
+    "title": "Halsey Is Getting Her Health and Setlist in Order Ahead of \u2018Back to Badlands\u2019 Tour",
+    "link": "https://www.rollingstone.com/music/music-news/halsey-back-to-badlands-tour-setlist-teaser-1235435909/",
+    "source": "Music News",
+    "published": "Fri, 26 Sep 2025 14:20:44 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/09/halsey-on-tour-health.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Young Thug\u2019s New Album UY Scuti Is A Big Mess",
+    "link": "https://www.stereogum.com/2324285/young-thugs-new-album-uy-scuti-is-a-big-mess/music/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 14:08:58 +0000",
+    "image": null
+  },
+  {
+    "title": "5 Albums I Can\u2019t Live Without:\u00a0X Ambassadors",
+    "link": "https://www.spin.com/2025/09/5-albums-i-cant-live-without-x-ambassadors/",
+    "source": "SPIN",
+    "published": "Fri, 26 Sep 2025 14:00:00 +0000",
+    "image": "https://static.spin.com/files/2025/09/X-Ambassadors-Press-Photo-scaled-e1758726393320.jpg"
+  },
+  {
+    "title": "Deep Cut Friday: \u2018Push\u2019 by the Cure",
+    "link": "https://www.spin.com/2025/09/deep-cut-friday-push-by-the-cure/",
+    "source": "SPIN",
+    "published": "Fri, 26 Sep 2025 14:00:00 +0000",
+    "image": "https://static.spin.com/files/2025/09/GettyImages-113560740.jpg"
+  },
+  {
+    "title": "New Butthole Surfers Documentary Cements the Psych-Punk Heroes\u2019 Experimental Legacy",
+    "link": "https://www.spin.com/2025/09/new-butthole-surfers-documentary-cements-the-psych-punk-heroes-experimental-legacy/",
+    "source": "SPIN",
+    "published": "Fri, 26 Sep 2025 14:00:00 +0000",
+    "image": "https://static.spin.com/files/2025/09/GettyImages-1289967515-e1758835194960.jpg"
+  },
+  {
+    "title": "Colter Wall Announces New Album Memories And Empties: Hear \u201c1800 Miles\u201d",
+    "link": "https://www.stereogum.com/2324233/colter-wall-announces-new-album-memories-and-empties-hear-1800-miles/music/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 13:47:15 +0000",
+    "image": null
+  },
+  {
+    "title": "Sean Combs Spent His Time in Jail Teaching Fellow Inmates Business Skills and How to Be More Like Him",
+    "link": "https://www.rollingstone.com/music/music-news/sean-combs-jail-teaching-business-class-1235435902/",
+    "source": "Music News",
+    "published": "Fri, 26 Sep 2025 13:43:16 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/09/GettyImages-1780942213.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Nas Is Beating Jay-Z In A Battle To Build A Casino In NYC",
+    "link": "https://www.stereogum.com/2324275/nas-is-beating-jay-z-in-a-battle-to-build-a-casino-in-nyc/news/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 13:20:31 +0000",
+    "image": null
+  },
+  {
+    "title": "Watch Tame Impala\u2019s Video for New Song \u201cDracula\u201d",
+    "link": "https://pitchfork.com/news/watch-tame-impala-video-for-new-song-dracula",
+    "source": "RSS: News",
+    "published": "Fri, 26 Sep 2025 13:01:44 +0000",
+    "image": "https://media.pitchfork.com/photos/68d599af621ca5990a4c3e08/master/pass/Tame-Impala-Kevin-Parker.jpeg"
+  },
+  {
+    "title": "15 New Albums You Should Listen to Now: Geese, Young Thug, and More",
+    "link": "https://pitchfork.com/news/15-new-albums-you-should-listen-to-now-geese-young-thug",
+    "source": "RSS: News",
+    "published": "Fri, 26 Sep 2025 12:58:26 +0000",
+    "image": "https://media.pitchfork.com/photos/68d2e74bb6c1d571c279e942/master/pass/Geese.jpeg"
+  },
+  {
+    "title": "Tame Impala \u2013 \u201cDracula\u201d",
+    "link": "https://www.stereogum.com/2324268/tame-impala-dracula/music/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 12:53:36 +0000",
+    "image": null
+  },
+  {
+    "title": "Apologies To The Queen Mary Turns 20",
+    "link": "https://www.stereogum.com/2323926/wolf-parade-apologies-to-the-queen-mary-turns-20/reviews/the-anniversary/",
+    "source": "Stereogum",
+    "published": "Fri, 26 Sep 2025 12:49:01 +0000",
     "image": null
   }
 ]
