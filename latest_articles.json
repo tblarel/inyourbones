@@ -1,128 +1,93 @@
 [
   {
-    "title": "\u2018SNL\u2019: Watch Dijon Perform \u2018Higher!,\u2019 Medley from Latest Album",
-    "link": "https://www.rollingstone.com/music/music-news/snl-watch-dijon-perform-higher-medley-latest-album-baby-1235479482/",
-    "source": "Music News",
-    "published": "Sun, 07 Dec 2025 07:09:36 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/12/Screen-Shot-2025-12-07-at-1.55.51-AM.png?w=1361&h=763&crop=1"
-  },
-  {
-    "title": "\u2018Saturday Night Live\u2019 Livestream: How to Watch the Comedy Show Online Without Cable for\u00a0Free",
-    "link": "https://www.billboard.com/culture/product-recommendations/how-to-watch-saturday-night-live-online-free-9546472/",
-    "source": "Billboard",
-    "published": "Sun, 07 Dec 2025 04:07:45 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/11/SNL-Melissa-McCarthy-Dijon-Billboard-1548.jpg?w=1024"
-  },
-  {
-    "title": "Sydney Sweeney Addresses American Eagle Campaign Backlash: \u201cI\u2019m Against Divisiveness\u201d",
-    "link": "https://consequence.net/2025/12/sydney-sweeney-addresses-american-eagle-campaign-backlash-im-against-divisiveness/",
-    "source": "Consequence",
-    "published": "Sun, 07 Dec 2025 04:06:17 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/12/sydney-sweeney-responds-american-eagle-backlash.jpeg?quality=80"
-  },
-  {
-    "title": "He Did It: Fyre Fest\u2019s Billy McFarland Actually Put On a Music Festival",
-    "link": "https://consequence.net/2025/12/billy-mcfarland-fyre-fest-phnx/",
-    "source": "Consequence",
-    "published": "Sun, 07 Dec 2025 03:35:58 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2025/12/Billy-McFarland.jpeg?quality=80"
-  },
-  {
-    "title": "Sean Combs\u2019 Mother Slams \u2018Inaccuracies\u2019 in \u2018Reckoning\u2019 Doc, Calls Abusive Parent Claims \u2018Untrue\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/sean-combs-mother-reckoning-responds-abusive-parent-1235479528/",
-    "source": "Music News",
-    "published": "Sun, 07 Dec 2025 02:46:39 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/12/SeanCombsJaniceCombs-1.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "White House Uses Sabrina Carpenter \u2018SNL\u2019 Clip for Another ICE Deportation Video",
-    "link": "https://www.rollingstone.com/music/music-news/white-house-sabrina-carpenter-snl-ice-video-1235479504/",
-    "source": "Music News",
-    "published": "Sat, 06 Dec 2025 23:57:36 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/12/SabrinaCarpenterMarcelloHernandez-1.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Phil Upchurch, Legendary Guitarist Who Worked With Michael Jackson & Donny Hathaway, Dies at\u00a084",
-    "link": "https://www.billboard.com/music/music-news/phil-upchurch-death-guitarist-michael-jackson-dead-obituary-1236130053/",
-    "source": "Billboard",
-    "published": "Sat, 06 Dec 2025 21:57:40 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/12/phil-upchurch-1983-billboard-1800.jpg?w=1024"
-  },
-  {
-    "title": "On Kelly Moran\u2019s \u2018Mirrors,\u2019 All Is Not What It Seems",
-    "link": "https://www.spin.com/2025/12/kelly-moran-dont-trust-mirrors-review/",
-    "source": "SPIN",
-    "published": "Sat, 06 Dec 2025 21:00:00 +0000",
-    "image": "https://static.spin.com/files/2025/12/kelly_moran_023_newcroppedbybriankarlsson.jpg"
-  },
-  {
-    "title": "Jazz Upstarts SML Stay Heady On \u2018How You Been\u2019",
-    "link": "https://www.spin.com/2025/12/sml-how-you-been-review/",
-    "source": "SPIN",
-    "published": "Sat, 06 Dec 2025 20:55:00 +0000",
-    "image": "https://static.spin.com/files/2025/12/1_000303070012_CharlieWeinmann_2.jpg"
-  },
-  {
-    "title": "Miley Cyrus Opens Up About Godmother Dolly Parton\u2019s Health: \u2018The Show Must Go\u00a0On\u2019",
-    "link": "https://www.billboard.com/music/music-news/miley-cyrus-dolly-parton-health-update-1236130049/",
-    "source": "Billboard",
-    "published": "Sat, 06 Dec 2025 20:20:57 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/12/dolly-parton-miley-cyrus-grammys-2019-billboard-1800.jpg?w=1024"
-  },
-  {
-    "title": "Katy Perry Goes Instagram Official With Justin Trudeau While Sharing Japan Trip\u00a0Photos",
-    "link": "https://www.billboard.com/music/music-news/katy-perry-justin-trudeau-instagram-official-japan-trip-1236130046/",
-    "source": "Billboard",
-    "published": "Sat, 06 Dec 2025 19:05:39 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/07/justin-trudeau-katy-perry-2025-billboard-1800.jpg?w=1024"
-  },
-  {
-    "title": "See Dua Lipa Pay Tribute to Selena With \u2018Amor Prohibido\u2019 Cover in Mexico City",
-    "link": "https://www.rollingstone.com/music/music-news/dua-lipa-tribute-selena-amor-prohibido-mexico-city-1235479469/",
-    "source": "Music News",
-    "published": "Sat, 06 Dec 2025 19:01:08 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2025/12/GettyImages-2249562206.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Watch All of Dua Lipa\u2019s Classic Spanish & Portuguese Covers From Her Latin America & Spain\u00a0Tour",
-    "link": "https://www.billboard.com/lists/dua-lipa-spanish-portuguese-covers-world-tour/",
-    "source": "Billboard",
-    "published": "Sat, 06 Dec 2025 17:39:30 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/12/dua-lipa-ro-santiago-2025-espanol-billboard-1800.jpg?w=1024"
-  },
-  {
-    "title": "Dua Lipa Closes Wold Tour in Mexico With Selena Tribute: \u2018I Feel a Very Special Connection\u2019",
-    "link": "https://www.billboard.com/music/latin/dua-lipa-selena-tribute-mexico-city-tour-finale-1236130017/",
-    "source": "Billboard",
-    "published": "Sat, 06 Dec 2025 17:27:35 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/12/dua-lipa-cdmx-2025-espanol-billboard-1800.jpg?w=1024"
-  },
-  {
-    "title": "The Crying Nudes \u2013 \u201cjoyride\u201d",
-    "link": "https://stereogum.com/2482155/the-crying-nudes-joyride/music/",
+    "title": "Foxing Play Farewell Show In St. Louis",
+    "link": "https://stereogum.com/2482195/foxing-play-farewell-show-in-st-louis/news/",
     "source": "Stereogum",
-    "published": "Sat, 06 Dec 2025 16:39:16 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2025/12/5060644137949.png?w=564"
+    "published": "Sun, 07 Dec 2025 23:11:38 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2025/12/Foxing-farewell-show.jpg?w=564"
   },
   {
-    "title": "Reid \u2013 \u201crebirth\u201d",
-    "link": "https://stereogum.com/2482151/reid-rebirth/music/",
+    "title": "Kurt Vile & Stephen Malkmus Cover Oblivians\u2019 \u201cFeel Real Good\u201d",
+    "link": "https://stereogum.com/2482185/kurt-vile-stephen-malkmus-cover-oblivians-feel-real-good/news/",
     "source": "Stereogum",
-    "published": "Sat, 06 Dec 2025 15:50:21 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2025/12/artwork-2.jpg?w=564"
+    "published": "Sun, 07 Dec 2025 22:30:51 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2025/12/gnkVQTJck-c-HD.jpg?w=564"
   },
   {
-    "title": "Dakota Johnson says film financiers are \u201creally shady sometimes\u201d as she details \u201clove-hate relationship\u201d with producing",
-    "link": "https://www.nme.com/news/film/dakota-johnson-says-film-financiers-are-really-shady-sometimes-as-she-details-love-hate-relationship-with-producing-3916578?utm_source=rss&utm_medium=rss&utm_campaign=dakota-johnson-says-film-financiers-are-really-shady-sometimes-as-she-details-love-hate-relationship-with-producing",
-    "source": "News | NME",
-    "published": "Sat, 06 Dec 2025 11:34:28 +0000",
-    "image": "https://www.nme.com/wp-content/uploads/2024/02/Dakota-Johnson-Madame-Web.jpg"
+    "title": "Watch Dijon Perform \u201cHigher!\u201d and \u201cAnother Baby!\u201d on Saturday Night Live",
+    "link": "https://pitchfork.com/news/watch-dijon-perform-higher-and-baby-medley-on-saturday-night-live/",
+    "source": "RSS: News",
+    "published": "Sun, 07 Dec 2025 19:46:37 +0000",
+    "image": "https://media.pitchfork.com/photos/6935bb7fec0a028825812d0f/master/pass/Dijon.jpeg"
   },
   {
-    "title": "Garbage\u2019s Shirley Manson Defends Rant at Good Things: \u2018I Make No\u00a0Apologies\u2019",
-    "link": "https://www.billboard.com/music/rock/shirley-manson-calls-out-fan-good-things-festival-1236130009/",
+    "title": "White House Posts Second Sabrina Carpenter Edit Promoting ICE After She Gets First One Blocked",
+    "link": "https://stereogum.com/2482173/white-house-posts-second-sabrina-carpenter-video-promoting-ice-after-she-gets-first-one-blocked/news/",
+    "source": "Stereogum",
+    "published": "Sun, 07 Dec 2025 17:57:03 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2025/12/Sabrina-Carpenter.jpeg?w=564"
+  },
+  {
+    "title": "Ariana Grande Would Very Much Like To Be Excluded From 6-7 Narrative",
+    "link": "https://stereogum.com/2482169/ariana-grande-would-very-much-like-to-be-excluded-from-6-7-narrative/news/",
+    "source": "Stereogum",
+    "published": "Sun, 07 Dec 2025 16:52:27 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2025/12/Ariana-Grande.jpg?w=564"
+  },
+  {
+    "title": "Watch Toyah & Robert Fripp revisit Slade holiday classic \u201cMerry Xmas Everybody\u201d",
+    "link": "https://www.brooklynvegan.com/watch-toyah-robert-fripp-revisit-slade-holiday-classic-merry-xmas-everybody/",
+    "source": "BrooklynVegan",
+    "published": "Sun, 07 Dec 2025 16:33:51 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2025/12/07/toyah-robert-fripp-slade-merry-christmas.jpg"
+  },
+  {
+    "title": "Dijon Makes SNL Debut With Huge Band Including Justin Vernon, Nick Hakim, & Amber Coffman",
+    "link": "https://stereogum.com/2482166/dijon-makes-snl-debut-with-huge-band-including-justin-vernon-nick-hakim-amber-coffman/news/",
+    "source": "Stereogum",
+    "published": "Sun, 07 Dec 2025 15:45:40 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2025/12/tqDsmhoFpYs-HD.jpg?w=564"
+  },
+  {
+    "title": "Kiss, Sylvester Stallone Receive Oval Office Medals Ahead of Kennedy Center Honors Ceremony",
+    "link": "https://www.rollingstone.com/music/music-news/kiss-sylvester-stallone-medals-kennedy-center-honorees-1235479585/",
+    "source": "Music News",
+    "published": "Sun, 07 Dec 2025 15:29:43 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/12/GettyImages-2250412715.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Gene Simmons Says Ace Frehley\u2019s Death Was Due to \u201cBad Decisions\u201d",
+    "link": "https://consequence.net/2025/12/ace-frehley-died-bad-decisions-says-gene-simmons/",
+    "source": "Consequence",
+    "published": "Sun, 07 Dec 2025 14:54:47 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2023/12/ace-frehley-2020.jpg?quality=80"
+  },
+  {
+    "title": "Shirley Manson Addresses Beach Ball Comments During Garbage\u2019s Brisbane\u00a0Set",
+    "link": "https://www.billboard.com/music/rock/shirley-manson-beach-ball-controversy-garbage-brisbane-1236130232/",
     "source": "Billboard",
-    "published": "Sat, 06 Dec 2025 09:18:15 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2025/03/Shirley-Manson-of-Garbage-TRNSMT-Festival-2024-billboard-espanol-1548.jpg?w=1024"
+    "published": "Mon, 08 Dec 2025 05:59:49 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2025/10/shirley-manson-ohana-music-fest-2025-billboard-1800.jpg?w=1024"
+  },
+  {
+    "title": "Taylor Swift, The Beatles, Elvis & More Artists With the Most Weeks at No. 1 on the Billboard 200: Full\u00a0List",
+    "link": "https://www.billboard.com/lists/most-weeks-at-no-1-billboard-200-taylor-swift-the-beatles/",
+    "source": "Billboard",
+    "published": "Mon, 08 Dec 2025 05:22:22 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2022/12/120522-Billboard-200-Most-Weeks-at-No-1548.jpg?w=1024"
+  },
+  {
+    "title": "Violet Grohl Drops Debut Solo Tracks \u2018Thum\u2019 and \u2018Applefish\u2019",
+    "link": "https://www.rollingstone.com/music/music-news/violet-grohl-new-songs-debut-thum-applefish-1235479700/",
+    "source": "Music News",
+    "published": "Mon, 08 Dec 2025 02:44:54 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/12/VioletGrohl-1.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Karol G Expands the \u2018Tropicoqueta\u2019 Universe With Special Visual Album Broadcast",
+    "link": "https://www.rollingstone.com/music/music-news/karol-g-tropicoqueta-la-premiere-broadcast-1235477199/",
+    "source": "Music News",
+    "published": "Mon, 08 Dec 2025 01:01:54 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2025/12/Landscape-1920X1080.jpg?w=1600&h=900&crop=1"
   }
 ]
