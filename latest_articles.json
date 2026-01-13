@@ -1,191 +1,485 @@
 [
   {
-    "title": "Sombr Covrs Phoebe Bridgrs",
-    "link": "https://stereogum.com/2484831/sombr-covrs-phoebe-bridgrs/news/",
-    "source": "Stereogum",
-    "published": "Sun, 11 Jan 2026 20:03:27 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/YNqIinrUnwY-HD.jpg?w=564"
-  },
-  {
-    "title": "Sammy Hagar on His Unlikely Friendship With Bob Weir: \u2018Always the Elder, the Wise Old Soul\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/sammy-hagar-tribute-bob-weir-1235497546/",
+    "title": "My Chemical Romance Delay First Show of the Black Parade 2026 Tour",
+    "link": "https://www.rollingstone.com/music/music-news/my-chemical-romance-black-parade-2026-tour-delay-1235498661/",
     "source": "Music News",
-    "published": "Sun, 11 Jan 2026 19:36:29 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/01/GettyImages-1383240225-2.jpg?w=1600&h=900&crop=1"
+    "published": "Tue, 13 Jan 2026 07:21:30 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/01/MCR-Seattle_Lindsey-Byrnes-6-1.jpg?w=1600&h=900&crop=1"
   },
   {
-    "title": "Watch Chappell Roan & Lucy Dacus cover Magnetic Fields\u2019 \u201cThe Book of Love\u201d",
-    "link": "https://www.brooklynvegan.com/watch-chappell-roan-lucy-dacus-cover-magnetic-fields-the-book-of-love/",
+    "title": "A$AP Rocky Says New \u2018Helicopter$\u2019 Video Is \u2018JUST GENERATIONAL\u2019",
+    "link": "https://www.billboard.com/music/rb-hip-hop/asap-rocky-helicopter-video-not-ai-generated-1236153909/",
+    "source": "Billboard",
+    "published": "Tue, 13 Jan 2026 07:12:43 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2026/01/P1021BK8-e1768231291300.jpg?w=1024"
+  },
+  {
+    "title": "Eddie Vedder Plots Debut Japanese Solo Tour",
+    "link": "https://www.spin.com/2026/01/eddie-vedder-japan-tour/",
+    "source": "SPIN",
+    "published": "Tue, 13 Jan 2026 05:30:01 +0000",
+    "image": "https://static.spin.com/files/2023/04/GettyImages-1469901664-scaled.jpg"
+  },
+  {
+    "title": "Chris Stapleton\u2019s \u2018Tennessee Whiskey\u2019 Is First Country Song to Earn a Double Diamond",
+    "link": "https://www.rollingstone.com/music/music-news/tennessee-whiskey-chris-stapleton-double-diamond-riaa-1235498631/",
+    "source": "Music News",
+    "published": "Tue, 13 Jan 2026 02:40:27 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/01/chris-stapleton-certified-riaa.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Beatles Biopics Star Paul Mescal Thinks Fans \u201cWill Benefit From Knowing as Little As Possible\u201d About the Beatles",
+    "link": "https://consequence.net/2026/01/paul-mescal-beatles-biopics-update/",
+    "source": "Consequence",
+    "published": "Tue, 13 Jan 2026 02:00:33 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/01/hamnet-paul-mescal.jpg?quality=80"
+  },
+  {
+    "title": "Danielle Addresses Bunnies As MrBeast Entertains Pleas To Buy NewJeans",
+    "link": "https://stereogum.com/2485005/danielle-addresses-bunnies-as-mrbeast-entertains-pleas-to-buy-newjeans/news/",
+    "source": "Stereogum",
+    "published": "Tue, 13 Jan 2026 01:10:02 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/Screenshot-2026-01-12-at-7.43.21-PM.png?w=564"
+  },
+  {
+    "title": "Prep for TWICE\u2019s 2026 World Tour With This Official Light\u00a0Stick",
+    "link": "https://www.billboard.com/culture/product-recommendations/twice-light-stick-how-to-buy-online-1236153571/",
+    "source": "Billboard",
+    "published": "Tue, 13 Jan 2026 00:38:30 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2026/01/billboard-twice-lightstick-hero-image.jpg?w=1024"
+  },
+  {
+    "title": "A$AP Rocky Dangles From \u2018Helicopter\u2019 Over Raging City in New Video",
+    "link": "https://www.rollingstone.com/music/music-news/asap-rocky-helicopter-video-dont-be-dumb-album-1235498620/",
+    "source": "Music News",
+    "published": "Tue, 13 Jan 2026 00:27:02 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/01/asap-rocky-helicopter-video.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Here Are All the Artists Who\u2019ve Collaborated With Beyonc\u00e9 on Her Solo Studio\u00a0Albums",
+    "link": "https://www.billboard.com/photos/beyonce-features-collaborators-1235120014/",
+    "source": "Billboard",
+    "published": "Tue, 13 Jan 2026 00:00:04 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2026/01/beyonce-kendrick-lamar-2016-bet-awards-performance-billboard-1800.jpg?w=1024"
+  },
+  {
+    "title": "Tour news: The Roots, Band of Horses, Goose, Why Bonnie, more",
+    "link": "https://www.brooklynvegan.com/tour-news-the-roots-band-of-horses-goose-why-bonnie-more/",
     "source": "BrooklynVegan",
-    "published": "Sun, 11 Jan 2026 19:35:43 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/01/11/lucydacus-chappellroan.jpg"
+    "published": "Mon, 12 Jan 2026 23:56:07 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/01/12/the-roots.webp"
   },
   {
-    "title": "Grateful Dead Archivist Remembers Bob Weir: \u2018A Guitar Player Unlike Any Other\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/grateful-dead-archivist-bob-weir-tribute-1235497549/",
-    "source": "Music News",
-    "published": "Sun, 11 Jan 2026 19:29:28 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/01/GettyImages-73530174.jpg?w=1600&h=900&crop=1"
+    "title": "A Complete Guide to Every 2026 Grammy Party & Event\u00a0(Updating)",
+    "link": "https://www.billboard.com/lists/2026-grammy-parties/",
+    "source": "Billboard",
+    "published": "Mon, 12 Jan 2026 23:54:24 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2026/01/P1025HKP.jpg?w=1024"
   },
   {
-    "title": "Excessive Force Reunite For First Show In 30 Years At FYA Fest 2026",
-    "link": "https://stereogum.com/2484828/excessive-force-reunite-for-first-show-in-30-years-at-fya-fest-2026/news/",
+    "title": "Funko Pop! Turns Oasis\u2019 Liam & Noel Gallagher Into Our New Favorite Collectibles: Shop Here Before It Sells\u00a0Out",
+    "link": "https://www.billboard.com/culture/product-recommendations/where-to-buy-oasis-funko-figures-online-1236153277/",
+    "source": "Billboard",
+    "published": "Mon, 12 Jan 2026 22:58:21 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2026/01/billboard-oasis-funko-pops.jpg?w=1024"
+  },
+  {
+    "title": "Maverick City Music Countersues Co-Founder for $10M Over Competing Worship\u00a0Choir",
+    "link": "https://www.billboard.com/pro/maverick-city-music-countersues-co-founder-competing-choir/",
+    "source": "Billboard",
+    "published": "Mon, 12 Jan 2026 22:36:57 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2026/01/1405320343-e1768255956153.jpg?w=1024"
+  },
+  {
+    "title": "Turning Point USA\u2019s Halftime Show Has Multiple Acts Confirmed, But Lineup Kept Secret",
+    "link": "https://consequence.net/2026/01/turning-point-usa-halftime-show-secret/",
+    "source": "Consequence",
+    "published": "Mon, 12 Jan 2026 22:32:53 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/01/Turning-Point-USA.jpeg?quality=80"
+  },
+  {
+    "title": "Cat Power Celebrates First Gold Record",
+    "link": "https://stereogum.com/2484987/cat-power-celebrates-first-gold-record/news/",
     "source": "Stereogum",
-    "published": "Sun, 11 Jan 2026 18:51:23 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/excessive-force.jpg?w=564"
+    "published": "Mon, 12 Jan 2026 22:10:48 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/Cat-Power-Redux-photo.jpeg?w=564"
   },
   {
-    "title": "Jenny Lewis Celebrated Her 50th Birthday by Marrying Her Dog",
-    "link": "https://www.rollingstone.com/music/music-news/jenny-lewis-celebrates-50th-birthday-marrying-dog-1235497541/",
-    "source": "Music News",
-    "published": "Sun, 11 Jan 2026 18:38:51 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/01/GettyImages-2236357624.jpg?w=1600&h=900&crop=1"
+    "title": "Roddy Bottum (Faith No More, Imperial Teen) going on book tour for new memoir \u2018The Royal We\u2019",
+    "link": "https://www.brooklynvegan.com/roddy-bottum-faith-no-more-imperial-teen-going-on-book-tour-for-new-memoir-the-royal-we/",
+    "source": "BrooklynVegan",
+    "published": "Mon, 12 Jan 2026 21:58:32 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/01/12/roddy-bottum-the-royal-we.png"
   },
   {
-    "title": "Lucy Dacus & Chappell Roan Cover The Magnetic Fields At Artists For Aid Benefit",
-    "link": "https://stereogum.com/2484832/watch-lucy-dacus-cover-the-magnetic-fields-with-chappell-roan-at-artists-for-aid-benefit/news/",
+    "title": "Band of Horses Announce Everything All the Time 20th Anniversary Reissue and Tour",
+    "link": "https://consequence.net/2026/01/band-of-horses-everything-all-the-time-20th-anniversary-tour-reissue/",
+    "source": "Consequence",
+    "published": "Mon, 12 Jan 2026 21:57:37 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/01/BoH.jpg?quality=80"
+  },
+  {
+    "title": "11 New Songs Out Today",
+    "link": "https://www.brooklynvegan.com/11-new-songs-out-today-54/",
+    "source": "BrooklynVegan",
+    "published": "Mon, 12 Jan 2026 21:26:49 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/01/12/Cootie-Catcher-by-Colin-Medley.jpg"
+  },
+  {
+    "title": "Steve Aoki Sued Over \u201cWorthless\u201d NFTs",
+    "link": "https://stereogum.com/2484982/steve-aoki-sued-over-worthless-nfts/music/",
     "source": "Stereogum",
-    "published": "Sun, 11 Jan 2026 16:10:19 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/Lucy-Dacus.jpg?w=564"
+    "published": "Mon, 12 Jan 2026 21:24:17 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/GettyImages-2212331928.jpg?w=564"
   },
   {
-    "title": "See Lucy Dacus and Chappell Roan Cover \u2018The Book of Love\u2019 at Artists for Aid Benefit Concert",
-    "link": "https://www.rollingstone.com/music/music-news/lucy-dacus-chappell-roan-the-book-of-love-benefit-concert-1235497509/",
-    "source": "Music News",
-    "published": "Sun, 11 Jan 2026 16:00:02 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/01/GettyImages-2255637217.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Trey Anastasio Pays Tribute to Bob Weir: \u201cHe Was the Last Actual Hippie\u201d",
-    "link": "https://consequence.net/2026/01/trey-anastasio-bob-weir-tribute/",
-    "source": "Consequence",
-    "published": "Sun, 11 Jan 2026 14:51:13 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/01/Bob-Weir-and-Trey-Anastasio.jpeg?quality=80"
-  },
-  {
-    "title": "Billy Strings Pays Tribute to Bob Weir: \u2018Heaven\u2019s Choir Just Gained a Beautiful New Voice\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/billy-strings-tribute-bob-weir-grateful-dead-1235497503/",
-    "source": "Music News",
-    "published": "Sun, 11 Jan 2026 14:47:04 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/01/GettyImages-2178397834.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Bruno Mars\u2019 2026 Tour: How to Get Tickets",
-    "link": "https://consequence.net/2026/01/bruno-mars-2026-tour-how-to-get-tickets/",
-    "source": "Consequence",
-    "published": "Sun, 11 Jan 2026 14:05:35 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/01/Bruno-Mars-2026-Tour-How-to-Get-Tickets.jpg?quality=80"
-  },
-  {
-    "title": "K-Pop Group ITZY Set 2026 Australia and New Zealand Arena\u00a0Tour",
-    "link": "https://www.billboard.com/music/concerts/itzy-australia-new-ealand-tour-1236153075/",
-    "source": "Billboard",
-    "published": "Mon, 12 Jan 2026 05:27:22 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2024/12/itzy-seoul-kpop-super-live-2023-billboard-1548.jpg?w=1024"
-  },
-  {
-    "title": "\u2018One Battle After Another,\u2019 \u2018KPop Demon Hunters\u2019 & More Winners That Made History at the 2026 Golden\u00a0Globes",
-    "link": "https://www.billboard.com/lists/2026-golden-globes-winners-made-history-list/",
-    "source": "Billboard",
-    "published": "Mon, 12 Jan 2026 04:56:17 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2026/01/P103MD53.jpg?w=1024"
-  },
-  {
-    "title": "Golden Globes 2026 Winners List: One Battle After Another, Hamnet, The Pitt, and The Studio Triumph",
-    "link": "https://consequence.net/2026/01/golden-globes-2026-winners-full-list/",
-    "source": "Consequence",
-    "published": "Mon, 12 Jan 2026 04:45:53 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/01/golden-globes-winners-2026-hamnet-the-pitt-one-battle-after-another-the-studio.jpg?quality=80"
-  },
-  {
-    "title": "Here Are the 2026 Golden Globes Winners: Full\u00a0List",
-    "link": "https://www.billboard.com/lists/2026-golden-globes-winners-list/",
-    "source": "Billboard",
-    "published": "Mon, 12 Jan 2026 04:10:00 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2026/01/P103MC8N.jpg?w=1024"
-  },
-  {
-    "title": "Wanda Sykes Trolls Ricky Gervais at Golden Globes, Thanks God and the Trans Community on His Behalf",
-    "link": "https://consequence.net/2026/01/wanda-sykes-trolls-ricky-gervais-2026-golden-globes/",
-    "source": "Consequence",
-    "published": "Mon, 12 Jan 2026 04:08:25 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/01/Wanda-Sykes.jpeg?quality=80"
-  },
-  {
-    "title": "Chet Faker Expands \u2018A Love for Strangers\u2019 Tour With New Australia\u00a0Dates",
-    "link": "https://www.billboard.com/music/concerts/chet-faker-australian-headline-shows-love-for-strangers-world-tour-1236153009/",
-    "source": "Billboard",
-    "published": "Mon, 12 Jan 2026 03:57:12 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2022/10/chet-faker-oct-2022-billboard-1240.jpg?w=1024"
-  },
-  {
-    "title": "\u2018KPop Demon Hunters\u2019 & \u2018Sinners\u2019 Win in Music Categories at 2026 Golden\u00a0Globes",
-    "link": "https://www.billboard.com/music/awards/2026-golden-globes-music-categories-golden-sinners-win-1236152816/",
-    "source": "Billboard",
-    "published": "Mon, 12 Jan 2026 03:15:46 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2026/01/P103M9TC-e1768178921126.jpg?w=1024"
-  },
-  {
-    "title": "Ludwig G\u00f6ransson Wins Best Original Score at 2026 Golden Globes for Sinners",
-    "link": "https://pitchfork.com/news/ludwig-goransson-wins-best-original-score-at-2026-golden-globes-for-sinners/",
-    "source": "RSS: News",
-    "published": "Mon, 12 Jan 2026 02:50:10 +0000",
-    "image": "https://media.pitchfork.com/photos/6964600f10f3bb7278e185ae/master/pass/GettyImages-2255282946.jpg"
-  },
-  {
-    "title": "\u2018It\u2019s Never Too Late to Shine\u2019: EJAE Gives Inspiring Golden Globes Speech After K-Pop Smash Wins Best Original\u00a0Song",
-    "link": "https://www.billboard.com/music/awards/ejae-golden-globes-win-kpop-demon-hunters-1236152982/",
-    "source": "Billboard",
-    "published": "Mon, 12 Jan 2026 02:33:34 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2026/01/ejae-2026-golden-globes-award-speech-billboard-1800.jpg?w=1024"
-  },
-  {
-    "title": "EJAE Turns Rejection Into Triumph With Golden Globe Win for \u201cGolden\u201d",
-    "link": "https://consequence.net/2026/01/ejae-golden-globes-2026-award-speech/",
-    "source": "Consequence",
-    "published": "Mon, 12 Jan 2026 02:32:29 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/01/EJAE-at-Golden-Globes.jpeg?quality=80"
-  },
-  {
-    "title": "\u2018KPop Demon Hunters\u2019 Hit \u2018Golden\u2019 Wins Original Song Golden Globe: \u2018Never Too Late to Shine\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/2026-golden-globes-kpop-demon-hunters-best-original-song-1235495927/",
-    "source": "Music News",
-    "published": "Mon, 12 Jan 2026 02:31:34 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/01/ejae.jpg?crop=0px%2C0px%2C1800px%2C1014px&resize=1600%2C900"
-  },
-  {
-    "title": "Kpop Demon Hunters\u2019 \u201cGolden\u201d Wins Best Original Song at 2026 Golden Globes",
-    "link": "https://pitchfork.com/news/kpop-demon-hunters-golden-wins-best-original-song-at-2026-golden-globes/",
-    "source": "RSS: News",
-    "published": "Mon, 12 Jan 2026 02:27:13 +0000",
-    "image": "https://media.pitchfork.com/photos/6964649175deeaef8ba15a7c/master/pass/GettyImages-2255287971.jpg"
-  },
-  {
-    "title": "Golden Globes: KPop Demon Hunters Wins Best Song, Sinners Wins Best Score (During A Commercial Break)",
-    "link": "https://stereogum.com/2484849/golden-globes-kpop-demon-hunters-wins-best-song-sinners-wins-best-score/news/",
+    "title": "Daphni \u2013 \u201cGood Night Baby\u201d & \u201cTalk To Me\u201d",
+    "link": "https://stereogum.com/2484958/daphni-good-night-baby-talk-to-me/music/",
     "source": "Stereogum",
-    "published": "Mon, 12 Jan 2026 02:18:27 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/GettyImages-2255811889.jpg?w=564"
+    "published": "Mon, 12 Jan 2026 20:53:22 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/Daphni-Butterfly.jpg?w=564"
   },
   {
-    "title": "Ariana Grande\u2019s Signature Ponytail Returns at 2026 Golden\u00a0Globes",
-    "link": "https://www.billboard.com/music/awards/ariana-grande-ponytail-2026-golden-globes-1236152895/",
-    "source": "Billboard",
-    "published": "Mon, 12 Jan 2026 01:50:02 +0000",
-    "image": "https://www.billboard.com/wp-content/uploads/2026/01/ariana-grande-2026-golden-globes-ponytail-billboard-1800.jpg?w=1024"
+    "title": "Tibet House Benefit 2026 lineup: Debbie Harry, Laurie Anderson, Allison Russell, Toro y Moi, more",
+    "link": "https://www.brooklynvegan.com/tibet-house-benefit-2026-debbie-harry-laurie-anderson-allison-russell-toro-y-moi-more/",
+    "source": "BrooklynVegan",
+    "published": "Mon, 12 Jan 2026 20:51:38 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/01/12/tibet-house-2026.png"
   },
   {
-    "title": "David Bowie\u2019s Wife Iman Gets Blackstar Tattoo on 10th Anniversary of His Death",
-    "link": "https://consequence.net/2026/01/david-bowies-widow-tattoo-blackstar/",
+    "title": "A$AP Rocky Flies High in New \u201cHelicopter$\u201d Video: Watch",
+    "link": "https://consequence.net/2026/01/asap-rocky-helicopters/",
     "source": "Consequence",
-    "published": "Mon, 12 Jan 2026 00:43:43 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/01/Iman-tattoo.jpeg?quality=80"
+    "published": "Mon, 12 Jan 2026 20:42:51 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/01/asap-rocky-helicopter.png"
   },
   {
-    "title": "Bob Dylan, Trey Anastasio, Bruce Hornsby, and More Remember Bob Weir",
-    "link": "https://pitchfork.com/news/bob-dylan-trey-anastasio-bruce-hornsby-and-more-remember-bob-weir/",
+    "title": "Dead & Company\u2019s Oteil Burbridge Says Bob Weir Lived Enough for Two Lifetimes",
+    "link": "https://www.rollingstone.com/music/music-news/oteil-burbridge-bob-weir-tribute-dead-and-company-1235498393/",
+    "source": "Music News",
+    "published": "Mon, 12 Jan 2026 20:35:33 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/01/Oteil-Burbridge-Honors-Weir.jpg?crop=0px%2C0px%2C1800px%2C1014px&resize=1600%2C900"
+  },
+  {
+    "title": "Mary J. Blige Announces Vegas Residency, \u2018My Life, My\u00a0Story\u2019",
+    "link": "https://www.rollingstone.com/music/music-news/mary-j-blige-vegas-residency-my-life-my-story-1235498476/",
+    "source": "Music News",
+    "published": "Mon, 12 Jan 2026 20:29:35 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/01/2243694390.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Yungblud Eyes Collab with Eddie Vedder: \u201cI Think We Might Write Together\u201d",
+    "link": "https://consequence.net/2026/01/yungblud-eddie-vedder-might-write-together/",
+    "source": "Consequence",
+    "published": "Mon, 12 Jan 2026 20:25:14 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/01/Yungblud-Vedder.jpg?quality=80"
+  },
+  {
+    "title": "Kit Harington \u201cGenuinely Angered\u201d by Negative Game of Thrones Finale Reviews",
+    "link": "https://consequence.net/2026/01/kit-harington-game-of-thrones-finale-angry/",
+    "source": "Consequence",
+    "published": "Mon, 12 Jan 2026 19:54:36 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/01/Jon-Snow.jpg?quality=80"
+  },
+  {
+    "title": "The Bad Plus calling it quits, announce farewell tour",
+    "link": "https://www.brooklynvegan.com/the-bad-plus-calling-it-quits-announce-farewell-tour/",
+    "source": "BrooklynVegan",
+    "published": "Mon, 12 Jan 2026 19:54:14 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/01/12/the-bad-plus.jpeg"
+  },
+  {
+    "title": "Peaer \u2013 \u201cEnd Of The World\u201d",
+    "link": "https://stereogum.com/2484977/peaer-end-of-the-world/music/",
+    "source": "Stereogum",
+    "published": "Mon, 12 Jan 2026 19:51:58 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/Peaer.jpeg?w=564"
+  },
+  {
+    "title": "George Jones\u2019 Widow Countersued Over Ex-Boyfriend\u2019s Alleged Cryptocurrency Theft",
+    "link": "https://www.rollingstone.com/music/music-news/nancy-jones-kirk-west-lawsuit-cryptocurrency-1235498159/",
+    "source": "Music News",
+    "published": "Mon, 12 Jan 2026 19:49:54 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/01/george-and-nancy-jones.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Goose add 2 Madison Square Garden shows to 2026 tour",
+    "link": "https://www.brooklynvegan.com/goose-add-2-madison-square-garden-shows-to-2026-tour/",
+    "source": "BrooklynVegan",
+    "published": "Mon, 12 Jan 2026 19:23:15 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/01/12/goose-band.jpg"
+  },
+  {
+    "title": "Chris Stapleton\u2019s \u201cTennessee Whiskey\u201d Is the Biggest Country Song of All Time",
+    "link": "https://pitchfork.com/news/chris-stapletons-tennessee-whiskey-is-the-biggest-country-song-of-all-time/",
     "source": "RSS: News",
-    "published": "Mon, 12 Jan 2026 00:33:27 +0000",
-    "image": "https://media.pitchfork.com/photos/6962ffed40403bfeaa21dde1/master/pass/GettyImages-1473601115.jpg"
+    "published": "Mon, 12 Jan 2026 19:14:58 +0000",
+    "image": "https://media.pitchfork.com/photos/696533b0c017e01759cc0e1e/master/pass/Chris-Stapleton.jpeg"
+  },
+  {
+    "title": "Bosse-de-Nage announce first album in 8 years, \u2018Hidden Fires Burn Hottest,\u2019 share new song",
+    "link": "https://www.brooklynvegan.com/bosse-de-nage-announce-first-album-in-8-years-hidden-fires-burn-hottest-share-new-song/",
+    "source": "BrooklynVegan",
+    "published": "Mon, 12 Jan 2026 19:13:49 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/01/12/Bosse-de-Nage-HIdden-Fires-Burn-Hottest.jpg"
+  },
+  {
+    "title": "Win a cabin for 2 on Little Steven\u2019s Underground Garage Cruise 2026 (Social Distortion, Buzzcocks, more)",
+    "link": "https://www.brooklynvegan.com/win-a-cabin-for-2-on-little-stevens-underground-garage-cruise-2026-social-distortion-more/",
+    "source": "BrooklynVegan",
+    "published": "Mon, 12 Jan 2026 19:11:33 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/01/09/littlestevensunderground-crop.jpg"
+  },
+  {
+    "title": "Jane Remover \u2013 \u201cConversion 2\u201d",
+    "link": "https://stereogum.com/2484972/jane-remover-conversion-2/music/",
+    "source": "Stereogum",
+    "published": "Mon, 12 Jan 2026 19:07:48 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/Jane-Remover-Conversion-2.jpg?w=564"
+  },
+  {
+    "title": "Black Midi Guitarist Matt Kwasniewski-Kelvin Dead at 26",
+    "link": "https://www.rollingstone.com/music/music-news/black-midi-guitarist-matt-kwasniewski-kelvin-dead-1235495939/",
+    "source": "Music News",
+    "published": "Mon, 12 Jan 2026 19:05:25 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/01/black-midi-L1000197.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "The Bad Plus Announce Farewell Tour",
+    "link": "https://stereogum.com/2484961/the-bad-plus-announce-farewell-tour/news/",
+    "source": "Stereogum",
+    "published": "Mon, 12 Jan 2026 18:56:29 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/unnamed-2026-01-12T131914.892.jpg?w=564"
+  },
+  {
+    "title": "A$AP Rocky shares \u201cHelicopter$,\u201d vinyl pre-orders for new album up now",
+    "link": "https://www.brooklynvegan.com/aap-rocky-shares-helicopter-vinyl-pre-orders-for-new-album-up-now/",
+    "source": "BrooklynVegan",
+    "published": "Mon, 12 Jan 2026 18:55:05 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2025/08/04/lollapalooza-2025-sun-150.jpg"
+  },
+  {
+    "title": "Sleaford Mods share Aldous Harding collab \u201cElitest G.O.A.T.\u201d (watch the video)",
+    "link": "https://www.brooklynvegan.com/sleaford-mods-share-aldous-harding-collab-elitest-g-o-a-t-watch-the-video/",
+    "source": "BrooklynVegan",
+    "published": "Mon, 12 Jan 2026 18:19:48 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/01/12/Sleaford-Mods-Elitist-G.O.A.T.-creidt-John-Mintonjpg.jpg"
+  },
+  {
+    "title": "Morgan Nagler Announces Debut Album, I\u2019ve Got Nothing to Lose, and I\u2019m Losing It, Shares \u201cGrassoline\u201d: Stream",
+    "link": "https://consequence.net/2026/01/morgan-nagler-debut-album-grassoline/",
+    "source": "Consequence",
+    "published": "Mon, 12 Jan 2026 18:13:03 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/01/morgan-nadler-debut-album-artwork.jpg?quality=80"
+  },
+  {
+    "title": "Black Label Society\u2019s New Album Features Song Dedicated to Ozzy Osbourne",
+    "link": "https://consequence.net/2026/01/black-label-society-new-album-ozzy-osbourne-song/",
+    "source": "Consequence",
+    "published": "Mon, 12 Jan 2026 18:11:50 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/01/Black-Label-Society-Engines-of-Demolition.jpg?quality=80"
+  },
+  {
+    "title": "Watch A$AP Rocky Fly Through a Dystopian Riot in New \u201cHelicopter$\u201d Video",
+    "link": "https://pitchfork.com/news/watch-asap-rocky-fly-through-a-dystopian-riot-in-new-helicopters-video/",
+    "source": "RSS: News",
+    "published": "Mon, 12 Jan 2026 18:11:25 +0000",
+    "image": "https://media.pitchfork.com/photos/69653802b84e05b4daf7cb29/master/pass/asap-rocky-new-song-video-helicopters.JPG"
+  },
+  {
+    "title": "Nyxy Nyx \u2013 \u201cDevil Hands\u201d",
+    "link": "https://stereogum.com/2484951/nyxy-nyx-devil-hands/music/",
+    "source": "Stereogum",
+    "published": "Mon, 12 Jan 2026 18:08:09 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/Nyxy-Nyx.jpg?w=564"
+  },
+  {
+    "title": "Bob Weir\u2019s 10 Best Songs",
+    "link": "https://www.brooklynvegan.com/bob-weirs-10-best-songs/",
+    "source": "BrooklynVegan",
+    "published": "Mon, 12 Jan 2026 17:58:29 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/01/12/Bob-Weir-1974-by-Mark-SullivanGetty-Images.jpg"
+  },
+  {
+    "title": "Puscifer Unveil Comic Book Series \u201cTales from the Pusciverse\u201d",
+    "link": "https://consequence.net/2026/01/puscifer-comic-book-series-tales-from-the-pusciverse/",
+    "source": "Consequence",
+    "published": "Mon, 12 Jan 2026 17:40:09 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/01/Tales-from-the-Pusciverse.jpg?quality=80"
+  },
+  {
+    "title": "A$AP Rocky \u2013 \u201cHelicopter$\u201d",
+    "link": "https://stereogum.com/2484952/aap-rocky-helicopter/music/",
+    "source": "Stereogum",
+    "published": "Mon, 12 Jan 2026 17:38:30 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/HELICOPTER.jpg?w=564"
+  },
+  {
+    "title": "15 Songs You Should Listen to Now",
+    "link": "https://pitchfork.com/news/robyn-feng-mandy-indiana-this-weeks-pitchfork-selects-playlist/",
+    "source": "RSS: News",
+    "published": "Mon, 12 Jan 2026 17:27:25 +0000",
+    "image": "https://media.pitchfork.com/photos/69652df5b84e05b4daf7cb27/master/pass/P4K26_Selects_2x1%20(1).gif"
+  },
+  {
+    "title": "Band Of Horses Find \u2018Time\u2019 To Revisit Beloved Debut LP",
+    "link": "https://www.spin.com/2026/01/band-of-horses-debut-album-anniversary/",
+    "source": "SPIN",
+    "published": "Mon, 12 Jan 2026 17:24:00 +0000",
+    "image": "https://static.spin.com/files/2026/01/bandofhorses-2026-promo-01-stevieandsarahgee-2661x1500-300.jpg"
+  },
+  {
+    "title": "Neko Case on Neon Grey Midnight Green, Making an Album About Music, and Why Spiders Deserve Better PR: Podcast",
+    "link": "https://consequence.net/2026/01/neko-case-neon-grey-midnight-green-interview/",
+    "source": "Consequence",
+    "published": "Mon, 12 Jan 2026 17:23:28 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/01/neko-case-interview-kyle-meredith-with-podcast.jpg?quality=80"
+  },
+  {
+    "title": "2026 Rock the Country Fest Boasts Kid Rock, Creed, Jelly Roll, and Jason Aldean",
+    "link": "https://consequence.net/2026/01/2026-rock-the-country-festival-kid-rock-creed-jelly-roll-blake-shelton/",
+    "source": "Consequence",
+    "published": "Mon, 12 Jan 2026 17:23:22 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/01/Kid-Rock-Creed.jpg?quality=80"
+  },
+  {
+    "title": "Cootie Catcher \u2013 \u201cPuzzle Pop\u201d",
+    "link": "https://stereogum.com/2484899/cootie-catcher-puzzle-pop/music/",
+    "source": "Stereogum",
+    "published": "Mon, 12 Jan 2026 17:19:23 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/Cootie-Catcher-by-Colin-Medley.jpeg?w=564"
+  },
+  {
+    "title": "black midi\u2019s Matthew Kwasniewski-Kelvin has died",
+    "link": "https://www.brooklynvegan.com/black-midis-matthew-kwasniewski-kelvin-has-died/",
+    "source": "BrooklynVegan",
+    "published": "Mon, 12 Jan 2026 17:09:50 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2019/11/23/blackmidi-warsaw-20.jpg"
+  },
+  {
+    "title": "LEGO Reveals First-Ever Pok\u00e9mon Sets, Including Pikachu, Charizard, and More",
+    "link": "https://consequence.net/2026/01/lego-pokemon-sets-pikachu-charizard/",
+    "source": "Consequence",
+    "published": "Mon, 12 Jan 2026 17:08:44 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/01/lego-pokemon-sets-revealed-pikachu-charizard-blastoise-venusaur-eevee.jpg?quality=80"
+  },
+  {
+    "title": "Bosse-de-Nage Announce First New Album In Eight Years Hidden Fires Burn Hottest: Hear \u201cNo Such Place\u201d",
+    "link": "https://stereogum.com/2484942/bosse-de-nage-announce-first-new-album-in-eight-years-hidden-fires-burn-hottest-hear-no-such-place/music/",
+    "source": "Stereogum",
+    "published": "Mon, 12 Jan 2026 17:03:35 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/Bosse-De-Nage-Hidden-Fires-Burn-Hottest.jpg?w=564"
+  },
+  {
+    "title": "Jenny Lewis \u201cMarries\u201d Her Dog at 50th Birthday Party",
+    "link": "https://consequence.net/2026/01/jenny-lewis-marries-dog-50th-birthday/",
+    "source": "Consequence",
+    "published": "Mon, 12 Jan 2026 16:45:22 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/01/Jenny-Lewis.jpeg?quality=80"
+  },
+  {
+    "title": "Chris Stapleton Has The First-Ever Double Diamond-Selling Country Song",
+    "link": "https://stereogum.com/2484928/chris-stapleton-has-the-first-ever-double-diamond-selling-country-song/news/",
+    "source": "Stereogum",
+    "published": "Mon, 12 Jan 2026 16:42:46 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/Chris-Stapleton.jpg?w=564"
+  },
+  {
+    "title": "Matt Kwasniewski-Kelvin, Founding black midi Guitarist, Dead at 26",
+    "link": "https://consequence.net/2026/01/matt-kwasniewski-kelvin-dead-black-midi-guitarist/",
+    "source": "Consequence",
+    "published": "Mon, 12 Jan 2026 16:23:44 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/01/Black-Midi-Lowlands-Ben-Kaye-2.jpeg?quality=80"
+  },
+  {
+    "title": "Sugar reissuing \u2018Copper Blue,\u2019 \u2018Beaster\u2019 & \u2018File Under Easy Listening\u2019 on colored vinyl ahead of reunion shows",
+    "link": "https://www.brooklynvegan.com/sugar-reissuing-copper-blue-beaster-file-under-easy-listening-on-colored-vinyl-ahead-of-reunion-shows/",
+    "source": "BrooklynVegan",
+    "published": "Mon, 12 Jan 2026 16:20:14 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/01/12/SUGAR_COPPER_BLUE_LP_COLOUR_4099964211115_EXPLODED.webp"
+  },
+  {
+    "title": "Morrissey Sang The Smiths\u2019 Music Industry Polemic For The First Time In 29 Years",
+    "link": "https://stereogum.com/2484920/morrissey-sang-the-smiths-music-industry-polemic-for-the-first-time-in-29-years/news/",
+    "source": "Stereogum",
+    "published": "Mon, 12 Jan 2026 16:17:37 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/Morrissey_f07bba.jpg?w=564"
+  },
+  {
+    "title": "Zach Bryan Releases Acoustic Version Of New Album For \u201cPeople Saying It\u2019s Over Produced And Shitty\u201d",
+    "link": "https://stereogum.com/2484889/zach-bryan-releases-acoustic-version-of-new-album-for-people-saying-its-over-produced-and-shitty/music/",
+    "source": "Stereogum",
+    "published": "Mon, 12 Jan 2026 16:00:45 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/With-Heaven-On-Top-Acoustic.jpg?w=564"
+  },
+  {
+    "title": "Black Midi Co-Founder Matt Kwasniewski-Kelvin Dies at 26",
+    "link": "https://pitchfork.com/news/black-midi-co-founder-matt-kwasniewski-kelvin-dies-at-26/",
+    "source": "RSS: News",
+    "published": "Mon, 12 Jan 2026 15:56:04 +0000",
+    "image": "https://media.pitchfork.com/photos/696517678433b41f38befd82/master/pass/black%20midi%20obituary.jpg"
+  },
+  {
+    "title": "Black Midi Guitarist Matt Kwasniewski-Kelvin Dead At 26",
+    "link": "https://stereogum.com/2484904/black-midi-guitarist-matt-kwasniewski-kelvin-has-died/news/",
+    "source": "Stereogum",
+    "published": "Mon, 12 Jan 2026 15:48:38 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/Black-Midi-1.jpeg?w=564"
+  },
+  {
+    "title": "Sleaford Mods \u2013 \u201cElitest G.O.A.T.\u201d (Feat. Aldous Harding)",
+    "link": "https://stereogum.com/2484913/sleaford-mods-elitest-g-o-a-t-feat-aldous-harding/music/",
+    "source": "Stereogum",
+    "published": "Mon, 12 Jan 2026 15:47:43 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/rhDmgcEvtpY-HD.jpg?w=564"
+  },
+  {
+    "title": "Band of Horses announce \u2018Everything All the Time\u2019 20th anniversary deluxe reissue & tour",
+    "link": "https://www.brooklynvegan.com/band-of-horses-announce-everything-all-the-time-20th-anniversary-reissue-tour/",
+    "source": "BrooklynVegan",
+    "published": "Mon, 12 Jan 2026 15:36:32 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/01/12/band-of-horses-everything-all-the-time.jpg"
+  },
+  {
+    "title": "A Symphony of Sound",
+    "link": "https://www.spin.com/2026/01/a-symphony-of-sound/",
+    "source": "SPIN",
+    "published": "Mon, 12 Jan 2026 15:30:00 +0000",
+    "image": "https://static.spin.com/files/2026/01/leadGettyImages-1261268382.jpg"
+  },
+  {
+    "title": "Band of Horses Set 20th Anniversary Tour for Everything All the Time",
+    "link": "https://pitchfork.com/news/band-of-horses-20th-anniversary-tour-everything-all-the-time/",
+    "source": "RSS: News",
+    "published": "Mon, 12 Jan 2026 15:13:25 +0000",
+    "image": "https://media.pitchfork.com/photos/696502c5a7d7f8c18c6975cf/master/pass/band-of-horses-anniversary-tour.jpg"
+  },
+  {
+    "title": "Faith No More\u2019s Roddy Bottum Reveals He Made Millions Off Early Apple Investment",
+    "link": "https://stereogum.com/2484892/faith-no-mores-roddy-bottum-reveals-he-made-millions-off-early-apple-investment/news/",
+    "source": "Stereogum",
+    "published": "Mon, 12 Jan 2026 14:57:01 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/Roddy-Bottum-1.jpg?w=564"
+  },
+  {
+    "title": "Dry Cleaning Dance Themselves Dirty",
+    "link": "https://www.spin.com/2026/01/dry-cleaning-dance-themselves-dirty/",
+    "source": "SPIN",
+    "published": "Mon, 12 Jan 2026 14:30:00 +0000",
+    "image": "https://static.spin.com/files/2022/09/mail.jpeg"
+  },
+  {
+    "title": "The 10 Best Bob Weir Songs",
+    "link": "https://stereogum.com/2484882/the-10-best-bob-weir-songs/lists/10-best-songs/",
+    "source": "Stereogum",
+    "published": "Mon, 12 Jan 2026 14:08:46 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/GettyImages-85727644.jpg?w=564"
+  },
+  {
+    "title": "The Alternative Number Ones: Dishwalla\u2019s \u201cCounting Blue Cars\u201d",
+    "link": "https://stereogum.com/2484207/the-alternative-number-ones-dishwallas-counting-blue-cars/columns/the-alternative-number-ones/",
+    "source": "Stereogum",
+    "published": "Mon, 12 Jan 2026 14:02:54 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/01/Counting-Blue-Cars.jpg?w=564"
   }
 ]
