@@ -1,289 +1,415 @@
 [
   {
-    "title": "Ravyn Lenae Plots 2026 North American Tour",
-    "link": "https://pitchfork.com/news/ravyn-lenae-plots-2026-north-american-tour/",
-    "source": "RSS: News",
-    "published": "Tue, 23 Jun 2026 02:22:57 +0000",
-    "image": "https://media.pitchfork.com/photos/6a39ecdfd9ab673ccf029e97/master/pass/Ravyn%20Lenae,%20photo%20courtesy%20of%20the%20artist.png"
-  },
-  {
-    "title": "Liam Payne\u2019s 9-Year-Old Son Named Sole Inheritor of Singer\u2019s $29 Million Estate",
-    "link": "https://www.rollingstone.com/music/music-news/liam-payne-son-beneficiary-29-million-estate-1235582095/",
+    "title": "Taylor Swift and Lainey Wilson Surprise Duet \u2018Love Story\u2019 at Travis Kelce\u2019s NFL Concert",
+    "link": "https://www.rollingstone.com/music/music-news/taylor-swift-lainey-wilson-love-story-tight-end-university-1235582910/",
     "source": "Music News",
-    "published": "Tue, 23 Jun 2026 01:37:13 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/06/Liam-Payne-son-estate-inherits.jpg?w=1600&h=900&crop=1"
+    "published": "Wed, 24 Jun 2026 05:16:51 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/06/Taylor-Swift-Lainey-Wilson-NFL-concert.jpg?w=1600&h=900&crop=1"
   },
   {
-    "title": "Tour News: Craig Finn, Soulwax, Dirty Projectors, Jensen McRae, Angelo De Augustine, Brian Fallon, more",
-    "link": "https://www.brooklynvegan.com/tour-news-craig-finn-soulwax-dirty-projectors-jensen-mcrae-angelo-de-augustine-brian-fallon-more/",
-    "source": "BrooklynVegan",
-    "published": "Mon, 22 Jun 2026 22:08:12 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/06/21/Jensen-McRae-photo-by-Caity-Krone.jpg"
-  },
-  {
-    "title": "Ezra Collective prep new album, announce North American tour dates",
-    "link": "https://www.brooklynvegan.com/ezra-collective-prep-new-album-announce-north-american-tour-dates/",
-    "source": "BrooklynVegan",
-    "published": "Mon, 22 Jun 2026 22:01:31 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/06/22/EzraCollective_1024.jpg"
-  },
-  {
-    "title": "Wild Pink share \u201cBox Store\u201d from upcoming LP, announce more fall tour dates",
-    "link": "https://www.brooklynvegan.com/wild-pink-share-box-store-from-upcoming-lp-announce-more-fall-tour-dates/",
-    "source": "BrooklynVegan",
-    "published": "Mon, 22 Jun 2026 21:41:48 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/06/22/wild-pink.jpg"
-  },
-  {
-    "title": "Stanley Simmons, Sons of KISS Legends, Announce First Full-Scale US Tour",
-    "link": "https://consequence.net/2026/06/stanley-simmons-first-full-scale-us-tour/",
+    "title": "Jackass Cast Gets Penis-Shaped Constellation Named In Their Honor",
+    "link": "https://consequence.net/2026/06/jackass-constellation-giant-penis/",
     "source": "Consequence",
-    "published": "Mon, 22 Jun 2026 21:29:20 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/06/Stanley-Simmons-tour-poster-alternate.jpg?quality=80"
+    "published": "Wed, 24 Jun 2026 03:55:54 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/06/Jackass.jpeg?quality=80"
   },
   {
-    "title": "The Fast and the Furious Gets New 4K Remaster for 25th Anniversary",
-    "link": "https://consequence.net/2026/06/fast-and-furious-25th-anniversary-4k-remaster/",
+    "title": "Alicia Keys Remembers How Clive Davis \u2018Stood Beside Me Through Every Chapter\u2019 in Heartfelt Tribute",
+    "link": "https://www.rollingstone.com/music/music-news/clive-davis-dead-alicia-keys-tribute-1235582874/",
+    "source": "Music News",
+    "published": "Wed, 24 Jun 2026 01:17:57 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/06/Alicia-Keys-Clive-Davis.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Tour news: Senses Fail / Koyo / Initiate, Free Throw / Microwave, Sonic Temple 2027, more",
+    "link": "https://www.brooklynvegan.com/tour-news-senses-fail-koyo-initiate-free-throw-microwave-sonic-temple-2027-more/",
+    "source": "BrooklynVegan",
+    "published": "Tue, 23 Jun 2026 23:04:35 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/01/20/Free-Throw-by-Imani-Givertz.jpg"
+  },
+  {
+    "title": "21 New Songs Out Today",
+    "link": "https://www.brooklynvegan.com/21-new-songs-out-today-93/",
+    "source": "BrooklynVegan",
+    "published": "Tue, 23 Jun 2026 22:18:11 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/06/23/Deux-Visages-by-Juliette-Boulay.jpeg"
+  },
+  {
+    "title": "The Thermals announce first album in 10 years,\u00a0share \u201cSpirit Collectors\u201d",
+    "link": "https://www.brooklynvegan.com/the-thermals-announce-first-album-in-10-years-share-spirit-collectors/",
+    "source": "BrooklynVegan",
+    "published": "Tue, 23 Jun 2026 20:53:26 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/06/23/the-thermals.jpg"
+  },
+  {
+    "title": "Australia\u2019s Swapmeet prep debut album (hear 4 songs), announce North American tour",
+    "link": "https://www.brooklynvegan.com/australias-swapmeet-prep-debut-album-hear-4-songs-announce-north-american-tour/",
+    "source": "BrooklynVegan",
+    "published": "Tue, 23 Jun 2026 20:35:19 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/06/23/swapmeet-photo-by-David-Milan-Kelly.jpg"
+  },
+  {
+    "title": "Prime Day\u2019s Most Essential 4K and Blu-ray Movie and TV Box Sets",
+    "link": "https://consequence.net/2026/06/best-4k-blu-ray-movie-deals-prime-day-2026/",
     "source": "Consequence",
-    "published": "Mon, 22 Jun 2026 21:25:54 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/06/fast-and-the-furious-4k-25th-anniversary.jpg?quality=80"
+    "published": "Tue, 23 Jun 2026 20:32:24 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/06/2026-prime-day-4k-movie-deals-1.jpg?quality=80"
   },
   {
-    "title": "Bodega announce new album  \u2018All Inside Aquarium,\u2019 share title track",
-    "link": "https://www.brooklynvegan.com/bodega-announce-new-album-all-inside-aquarium-share-title-track/",
-    "source": "BrooklynVegan",
-    "published": "Mon, 22 Jun 2026 21:24:29 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/06/22/bodega-photo-by-pooneh-ghana.png"
-  },
-  {
-    "title": "23 New Songs Out Today",
-    "link": "https://www.brooklynvegan.com/23-new-songs-out-today-103/",
-    "source": "BrooklynVegan",
-    "published": "Mon, 22 Jun 2026 20:51:35 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/06/21/fka-twigs-lil-yachty.jpg"
-  },
-  {
-    "title": "Pz\u2019, Tyla, Beverly Glenn-Copeland, and More: This Week\u2019s Pitchfork Selects Playlist",
-    "link": "https://pitchfork.com/news/pz-ok-tyla-and-more-this-weeks-pitchfork-selects-playlist/",
-    "source": "RSS: News",
-    "published": "Mon, 22 Jun 2026 20:06:15 +0000",
-    "image": "https://media.pitchfork.com/photos/6a396e17e3e68e27fb3c4508/master/pass/P4K26-0622_Selects_2x1.gif"
-  },
-  {
-    "title": "Ravyn Lenae announces fall tour with Nourished by Time, Lexa Gates, and Q",
-    "link": "https://www.brooklynvegan.com/ravyn-lenae-announces-fall-tour-with-nourished-by-time-lexa-gates-and-q/",
-    "source": "BrooklynVegan",
-    "published": "Mon, 22 Jun 2026 20:00:06 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/06/07/govball2026-sat-15.jpg"
-  },
-  {
-    "title": "SOAK \u2013 \u201cDeath Valley Fridge Magnet\u201d",
-    "link": "https://stereogum.com/2503068/soak-death-valley-fridge-magnet/music/",
-    "source": "Stereogum",
-    "published": "Mon, 22 Jun 2026 19:52:57 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/unnamed-2026-06-22T155222.606.jpg?w=564"
-  },
-  {
-    "title": "Carlos Santana Remembers \u2018Visionary\u2019 Record Exec Clive Davis: He \u2018Recognized the Light in People\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/carlos-santana-tribute-clive-davis-1235581708/",
+    "title": "AC/DC to Power Up Tour Dates With Special Pop-Up Shops",
+    "link": "https://www.rollingstone.com/music/music-news/acdc-power-up-tour-pop-ups-1235582527/",
     "source": "Music News",
-    "published": "Mon, 22 Jun 2026 19:39:32 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/06/GettyImages-1402498335.jpg?w=1600&h=900&crop=1"
+    "published": "Tue, 23 Jun 2026 20:21:56 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/06/acdc-pop-up.jpg?w=1600&h=900&crop=1"
   },
   {
-    "title": "Little Island 2026 summer series: Julio Torres, \u2018Alan Ginsberg at 100,\u2019 Justin Vivian Bond, more",
-    "link": "https://www.brooklynvegan.com/little-island-2026-summer-series-julio-torres-alan-ginsberg-at-100-justin-vivian-bond-more/",
+    "title": "Chelsea Wolfe announces fall tour, shares new songs \u201cThe Dark\u201d & \u201cDeath is Not the End\u201d",
+    "link": "https://www.brooklynvegan.com/chelsea-wolfe-announces-fall-tour-shares-new-songs-the-dark-death-is-not-the-end/",
     "source": "BrooklynVegan",
-    "published": "Mon, 22 Jun 2026 19:15:27 +0000",
-    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/06/22/little-island-2026.jpg"
+    "published": "Tue, 23 Jun 2026 19:40:28 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/06/23/chelsea-wolfe-pic-2026.jpg"
   },
   {
-    "title": "Bruce Springsteen Remembers Clive Davis: \u2018He Changed My Life When He Signed Me\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/bruce-springsteen-remembers-clive-davis-1235581620/",
+    "title": "M\u00f6tley Cr\u00fce Summer 2026 North American Tour: How to Get Last-Minute Tickets",
+    "link": "https://consequence.net/2026/06/motley-crue-summer-2026-tour-how-to-get-tickets/",
+    "source": "Consequence",
+    "published": "Tue, 23 Jun 2026 19:40:17 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2025/11/Motley-Crue.jpg?quality=80"
+  },
+  {
+    "title": "Curbside Lambsear \u2013 \u201cMan The Door\u201d",
+    "link": "https://stereogum.com/2503182/curbside-lambsear-man-the-door/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 19:19:34 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/a4160129653_10.jpg?w=564"
+  },
+  {
+    "title": "Neil Young Quietly Released a Blazing, Hourlong Concert Film for Free",
+    "link": "https://www.rollingstone.com/music/music-news/neil-young-concert-film-free-1235582494/",
     "source": "Music News",
-    "published": "Mon, 22 Jun 2026 18:48:15 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/06/springsteen-on-clive.jpg?crop=0px%2C0px%2C1800px%2C1014px&resize=1600%2C900"
+    "published": "Tue, 23 Jun 2026 19:18:42 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/06/neil-young-doc.jpg?crop=0px%2C30px%2C1800px%2C1014px&resize=1600%2C900"
   },
   {
-    "title": "Madonna Says Her Biopic Was Killed After a \u2018Falling Out\u2019 With Universal Pictures Over Budget",
-    "link": "https://www.rollingstone.com/music/music-news/madonna-biopic-killed-budget-dispute-universal-1235581600/",
+    "title": "Frankie Rose announces new album \u2018Hila\u2019: hear \u201cCan\u2019t Be Wrong\u201d",
+    "link": "https://www.brooklynvegan.com/frankie-rose-announces-new-album-hila-hear-cant-be-wrong/",
+    "source": "BrooklynVegan",
+    "published": "Tue, 23 Jun 2026 18:52:24 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/06/23/frankie-rose.jpg"
+  },
+  {
+    "title": "D\u00eda De Los Deftones 2026 Has Converge, Lip Critic, The Neighbourhood, & More",
+    "link": "https://stereogum.com/2503169/dia-de-los-deftones-2026-has-converge-lip-critic-the-neighbourhood-more/news/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 18:41:07 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/unnamed-37.png?w=564"
+  },
+  {
+    "title": "Long Odds \u2013 \u201cBefore Here\u201d",
+    "link": "https://stereogum.com/2503158/long-odds-before-here/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 18:30:44 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/band-photo-1.jpg?w=564"
+  },
+  {
+    "title": "Yard Act share \u201cNew Beginnings\u201d from upcoming album, add tour dates around Riot Fest",
+    "link": "https://www.brooklynvegan.com/yard-act-share-new-beginnings-from-upcoming-album-add-tour-dates-around-riot-fest/",
+    "source": "BrooklynVegan",
+    "published": "Tue, 23 Jun 2026 18:29:26 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/06/23/Press-Photo-2_Credit_-James-Winstanley.jpg"
+  },
+  {
+    "title": "Dia Los Deftones 2026 lineup: Converge, AFI, Jehnny Beth, Lip Critic, Bktherula, more",
+    "link": "https://www.brooklynvegan.com/dia-los-deftones-2026-lineup-converge-afi-jehnny-beth-lip-critic-bktherula-more/",
+    "source": "BrooklynVegan",
+    "published": "Tue, 23 Jun 2026 18:00:41 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/06/23/dia-los-deftones-2026.jpg"
+  },
+  {
+    "title": "Let Florist\u2019s Emily Sprague \u201cSing To\u201d You on New Single",
+    "link": "https://pitchfork.com/news/florist-emily-sprague-new-album/",
+    "source": "RSS: News",
+    "published": "Tue, 23 Jun 2026 17:57:30 +0000",
+    "image": "https://media.pitchfork.com/photos/6a3abda97da85ddc43e1bf20/master/pass/Emily%20A.%20Sprague%20-%20Double%20Moon%20-%20Pic%20001%20%5BV%20Haddad%5D.png"
+  },
+  {
+    "title": "Yard Act \u2013 \u201cNew Beginnings\u201d",
+    "link": "https://stereogum.com/2503153/yard-act-new-beginnings/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 17:52:09 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/unnamed-2026-06-23T135021.268.jpg?w=564"
+  },
+  {
+    "title": "Bright Eyes announce tour with Lullaby for the Working Class (who are reuniting for 1st shows in 16 years)",
+    "link": "https://www.brooklynvegan.com/bright-eyes-announce-tour-with-lullaby-for-the-working-class-who-are-reuniting-for-1st-shows-in-16-years/",
+    "source": "BrooklynVegan",
+    "published": "Tue, 23 Jun 2026 17:39:15 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/06/23/bright-eyes-lulaby-for-the-working-class-tour-1.jpg"
+  },
+  {
+    "title": "Dari Bay \u2013 \u201cOn Your Side\u201d",
+    "link": "https://stereogum.com/2503143/dari-bay-on-your-side/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 17:29:42 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/unnamed-2026-06-23T130946.253.jpg?w=564"
+  },
+  {
+    "title": "Evil Island \u2013 \u201cMelted Heart\u201d (Feat. Sleigh Bells\u2019 Alexis Krauss)",
+    "link": "https://stereogum.com/2503141/evil-island-melted-heart-feat-sleigh-bells-alexis-krauss/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 17:23:54 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Evil-Island.jpg?w=564"
+  },
+  {
+    "title": "Deftones\u2019 Shelved Album Eros Reportedly Leaks After 18 Years",
+    "link": "https://stereogum.com/2503135/deftones-shelved-album-eros-reportedly-leaks-after-18-years/news/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 17:23:28 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/unnamed-2026-06-23T132229.051.jpg?w=564"
+  },
+  {
+    "title": "Olivia Rodrigo Might Just Sing \u2018Landslide\u2019 With Stevie Nicks at Daisy Chain Fields",
+    "link": "https://www.rollingstone.com/music/music-news/olivia-rodrigo-stevie-nicks-landslide-daisy-chain-fields-1235582359/",
     "source": "Music News",
-    "published": "Mon, 22 Jun 2026 18:25:57 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/06/GettyImages-2279886943.jpg?w=1600&h=900&crop=1"
+    "published": "Tue, 23 Jun 2026 17:13:33 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/06/stevie-olivia-fest.jpg?crop=0px%2C0px%2C1800px%2C1014px&resize=1600%2C900"
   },
   {
-    "title": "Olivia Rodrigo Is Throwing a Fest With an All-Women Lineup Featuring Bikini Kill, Chappell Roan, Doechii",
-    "link": "https://www.rollingstone.com/music/music-news/olivia-rodrigo-daisy-chain-fest-bikini-kill-chappell-roan-1235581562/",
-    "source": "Music News",
-    "published": "Mon, 22 Jun 2026 18:18:22 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/06/daisy-festival-olivia.jpg?crop=0px%2C0px%2C1800px%2C1014px&resize=1600%2C900"
-  },
-  {
-    "title": "Legendary Music Exec Clive Davis Dies At 94",
-    "link": "https://www.spinmagazine.com/2026/06/clive-davis-obit/",
+    "title": "Springsteen, Santana, Joel Honor Clive Davis",
+    "link": "https://www.spinmagazine.com/2026/06/clive-davis-tributes/",
     "source": "SPIN",
-    "published": "Mon, 22 Jun 2026 17:50:00 +0000",
-    "image": "https://static.spinmagazine.com/files/2017/09/GettyImages-841980336-1505758901.jpg"
+    "published": "Tue, 23 Jun 2026 17:02:11 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/06/as_is-scaled.jpeg"
   },
   {
-    "title": "Olivia Rodrigo Launches Massive All-Female Fest",
-    "link": "https://www.spinmagazine.com/2026/06/olivia-rodrigo-festival/",
+    "title": "Your Favorite Artist Is Probably Opening for Turnstile\u2019s Next Tour",
+    "link": "https://pitchfork.com/news/your-favorite-artist-is-probably-opening-for-turnstile-this-fall/",
+    "source": "RSS: News",
+    "published": "Tue, 23 Jun 2026 17:02:08 +0000",
+    "image": "https://media.pitchfork.com/photos/6a3aa35e3d85cbbe413a9dcd/master/pass/turnstile-tour.jpg"
+  },
+  {
+    "title": "Turnstile Announce 2026 Tour With Openers Including Slayyyter, Clipse, Vince Staples, & More",
+    "link": "https://stereogum.com/2503035/turnstile-announce-2026-tour-with-openers-including-slayyyter-clipse-vince-staples-more/news/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 17:01:51 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/TURNSTILE-NEVER-ENOUGH-TOUR-PT.-2-Admat.jpg?w=564"
+  },
+  {
+    "title": "Turnstile Taps Eclectic Cast For Fall Tour",
+    "link": "https://www.spinmagazine.com/2026/06/turnstile-fall-tour/",
     "source": "SPIN",
-    "published": "Mon, 22 Jun 2026 17:49:00 +0000",
-    "image": "https://static.spinmagazine.com/files/2026/04/Static_TM-ArtistImage_2426x1365_OliviaRodrigo_2026_Photo.jpg"
+    "published": "Tue, 23 Jun 2026 17:00:00 +0000",
+    "image": "https://static.spinmagazine.com/files/2025/04/TURNSTILE-Main-Pub-2025-Atiba-Jefferson-1290x855.jpg"
   },
   {
-    "title": "Team Dresch Return With First Album in 30 Years",
-    "link": "https://pitchfork.com/news/team-dresch-return-with-first-album-in-30-years/",
-    "source": "RSS: News",
-    "published": "Mon, 22 Jun 2026 17:48:58 +0000",
-    "image": "https://media.pitchfork.com/photos/6a394785393fc0fa5a741709/master/pass/Team-Dresch.jpeg"
-  },
-  {
-    "title": "Carly Rae Jepsen Doubles Up On New LP",
-    "link": "https://www.spinmagazine.com/2026/06/carly-rae-jepsen-new-album/",
+    "title": "DOMi, JD BECK Ready First LP Since \u201922",
+    "link": "https://www.spinmagazine.com/2026/06/domi-jd-beck-new-album/",
     "source": "SPIN",
-    "published": "Mon, 22 Jun 2026 17:48:00 +0000",
-    "image": "https://static.spinmagazine.com/files/2026/06/MAIN-CRJ_press2026_by-Vince-Aung-scaled.jpg"
+    "published": "Tue, 23 Jun 2026 16:58:00 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/06/domiJD.jpg"
   },
   {
-    "title": "Yasiin Bey Gives \u2018The Ecstatic\u2019 A Second Life",
-    "link": "https://www.spinmagazine.com/2026/06/yasiin-bey-mos-def-ecstatic/",
+    "title": "Mannequin Pussy & Wednesday Announce Bitch Cabal Tour",
+    "link": "https://stereogum.com/2503137/mannequin-pussy-wednesday-announce-bitch-cabal-tour/news/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 16:50:02 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Mannequin-Pussy-tour.jpeg?w=564"
+  },
+  {
+    "title": "Swapmeet \u2013 \u201cHalfway\u201d",
+    "link": "https://stereogum.com/2503133/swapmeet-halfway/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 16:31:13 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Swapmeet.jpeg?w=564"
+  },
+  {
+    "title": "Chelsea Wolfe Shares Spectral New Songs, Fragrance",
+    "link": "https://stereogum.com/2503125/chelsea-wolfe-shares-spectral-new-songs-fragrance/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 16:11:00 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Chelsea-Wolfe.jpg?w=564"
+  },
+  {
+    "title": "Wednesday and Mannequin Pussy Join Forces for the Bitch Cabal Tour",
+    "link": "https://pitchfork.com/news/wednesday-and-mannequin-pussy-join-forces-for-co-headlining-tour/",
+    "source": "RSS: News",
+    "published": "Tue, 23 Jun 2026 16:05:22 +0000",
+    "image": "https://media.pitchfork.com/photos/6a3a13ed7da85ddc43e1b649/master/pass/Wednesday%20(Emilio%20Herce)%20and%20Mannequin%20Pussy%20(Lindsey%20Byrnes).png"
+  },
+  {
+    "title": "The Tubs\u00a0Announce New Album\u00a0Hard Life: Hear \u201cWho\u2019s Gonna Love You Now?\u201d",
+    "link": "https://stereogum.com/2503122/the-tubs-announce-new-album-hard-life-hear-whos-gonna-love-you-now/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 16:03:57 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/The-Tubs-Hard-Life-Album-Art.jpg?w=564"
+  },
+  {
+    "title": "Fiddlehead Announce New EP Out Friday: Hear Title Track \u201cBaby I\u2019ll Change\u201d",
+    "link": "https://stereogum.com/2502854/fiddlehead-announce-new-ep-out-friday-hear-title-track-baby-ill-change/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 16:02:48 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/c94fd94e-10c4-41f6-c219-acbb23ca24bc.jpg?w=564"
+  },
+  {
+    "title": "Album Of The Week: Tasha You Are Spring!",
+    "link": "https://stereogum.com/2502949/album-of-the-week-tasha-you-are-spring/reviews/album-of-the-week/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 15:51:36 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/05/download-9.png?w=564"
+  },
+  {
+    "title": "This Is Lorelei Announces New Album The Singer In My Band",
+    "link": "https://pitchfork.com/news/this-is-lorelei-announces-new-album-the-singer-in-my-band/",
+    "source": "RSS: News",
+    "published": "Tue, 23 Jun 2026 15:43:03 +0000",
+    "image": "https://media.pitchfork.com/photos/6a3aa5eee3e68e27fb3c48eb/master/pass/This%20Is%20Lorelei%20by%20Eve%20Alpert%20-%201%20(1).jpg"
+  },
+  {
+    "title": "Frankie Rose Announces New Album Hila: Hear \u201cCant Be Wrong\u201d",
+    "link": "https://stereogum.com/2503119/frankie-rose-announces-new-album-hila-hear-cant-be-wrong/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 15:31:45 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Frankie-Rose-HILA.jpeg?w=564"
+  },
+  {
+    "title": "Josaleigh Pollett \u2013 \u201cLike A River\u201d",
+    "link": "https://stereogum.com/2503112/josaleigh-pollett-like-a-river/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 15:06:16 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/a2091331824_10.jpg?w=564"
+  },
+  {
+    "title": "Emily A. Sprague\u00a0Announces New Album Cyano: Hear \u201cSing To\u201d",
+    "link": "https://stereogum.com/2503109/emily-a-sprague-announces-new-album-cyano-hear-sing-to/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 14:57:14 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Emily-A-Sprague-Cyano.jpg?w=564"
+  },
+  {
+    "title": "Brandon Flowers Announces First Solo Album in 11 Years",
+    "link": "https://pitchfork.com/news/brandon-flowers-new-album-thrasher/",
+    "source": "RSS: News",
+    "published": "Tue, 23 Jun 2026 14:53:21 +0000",
+    "image": "https://media.pitchfork.com/photos/6a3a978ad9ab673ccf02a257/master/pass/8tompkv2.jpeg"
+  },
+  {
+    "title": "Frost Children Announce New EP Tweaker Poem: \u201cSatellites\u201d",
+    "link": "https://stereogum.com/2503087/frost-children-announce-new-ep-tweaker-poem-satellites/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 14:39:38 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/unnamed-2026-06-23T095007.895.jpg?w=564"
+  },
+  {
+    "title": "Watch Angine de Poitrine Perform \u201cFabienk\u201d on Jools Holland",
+    "link": "https://pitchfork.com/news/watch-angine-de-poitrine-perform-fabienk-on-jools-holland/",
+    "source": "RSS: News",
+    "published": "Tue, 23 Jun 2026 14:38:15 +0000",
+    "image": "https://media.pitchfork.com/photos/6a39a2d8393fc0fa5a7419d8/master/pass/Angine-de-Poitrine.jpeg"
+  },
+  {
+    "title": "Brandon Flowers Announces New Countrified Solo Album Thrasher",
+    "link": "https://stereogum.com/2503103/brandon-flowers-announces-new-countrified-solo-album-thrasher/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 14:33:47 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Brandon-Flowers-Thrasher.jpeg?w=564"
+  },
+  {
+    "title": "Julia Holter Announces New Album Materia: Hear \u201cFantasy\u201d",
+    "link": "https://stereogum.com/2502773/julia-holter-announces-new-album-materia-hear-fantasy/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 14:05:15 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/juliaholter_MATERIA_coverart_3000x3000_RGB.jpg?w=564"
+  },
+  {
+    "title": "Brennan Wedl Announces New Self-Titled Album Co-Produced By Katie Crutchfield & Featuring Snail Mail: Hear \u201cPretty Little Fantasy\u201d",
+    "link": "https://stereogum.com/2502864/brennan-wedl-announces-new-self-titled-album-co-produced-by-katie-crutchfield-featuring-snail-mail-hear-pretty-little-fantasy/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 14:03:52 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Brennan_Wedl_3000.jpg?w=564"
+  },
+  {
+    "title": "Brennan Wedl Enlists Waxahatchee, Snail Mail for New Album",
+    "link": "https://pitchfork.com/news/brennan-wedl-enlists-waxahatchee-snail-mail-for-new-album/",
+    "source": "RSS: News",
+    "published": "Tue, 23 Jun 2026 14:02:35 +0000",
+    "image": "https://media.pitchfork.com/photos/6a3a85f3393fc0fa5a741a1f/master/pass/brennan-wedl-album.jpg"
+  },
+  {
+    "title": "This Is Lorelei Announces New Album The Singer In My Band: Hear \u201cBilly Came Back\u201d",
+    "link": "https://stereogum.com/2502763/this-is-lorelei-announces-new-album-the-singer-in-my-band-hear-billy-came-back/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 14:00:10 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/This-Is-Lorelei-The-Singer-in-My-Band-_-Album-Art.jpg?w=564"
+  },
+  {
+    "title": "Julia Holter Announces New Album Materia",
+    "link": "https://pitchfork.com/news/julia-holter-announces-new-album-shares-song-fantasy/",
+    "source": "RSS: News",
+    "published": "Tue, 23 Jun 2026 14:00:00 +0000",
+    "image": "https://media.pitchfork.com/photos/6a3a0c4c7da85ddc43e1b60d/master/pass/Julia%20Holter%20credit%20Dicky%20Bahto_JH%20Super%208%20still%204_5x4%20-%20300dpi.jpg"
+  },
+  {
+    "title": "Brandon Flowers Turns Rootsy On Solo LP",
+    "link": "https://www.spinmagazine.com/2026/06/brandon-flowers-solo-album/",
     "source": "SPIN",
-    "published": "Mon, 22 Jun 2026 17:47:00 +0000",
-    "image": "https://static.spinmagazine.com/files/2026/06/Yasiin-Bey-Photo-Credit-Cognito-scaled.jpg"
+    "published": "Tue, 23 Jun 2026 13:59:00 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/06/BF2026HeroShot_ChrisPhelps-scaled.jpg"
   },
   {
-    "title": "Man/Woman/Chainsaw \u2013 \u201cGet Up And Dance\u201d",
-    "link": "https://stereogum.com/2503016/man-woman-chainsaw-get-up-and-dance/music/",
+    "title": "Jim James Announces New Album Wowed Out: Hear \u201cCome Again\u201d",
+    "link": "https://stereogum.com/2503084/jim-james-announces-new-album-wowed-out-hear-come-again/music/",
     "source": "Stereogum",
-    "published": "Mon, 22 Jun 2026 17:46:34 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/MWC.jpg?w=564"
+    "published": "Tue, 23 Jun 2026 13:52:59 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Jim-James-Wowed-Out.jpeg?w=564"
   },
   {
-    "title": "Devo and the B-52\u2019s Somehow Find More Cities for \u201cFarewell\u201d Tour",
-    "link": "https://pitchfork.com/news/devo-and-b-52s-somehow-find-more-cities-for-farewell-tour/",
+    "title": "Maripool Announces Debut Album Rotten Luck: Hear \u201cCrossing\u201d",
+    "link": "https://stereogum.com/2503052/maripool-announces-debut-album-rotten-luck-hear-crossing/music/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 13:46:41 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/image_3-1.jpeg?w=564"
+  },
+  {
+    "title": "James Brandon Lewis Is Here To Testify",
+    "link": "https://stereogum.com/2503033/james-brandon-lewis-is-here-to-testify/columns/ugly-beauty/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 13:35:49 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/JamesBrandonLewisQuartet2026.jpg?w=564"
+  },
+  {
+    "title": "Kylie Minogue, RZA, & Quentin Tarantino Starring In New Movie Tangled Up In Blue",
+    "link": "https://stereogum.com/2503080/kylie-minogue-rza-quentin-tarantino-starring-in-new-movie-tangled-up-in-blue/news/",
+    "source": "Stereogum",
+    "published": "Tue, 23 Jun 2026 13:18:59 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Tangled-Up.jpg?w=564"
+  },
+  {
+    "title": "My Morning Jacket\u2019s Jim James Releasing First Solo Album in 8 Years",
+    "link": "https://pitchfork.com/news/my-morning-jacket-jim-james-wowed-out-album/",
     "source": "RSS: News",
-    "published": "Mon, 22 Jun 2026 17:43:15 +0000",
-    "image": "https://media.pitchfork.com/photos/6a3973877da85ddc43e1b332/master/pass/Static_Artist%20Image.jpg"
+    "published": "Tue, 23 Jun 2026 13:16:06 +0000",
+    "image": "https://media.pitchfork.com/photos/6a3a84c63d85cbbe413a9cd3/master/pass/unnamed%20(93).jpg"
   },
   {
-    "title": "Olivia Rodrigo Announces Daisy Chain Fields Festival With Bikini Kill, Chappell Roan, Stevie Nicks, & More",
-    "link": "https://stereogum.com/2503038/olivia-rodrigo-announces-daisy-chain-fields-festival-with-bikini-kill-chappell-roan-stevie-nicks-more/news/",
+    "title": "Minogue, Tarantino, RZA Are Getting \u2018Tangled Up\u2019",
+    "link": "https://www.spinmagazine.com/2026/06/minogue-tarantino-rza-film/",
+    "source": "SPIN",
+    "published": "Tue, 23 Jun 2026 13:09:18 +0000",
+    "image": "https://static.spinmagazine.com/files/2018/03/kylie-minogue-1520610051.jpg"
+  },
+  {
+    "title": "Jim James Finds A \u2018Wow\u2019 Signal",
+    "link": "https://www.spinmagazine.com/2026/06/jim-james-new-albun/",
+    "source": "SPIN",
+    "published": "Tue, 23 Jun 2026 13:02:00 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/06/210831MMJ-0243-press-photo-2-scaled.jpg"
+  },
+  {
+    "title": "Tame Impala Covers Smashing Pumpkins For New Tribute Album",
+    "link": "https://stereogum.com/2503075/tame-impala-covers-smashing-pumpkins-for-new-tribute-album/music/",
     "source": "Stereogum",
-    "published": "Mon, 22 Jun 2026 17:34:23 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Daisy-Chain-Fields.jpeg?w=564"
-  },
-  {
-    "title": "Pitchfork Launches New Olivia Rodrigo Zine",
-    "link": "https://pitchfork.com/news/olivia-rodrigo-pitchfork-zine/",
-    "source": "RSS: News",
-    "published": "Mon, 22 Jun 2026 17:03:09 +0000",
-    "image": "https://media.pitchfork.com/photos/6a396a7ee14e40762c50568d/master/pass/P4K0126_OR_INSIDE_01.jpg"
-  },
-  {
-    "title": "Olivia Rodrigo Launches Music Festival Daisy Chain Fields",
-    "link": "https://pitchfork.com/news/olivia-rodrigo-launches-music-festival-daisy-chain-fields/",
-    "source": "RSS: News",
-    "published": "Mon, 22 Jun 2026 16:58:56 +0000",
-    "image": "https://media.pitchfork.com/photos/6a33ada24361263592a3e781/master/pass/260519_SCHORR_PITCHFORK_Shot_01_165_01_RGB_watermarked.jpg"
-  },
-  {
-    "title": "Darkside Are Touring Again This Summer",
-    "link": "https://pitchfork.com/news/darkside-are-touring-again-this-summer/",
-    "source": "RSS: News",
-    "published": "Mon, 22 Jun 2026 16:41:25 +0000",
-    "image": "https://media.pitchfork.com/photos/6a3950018e23c68acbf441e3/master/pass/Unknown-1.jpeg"
-  },
-  {
-    "title": "Yasiin Bey Reissuing Mos Def\u2019s The Ecstatic on Vinyl and Streaming",
-    "link": "https://pitchfork.com/news/yasiin-bey-reissuing-mos-defs-the-ecstatic-on-vinyl-and-streaming/",
-    "source": "RSS: News",
-    "published": "Mon, 22 Jun 2026 16:22:11 +0000",
-    "image": "https://media.pitchfork.com/photos/6a39555d7cf1b8e37f67a7dc/master/pass/Yasiin-Bey-Photo-Credit-Cognito.jpg"
-  },
-  {
-    "title": "Carly Rae Jepsen\u2019s New Album Is a 24-Track Double LP",
-    "link": "https://pitchfork.com/news/carly-rae-jepsens-new-album-is-a-24-track-double-lp/",
-    "source": "RSS: News",
-    "published": "Mon, 22 Jun 2026 16:18:34 +0000",
-    "image": "https://media.pitchfork.com/photos/6a3955997da85ddc43e1b0ce/master/pass/Carly-Rae-Jepsen.jpeg"
-  },
-  {
-    "title": "Carly Rae Jepsen Announces New Double Album Day And Night",
-    "link": "https://stereogum.com/2503007/carly-rae-jepsen-announces-new-double-album-day-and-night/news/",
-    "source": "Stereogum",
-    "published": "Mon, 22 Jun 2026 16:02:20 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Carly-Rae-Jepsen-Day-And-Night.jpeg?w=564"
-  },
-  {
-    "title": "Clive Davis Dead At 94",
-    "link": "https://stereogum.com/2503020/clive-davis-dead-at-94/news/",
-    "source": "Stereogum",
-    "published": "Mon, 22 Jun 2026 15:49:41 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Clive-Davis.jpeg?w=564"
-  },
-  {
-    "title": "Clive Davis Dies at 94",
-    "link": "https://pitchfork.com/news/clive-davis-dies-at-94/",
-    "source": "RSS: News",
-    "published": "Mon, 22 Jun 2026 15:38:27 +0000",
-    "image": "https://media.pitchfork.com/photos/592f4e39b0ef7855c62d74d6/master/pass/df3e48db.jpg"
-  },
-  {
-    "title": "London Hardcore Stompers Dynamite Share New Three-Song Promo",
-    "link": "https://stereogum.com/2503012/london-hardcore-stompers-dynamite-share-new-three-song-promo/music/",
-    "source": "Stereogum",
-    "published": "Mon, 22 Jun 2026 15:24:26 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Dynamite-promo.jpg?w=564"
-  },
-  {
-    "title": "Through The Flames Of Hell With Boards Of Canada",
-    "link": "https://stereogum.com/2502885/through-the-flames-of-hell-with-boards-of-canada/columns/crossing-wires/",
-    "source": "Stereogum",
-    "published": "Mon, 22 Jun 2026 15:24:22 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/WARPLP496_Packshot_3000.jpg?w=564"
-  },
-  {
-    "title": "Team Dresch Announce First New Album In 30 Years: Hear \u201cOne Song\u201d",
-    "link": "https://stereogum.com/2502999/team-dresch-announce-first-new-album-in-30-years-hear-one-song/music/",
-    "source": "Stereogum",
-    "published": "Mon, 22 Jun 2026 14:50:55 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Team-Dresch-Furthermore.jpg?w=564"
-  },
-  {
-    "title": "Sam And Louise Sullivan Announce New Album Love & Devotion: Hear \u201cDown On Love\u201d",
-    "link": "https://stereogum.com/2502981/sam-and-louise-sullivan-announce-new-album-love-devotion-hear-down-on-love/music/",
-    "source": "Stereogum",
-    "published": "Mon, 22 Jun 2026 14:07:37 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Sam-And-Louise-Sullivan-Love-And-Devotion.jpg?w=564"
-  },
-  {
-    "title": "Wild Pink \u2013 \u201cBox Store\u201d",
-    "link": "https://stereogum.com/2502992/wild-pink-box-store/music/",
-    "source": "Stereogum",
-    "published": "Mon, 22 Jun 2026 14:05:37 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Wild-Pink.jpeg?w=564"
-  },
-  {
-    "title": "Death Cab For Cutie Cover H\u00fcsker D\u00fc For SiriusXM",
-    "link": "https://stereogum.com/2502978/death-cab-for-cutie-cover-husker-du-for-siriusxm/music/",
-    "source": "Stereogum",
-    "published": "Mon, 22 Jun 2026 13:22:29 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Screenshot-2026-06-22-at-2.07.11-PM.png?w=564"
-  },
-  {
-    "title": "The Number Ones: Drake\u2019s \u201cWay 2 Sexy\u201d (Feat. Future & Young Thug)",
-    "link": "https://stereogum.com/2502357/the-number-ones-drakes-way-2-sexy-feat-future-young-thug/columns/the-number-ones/",
-    "source": "Stereogum",
-    "published": "Mon, 22 Jun 2026 13:04:15 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Drake.jpg?w=564"
-  },
-  {
-    "title": "Angine de Poitrine Make UK TV Debut, Impress Shania Twain With Khn\u2019s Hair",
-    "link": "https://stereogum.com/2502963/angine-de-poitrine-make-uk-tv-debut-impress-shania-twain-with-khns-hair/news/",
-    "source": "Stereogum",
-    "published": "Mon, 22 Jun 2026 12:29:37 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Screenshot-2026-06-22-at-1.08.17-PM.png?w=564"
+    "published": "Tue, 23 Jun 2026 12:51:20 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/06/Smashing-Pumpkins-tribute.jpeg?w=564"
   }
 ]
