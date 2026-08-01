@@ -1,324 +1,534 @@
 [
   {
-    "title": "Knots Landing Star Donna Mills, 85, Launches OnlyFans Account",
-    "link": "https://consequence.net/2026/07/donna-mills-onlyfans-85-knots-landing/",
-    "source": "Consequence",
-    "published": "Thu, 30 Jul 2026 22:20:17 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/07/Donna-Mills.jpeg?quality=80"
-  },
-  {
-    "title": "A Definitive Ranking of Every Lollapalooza Lineup from Worst to Best",
-    "link": "https://consequence.net/2026/07/ranking-lollapalooza/",
-    "source": "Consequence",
-    "published": "Thu, 30 Jul 2026 21:55:04 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/07/Lolla-23.jpg?quality=80"
-  },
-  {
-    "title": "Angela Autumn \u2013 \u201cHeavy Tobacco\u201d",
-    "link": "https://stereogum.com/2506883/angela-autumn-heavy-tobacco/music/",
-    "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 21:05:52 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/Angela-Autumn-General-1-Avery-Norman.jpeg?w=564"
-  },
-  {
-    "title": "The Odyssey Extends Sold-Out IMAX 70mm Run by One Month",
-    "link": "https://consequence.net/2026/07/the-odyssey-imax-70mm-extends-one-month/",
-    "source": "Consequence",
-    "published": "Thu, 30 Jul 2026 20:46:44 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/07/the-odyssey.png"
-  },
-  {
-    "title": "Travis Scott Directs Visual for \u2018Odyssey\u2019 Song \u2018When I\u2019m Home\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/travis-scott-odyssey-video-when-im-home-1235601212/",
+    "title": "Olivia Rodrigo and Yungblud Join Smashing Pumpkins for Nostalgia-Fueled Lollapalooza Set",
+    "link": "https://www.rollingstone.com/music/music-news/olivia-rodrigo-yungblud-smashing-pumpkins-lollapalooza-1235601995/",
     "source": "Music News",
-    "published": "Thu, 30 Jul 2026 20:16:56 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/07/travis-scott-odyssey-music-video.jpg?w=1600&h=900&crop=1"
+    "published": "Sat, 01 Aug 2026 03:34:08 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/08/Smashing-Pumpkins-HR-Sacha-Lecca-48.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Modest Mouse Drops Guitarist Simon O\u2019Connor From Upcoming Tour",
+    "link": "https://www.rollingstone.com/music/music-news/modest-mouse-drops-guitarist-simon-oconnor-upcoming-tour-1235601830/",
+    "source": "Music News",
+    "published": "Sat, 01 Aug 2026 03:22:11 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/07/GettyImages-2276525840.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Olivia Rodrigo Joins Smashing Pumpkins for \u201cThirty-Three\u201d at Lollapalooza: Watch",
+    "link": "https://consequence.net/2026/07/olivia-rodrigo-smashing-pumpkins-lollapalooza/",
+    "source": "Consequence",
+    "published": "Sat, 01 Aug 2026 03:18:08 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/07/Olivia-Rodrigo-with-Smashing-Pumpkins.jpeg?quality=80"
+  },
+  {
+    "title": "Yungblud Makes Triumphant Return at Lollapalooza and Rocks Out With Fan Katie",
+    "link": "https://www.rollingstone.com/music/music-news/yungblud-performance-lollapalooza-2026-1235600567/",
+    "source": "Music News",
+    "published": "Sat, 01 Aug 2026 01:32:14 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/07/yungblood-lollapalooza.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "In Canada: Angine de Poitrine, PUP & More Make SOCAN Polaris Song Prize Short\u00a0List",
+    "link": "https://www.billboard.com/pro/angine-de-poitrine-polaris-song-prize-list-canada-news/",
+    "source": "Billboard",
+    "published": "Sat, 01 Aug 2026 00:45:45 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2026/04/Angine-de-Poitrine-live-at-kexp-video-courtesy-billboard-1800.jpg?w=1024"
+  },
+  {
+    "title": "What Every Music Company Made in Q2 2026\u00a0(Updating)",
+    "link": "https://www.billboard.com/lists/music-company-earnings-q2-2026-umg-live-nation-hybe-made/",
+    "source": "Billboard",
+    "published": "Fri, 31 Jul 2026 23:57:37 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2026/07/2288301361-e1785526225420.jpg?w=1024"
+  },
+  {
+    "title": "BE:FIRST Is Ready for the World: Inside the J-Pop Superstars\u2019 Long-Planned U.S.\u00a0Breakthrough",
+    "link": "https://www.billboard.com/business/record-labels/befirst-us-partners-new-song-ep-interview-1236307108/",
+    "source": "Billboard",
+    "published": "Fri, 31 Jul 2026 23:12:31 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2026/07/01-be-first-2026-cr-Harmonic-Public-Relations-BMSG-billboard-1800.jpg?w=1024"
+  },
+  {
+    "title": "Our Favorite Songs of the Week (Playlist)",
+    "link": "https://www.brooklynvegan.com/our-favorite-songs-of-the-week-playlist-249/",
+    "source": "BrooklynVegan",
+    "published": "Fri, 31 Jul 2026 22:53:23 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2024/11/05/unitedsounds-2024-day2-120.jpg"
+  },
+  {
+    "title": "Tour news: Soccer Mommy, Snail Mail, Frankie Cosmos, The Charlatans, Frankie Cosmos, Shearling, Patrick Wolf, @ (At), Silent Majority, Audrey Hobert, more",
+    "link": "https://www.brooklynvegan.com/tour-news-soccer-mommy-snail-mail-frankie-cosmos-the-charlatans-frankie-cosmos-shearling-at-silent-majority-audrey-hobert-more/",
+    "source": "BrooklynVegan",
+    "published": "Fri, 31 Jul 2026 22:40:04 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2025/02/03/sitw-2025-sat-027.jpg"
+  },
+  {
+    "title": "\u2018KPop Demon Hunters\u2019 Continues Blind Box Trend With New Phone\u00a0Huggers",
+    "link": "https://www.billboard.com/culture/product-recommendations/kpop-demon-hunters-blind-box-phone-huggers-buy-shop-online-1236307256/",
+    "source": "Billboard",
+    "published": "Fri, 31 Jul 2026 22:36:10 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2026/07/Shop-Online-Phone-Huggers-KPop-Demon-Hunters-Blind-Box-CultureFly.png?w=720"
+  },
+  {
+    "title": "Karol G Invites \u2018Everyone To Be A Little More Dramatic, A Little More Extra\u2019 With New Album \u2018No Me Arrepiento de Sentir\u00a0Tanto\u2019",
+    "link": "https://www.billboard.com/music/latin/karol-g-new-album-no-me-arrepiento-de-sentir-tanto-2-1236307475/",
+    "source": "Billboard",
+    "published": "Fri, 31 Jul 2026 22:32:23 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2026/07/P106M3YK-e1784946147553.jpg?w=1024"
+  },
+  {
+    "title": "Cam\u2019ron Shares a Wild Story Involving DMX, a Dog and a\u00a0Raccoon",
+    "link": "https://www.billboard.com/music/rb-hip-hop/camron-dmx-dog-raccoon-1236307403/",
+    "source": "Billboard",
+    "published": "Fri, 31 Jul 2026 22:25:00 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2026/07/camron-talk-with-flee-2026-billboard-1800.jpg?w=1024"
+  },
+  {
+    "title": "SB19 Talks Performing \u2018Lawless\u2019 At Lollapalooza For the First Time & Being the First Filipino Group to Perform At the Festival | Billboard\u00a0News",
+    "link": "https://www.billboard.com/video/sb19-lawless-lollapalooza-interview/",
+    "source": "Billboard",
+    "published": "Fri, 31 Jul 2026 22:15:12 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2026/07/billboardqanda_sb19_thumb.jpg?w=1024"
+  },
+  {
+    "title": "14 New Songs Out Today",
+    "link": "https://www.brooklynvegan.com/14-new-songs-out-today-63/",
+    "source": "BrooklynVegan",
+    "published": "Fri, 31 Jul 2026 22:12:09 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/07/31/Cardi-B-Ah-Ha.jpg"
+  },
+  {
+    "title": "Charli xcx Says \u2018Girl, So Confusing\u2019 Feels \u2018More Special\u2019 After Singing It With Lorde at\u00a0Lollapalooza",
+    "link": "https://www.billboard.com/music/pop/charli-xcx-lorde-lollapalooza-girl-so-confusing-special-1236307408/",
+    "source": "Billboard",
+    "published": "Fri, 31 Jul 2026 22:12:07 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2026/07/P103MHT4-e1785530964435.jpg?w=1024"
+  },
+  {
+    "title": "Behind the Silhouette: Ado\u2019s Journey to Lollapalooza",
+    "link": "https://consequence.net/2026/07/ado-journey-to-lollapalooza/",
+    "source": "Consequence",
+    "published": "Fri, 31 Jul 2026 20:45:56 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/07/Ado.jpeg?quality=80"
+  },
+  {
+    "title": "Jared Leto documentary director says it is a \u201cmystery\u201d allegations haven\u2019t impacted his career",
+    "link": "https://www.nme.com/news/film/jared-leto-documentary-director-says-it-is-a-mystery-allegations-havent-impacted-his-career-3960136?utm_source=rss&utm_medium=rss&utm_campaign=jared-leto-documentary-director-says-it-is-a-mystery-allegations-havent-impacted-his-career",
+    "source": "News | NME",
+    "published": "Fri, 31 Jul 2026 20:35:03 +0000",
+    "image": "https://www.nme.com/wp-content/uploads/2026/07/jared_leto_2025.jpg"
+  },
+  {
+    "title": "Peace Test Announce New Album Repercussion: Hear \u201cTotal Power\u201d",
+    "link": "https://stereogum.com/2507047/peace-test-announce-new-album-repercussion-hear-total-power/music/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 20:19:15 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/Peace-Test-Repurcussion.jpg?w=564"
+  },
+  {
+    "title": "DJ Sabrina The Teenage DJ \u2013 \u201cStill Standing\u201d",
+    "link": "https://stereogum.com/2507042/dj-sabrina-the-teenage-dj-still-standing/music/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 20:17:40 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/a2506859711_10.jpg?w=564"
+  },
+  {
+    "title": "Drake \u2018Fraudulent Streams\u2019 Case on Ice as Judge Sends Online Casino Claims to Arbitration",
+    "link": "https://www.rollingstone.com/music/music-news/drake-adin-ross-streaming-lawsuit-stake-arbitration-1235601620/",
+    "source": "Music News",
+    "published": "Fri, 31 Jul 2026 20:11:07 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/07/drake-streams.jpg?crop=0px%2C40px%2C1800px%2C1015px&resize=1600%2C900"
+  },
+  {
+    "title": "How 26 Golden Retrievers Took Over Stateside",
+    "link": "https://www.rollingstone.com/music/music-news/hitting-road-to-stateside-hertz-sydney-rose-arcy-drive-1235596431/",
+    "source": "Music News",
+    "published": "Fri, 31 Jul 2026 20:01:06 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/07/20260704_stateside_Maria_Rojas_experience-01169.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Chrome Sparks \u2013 \u201cSleeper\u201d (Feat. Khalid & J\u00f3nsi)",
+    "link": "https://stereogum.com/2507037/chrome-sparks-sleeper-feat-khalid-jonsi/music/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 19:46:43 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/unnamed-2026-07-31T153646.735.jpg?w=564"
   },
   {
     "title": "Lollapalooza 2026 Livestream Lineup for Hulu and Disney+ Revealed",
     "link": "https://consequence.net/2026/07/lollapalooza-2026-livestream-lineup-hulu-disney/",
     "source": "Consequence",
-    "published": "Thu, 30 Jul 2026 19:57:56 +0000",
+    "published": "Fri, 31 Jul 2026 19:35:56 +0000",
     "image": "https://consequence.net/wp-content/uploads/2026/07/Lolla-2026-livestream-lineup.jpg?quality=80"
   },
   {
-    "title": "Marvel Reneges Wonder Man\u2019s Season 2 Renewal, Cancels Emmy-Nominated Show",
-    "link": "https://consequence.net/2026/07/marvel-wonder-mans-season-2-canceled/",
-    "source": "Consequence",
-    "published": "Thu, 30 Jul 2026 19:27:07 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/07/marvel-wonder-man-season-2-canceled-not-renewed.jpg?quality=80"
-  },
-  {
-    "title": "Barack Obama Pays Tribute to Glen Hansard with 2026 Summer Playlist",
-    "link": "https://consequence.net/2026/07/barack-obama-pays-tribute-to-glen-hansard-with-2026-summer-playlist/",
-    "source": "Consequence",
-    "published": "Thu, 30 Jul 2026 19:08:47 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/07/Obama-Glen-Hansard.jpeg?quality=80"
-  },
-  {
-    "title": "Jam City Lines Up New Album My World",
-    "link": "https://pitchfork.com/story/jam-city-lines-up-new-album-my-world/",
-    "source": "RSS: News",
-    "published": "Thu, 30 Jul 2026 19:06:09 +0000",
-    "image": "https://media.pitchfork.com/photos/6a6b9ec997bc3c9f3d9d3948/master/pass/nj2K1KNO.png"
-  },
-  {
-    "title": "The Oral History of Once",
-    "link": "https://consequence.net/2026/07/once-oral-history/",
-    "source": "Consequence",
-    "published": "Thu, 30 Jul 2026 18:50:38 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2017/08/Once.jpeg?quality=80"
-  },
-  {
-    "title": "Check Out Our Artist Portraits And Interviews From Newport Folk Festival 2026",
-    "link": "https://stereogum.com/2506819/check-out-our-artist-portraits-and-interviews-from-newport-folk-festival-2026/original-videos/",
+    "title": "Um, Jennifer?\u00a0Announce New EP Dirty Twice: Hear \u201cBushwick Ratbag\u201d",
+    "link": "https://stereogum.com/2507026/um-jennifer-announce-new-ep-dirty-twice-hear-bushwick-ratbag/music/",
     "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 18:36:55 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/DSCF4335_7c5d07.jpg?w=564"
+    "published": "Fri, 31 Jul 2026 19:08:59 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/unnamed-2026-07-31T143710.281.jpg?w=564"
   },
   {
-    "title": "Barack Obama\u2019s Summer Song List: Glen Hansard, the Strokes, Noah Kahan Lead Annual Playlist",
-    "link": "https://www.rollingstone.com/music/music-news/barack-obama-summer-playlist-glen-hansard-strokes-noah-kahan-1235601040/",
+    "title": "Elastica say \u201cwe\u2019re back\u201d with \u201cexciting things in the works\u201d",
+    "link": "https://www.brooklynvegan.com/elastica-say-were-back-with-exciting-things-in-the-works/",
+    "source": "BrooklynVegan",
+    "published": "Fri, 31 Jul 2026 19:06:33 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/07/31/elastica-crop.jpg"
+  },
+  {
+    "title": "Glen Hansard: Family Announces Memorial Arrangements, Public Funeral",
+    "link": "https://www.rollingstone.com/music/music-news/glen-hansard-family-memorial-arrangements-public-funeral-1235601653/",
     "source": "Music News",
-    "published": "Thu, 30 Jul 2026 17:59:43 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/07/GettyImages-2282241001.jpg?w=1600&h=900&crop=1"
+    "published": "Fri, 31 Jul 2026 18:55:09 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/07/hansard.jpg?w=1600&h=900&crop=1"
   },
   {
-    "title": "Alice in Chains Announce 30th Anniversary Edition of MTV Unplugged",
-    "link": "https://consequence.net/2026/07/alice-in-chains-30th-anniversary-mtv-unplugged/",
-    "source": "Consequence",
-    "published": "Thu, 30 Jul 2026 17:49:50 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/07/AIC-Unplugged.jpg?quality=80"
+    "title": "Shannon Shaw (Shannon & The Clams) & Georgia Maq (Camp Cope) played Baby\u2019s All Right (pics, video)",
+    "link": "https://www.brooklynvegan.com/shannon-shaw-shannon-the-clams-georgia-maq-camp-cope-played-babys-all-right-pics-video/",
+    "source": "BrooklynVegan",
+    "published": "Fri, 31 Jul 2026 18:49:11 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/07/31/shannonshawband-babys-12.jpg"
   },
   {
-    "title": "Glen Hansard\u2019s Final Performance Captured on Video Hours Before His Death",
-    "link": "https://consequence.net/2026/07/glen-hansards-final-performance-hours-before-death/",
-    "source": "Consequence",
-    "published": "Thu, 30 Jul 2026 17:43:53 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/07/Glen-H-final-performance-footage.jpg?quality=80"
-  },
-  {
-    "title": "John Legend Cast As Harry Belafonte In New Movie About Paul Simon\u2019s Graceland Era",
-    "link": "https://stereogum.com/2506817/john-legend-cast-as-harry-belafonte-in-new-movie-about-paul-simons-graceland-era/news/",
+    "title": "The 5 Best Songs Of The Week",
+    "link": "https://stereogum.com/2506876/the-5-best-songs-of-the-week-637/lists/the-5-best-songs-of-the-week/",
     "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 17:18:15 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/legend-fb.jpg?w=564"
+    "published": "Fri, 31 Jul 2026 18:45:26 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/5best_85685c.jpeg?w=564"
   },
   {
-    "title": "See Glen Hansard Sing Moving, Unreleased Song at Final Performance",
-    "link": "https://www.rollingstone.com/music/music-news/glen-hansard-final-performance-unreleased-song-1235600984/",
-    "source": "Music News",
-    "published": "Thu, 30 Jul 2026 16:58:06 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/07/glen-hansard-final-performance.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "16 Underground \u2013 \u201cAngel (On The Run)\u201d",
-    "link": "https://stereogum.com/2506814/16-underground-angel-on-the-run/music/",
+    "title": "Two Massive Attack Members Banned From Singapore After Pro-Palestinian Display At Concert",
+    "link": "https://stereogum.com/2507024/two-massive-attack-members-banned-from-singapore-after-pro-palestinian-display-at-concert/news/",
     "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 16:32:33 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/0039541046_10.jpg?w=564"
+    "published": "Fri, 31 Jul 2026 18:39:54 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/Massive-Attack-1.png?w=564"
   },
   {
-    "title": "John Legend Cast as Harry Belafonte in New Film",
-    "link": "https://pitchfork.com/story/john-legend-cast-as-harry-belafonte-in-new-film/",
+    "title": "Simon O\u2019Connor Dropped From Modest Mouse Tour",
+    "link": "https://pitchfork.com/story/simon-oconnor-dropped-from-modest-mouse-tour/",
     "source": "RSS: News",
-    "published": "Thu, 30 Jul 2026 16:04:29 +0000",
-    "image": "https://media.pitchfork.com/photos/6a6b6b36e2c7e7063811bcd5/master/pass/MixCollage-30-Jul-2026-11-15-AM-7963.jpeg"
+    "published": "Fri, 31 Jul 2026 18:27:31 +0000",
+    "image": "https://media.pitchfork.com/photos/6a6cdfce8d94c8d0f2f8f78f/master/pass/Simon-OConnor-Modest-Mouse.jpeg"
   },
   {
-    "title": "Sesame Street Recruits Post Malone For Storm Special, Releases Chappell Roan Potty Parody",
-    "link": "https://stereogum.com/2506807/sesame-street-recruits-post-malone-for-storm-special-releases-chappell-roan-potty-parody/news/",
+    "title": "Modest Mouse Drop Guitarist Simon O\u2019Connor from Tour Over Allegedly Sending Inappropriate Messages to Minor",
+    "link": "https://consequence.net/2026/07/modest-mouse-drop-guitarist-simon-oconnor-from-tour-over-allegedly-sending-inappropriate-messages-to-minor/",
+    "source": "Consequence",
+    "published": "Fri, 31 Jul 2026 18:16:11 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/07/simon-o-connor-modest-mouse.jpg?quality=80"
+  },
+  {
+    "title": "Remi Wolf \u2013 \u201cTwiggy\u201d",
+    "link": "https://stereogum.com/2506922/remi-wolf-twiggy/music/",
     "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 15:36:11 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/ezgif-17015c28362fb354.jpg?w=564"
+    "published": "Fri, 31 Jul 2026 18:07:19 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/unnamed-30.jpg?w=564"
   },
   {
-    "title": "N\u00d8 MAN Announce New Album Between The Sword And The Neck: Hear \u201cThey Have Names\u201d",
-    "link": "https://stereogum.com/2506804/no-man-announce-new-album-between-the-sword-and-the-neck-hear-they-have-names/music/",
+    "title": "Ariana Grande\u2019s petal Never Fully Blooms: Review",
+    "link": "https://consequence.net/2026/07/ariana-grande-petal-album-review/",
+    "source": "Consequence",
+    "published": "Fri, 31 Jul 2026 18:05:28 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/07/Ariana-Grande.jpeg?quality=80"
+  },
+  {
+    "title": "Yo La Tengo Void Scalper Tickets For Hanukkah Shows, Launch New Lottery",
+    "link": "https://stereogum.com/2507014/yo-la-tengo-void-scalper-tickets-for-hanukkah-shows-launch-new-lottery/news/",
     "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 15:31:55 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/No-Man-Between-The-Sword-And-The-Neck.jpg?w=564"
+    "published": "Fri, 31 Jul 2026 18:03:38 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2023/03/yo-la-tengo-drag-performance-1678806068.jpg?w=564"
   },
   {
-    "title": "Lora Mouna \u2013 \u201cThe Difference\u201d",
-    "link": "https://stereogum.com/2506797/lora-mouna-the-difference/music/",
+    "title": "North West Scraps Tour Plans: \u2018It Isn\u2019t Happening Anymore\u2019",
+    "link": "https://www.rollingstone.com/music/music-news/north-west-tour-cancelled-before-first-date-1235601623/",
+    "source": "Music News",
+    "published": "Fri, 31 Jul 2026 17:57:15 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/07/north-cancels-tour.jpg?crop=0px%2C0px%2C1800px%2C1014px&resize=1600%2C900"
+  },
+  {
+    "title": "The Drums & Mareux \u2013 \u201cIt Didn\u2019t Matter\u201d",
+    "link": "https://stereogum.com/2507016/the-drums-mareux-it-didnt-matter/music/",
     "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 15:06:32 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/881453145810_cover.jpg?w=564"
+    "published": "Fri, 31 Jul 2026 17:54:29 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/1-2.jpg?w=564"
   },
   {
-    "title": "Paul McCartney Is A First-Time Mercury Prize Nominee",
-    "link": "https://stereogum.com/2506795/paul-mccartney-is-a-first-time-mercury-prize-nominee/news/",
+    "title": "Patti Smith Left Speechless Meeting Pope Leo Before \u201cSpark Was Lit\u201d",
+    "link": "https://consequence.net/2026/07/patti-smith-pope-leo-xiv-meeting-vatican/",
+    "source": "Consequence",
+    "published": "Fri, 31 Jul 2026 17:48:56 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/07/patti-smith-pope-leo.jpg?quality=80"
+  },
+  {
+    "title": "Glen Hansard\u2019s Public Wake and Funeral Details Announced",
+    "link": "https://consequence.net/2026/07/glen-hansard-public-wake-funeral-details/",
+    "source": "Consequence",
+    "published": "Fri, 31 Jul 2026 17:39:24 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/07/Glen-Hansard-1.jpeg?quality=80"
+  },
+  {
+    "title": "Premature Evaluation: Ariana Grande petal",
+    "link": "https://stereogum.com/2506862/premature-evaluation-ariana-grande-petal/reviews/premature-evaluation/",
     "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 15:00:45 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/Paul-McCartney.jpeg?w=564"
+    "published": "Fri, 31 Jul 2026 17:37:34 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/Ariana-Grande-Petal.jpg?w=564"
   },
   {
-    "title": "Tame Impala Welcomes JENNIE For \u2018Dracula\u2019 Debut",
-    "link": "https://www.spinmagazine.com/2026/07/tame-impala-jennie-dracula-debut/",
+    "title": "Modest Mouse Guitarist Exits Tour Amid Allegations Of Inappropriate Conduct",
+    "link": "https://stereogum.com/2507002/modest-mouse-guitarist-exits-tour-amid-allegations-of-inappropriate-conduct/news/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 17:34:11 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/MM.jpg?w=564"
+  },
+  {
+    "title": "Sam Fender & Olivia Dean\u2019s \u201cRein Me In\u201d Breaks Record For Longest-Running #1 Hit In The UK",
+    "link": "https://stereogum.com/2506999/sam-fender-olivia-deans-rein-me-in-breaks-record-for-longest-running-1-hit-in-the-uk/news/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 17:31:03 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/unnamed-2026-07-10T141502.231_a4ad23.jpg?w=564"
+  },
+  {
+    "title": "Heavy Song of the Week: Sigh Transform into Melodic Folk Metal Magicians on \u201cUnputenpu\u201d",
+    "link": "https://consequence.net/2026/07/heavy-song-of-the-week-sigh-unputenpu/",
+    "source": "Consequence",
+    "published": "Fri, 31 Jul 2026 17:27:30 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/07/sigh-band-photo.jpg?quality=80"
+  },
+  {
+    "title": "Samara Weaving Joins Marvel\u2019s X-Men Cast as Emma Frost: Report",
+    "link": "https://consequence.net/2026/07/samara-weaving-x-men-emma-frost/",
+    "source": "Consequence",
+    "published": "Fri, 31 Jul 2026 16:59:56 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/07/Samara-Weaving-emma-frost-x-men-movie-marvel-cinematic-universe.jpg?quality=80"
+  },
+  {
+    "title": "Tom Waits Shares New Spoken Word Piece \u2018The Fly\u2019: \u2018My Appreciation for the Winged Nuisance\u2019",
+    "link": "https://www.rollingstone.com/music/music-news/tom-waits-new-spoken-word-the-fly-1235601532/",
+    "source": "Music News",
+    "published": "Fri, 31 Jul 2026 16:55:41 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/07/TomWaitsbyAntonCorbijn-05-06.07.201118-990000045104513c.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Modest Mouse replacing guitarist Simon O\u2019Connor on tour following allegation of inappropriate messages to minor",
+    "link": "https://www.brooklynvegan.com/modest-mouse-replacing-guitarist-simon-oconnor-on-tour-following-allegation-of-inappropriate-messages-to-minor/",
+    "source": "BrooklynVegan",
+    "published": "Fri, 31 Jul 2026 16:46:24 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/04/20/modestmouse-RobinLaananen.jpg"
+  },
+  {
+    "title": "Lollapalooza 2026 Thursday Photo Gallery: Lorde, Wet Leg, Sombr & Blood Orange",
+    "link": "https://consequence.net/2026/07/lollapalooza-2026-thursday-photo-gallery-lorde-sombr/",
+    "source": "Consequence",
+    "published": "Fri, 31 Jul 2026 16:40:38 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/07/Lorde-at-Lollapalooza.jpeg?quality=80"
+  },
+  {
+    "title": "In Defense of the Genre: Best Punk & Emo Songs of July-ish",
+    "link": "https://www.brooklynvegan.com/in-defense-of-the-genre-best-punk-emo-songs-of-july-ish/",
+    "source": "BrooklynVegan",
+    "published": "Fri, 31 Jul 2026 16:24:49 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/07/22/painoftruth-VicCarrature.jpg"
+  },
+  {
+    "title": "Ariana Grande\u2019s Audition Goes Wrong in New \u201cPetal\u201d Video",
+    "link": "https://pitchfork.com/story/ariana-grandes-audition-goes-wrong-in-new-petal-video/",
+    "source": "RSS: News",
+    "published": "Fri, 31 Jul 2026 16:23:43 +0000",
+    "image": "https://media.pitchfork.com/photos/6a6cc968da27aa8f1afe2f9f/master/pass/Ariana-Grande-Petal.jpg"
+  },
+  {
+    "title": "Mining Metal: \u00c6nigmatum, Amargor, Anatomy of Habit, Arise from Worms, Cabinet, Coprolith, Hexorcist, Torpor",
+    "link": "https://consequence.net/2026/07/mining-metal-july-2026/",
+    "source": "Consequence",
+    "published": "Fri, 31 Jul 2026 16:22:35 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/07/a0480995139_16.jpg?quality=80"
+  },
+  {
+    "title": "Mahershala Ali Has \u201cMoved On\u201d from Blade: \u201cIf [Marvel] Wanted to Do It, We Would\u2019ve Done It\u201d",
+    "link": "https://consequence.net/2026/07/mahershala-ali-blade-moved-on-marvel/",
+    "source": "Consequence",
+    "published": "Fri, 31 Jul 2026 16:10:20 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/07/blade-mahershala-ali-moved-on-not-happening-blames-marvel.jpg?quality=80"
+  },
+  {
+    "title": "Sadie Sink\u2019s Role in Spider-Man: Brand New Day Explained \u2014 and Why It\u2019s a Big Deal for the MCU",
+    "link": "https://consequence.net/2026/07/sadie-sink-spider-man-brand-new-day-explained/",
+    "source": "Consequence",
+    "published": "Fri, 31 Jul 2026 16:00:17 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/07/spider-man-brand-new-day-sadie-sink.jpg?quality=80"
+  },
+  {
+    "title": "Massive Attack Members Banned from Singapore After Displaying Palestinian Flag [Update]",
+    "link": "https://consequence.net/2026/07/massive-attack-singapore-investigation-palestinian-flag/",
+    "source": "Consequence",
+    "published": "Fri, 31 Jul 2026 16:00:10 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/07/Massive-Attack-photo-by-Warren-Du-Preez-investigation-singapore.jpg?quality=80"
+  },
+  {
+    "title": "New exclusive vinyl: Momma\u2019s \u2018Welcome to My Blue Sky\u2019 & \u2018Household Name\u2019 on color LP",
+    "link": "https://www.brooklynvegan.com/new-exclusive-vinyl-mommas-welcome-to-my-blue-sky-household-name-on-color-lp/",
+    "source": "BrooklynVegan",
+    "published": "Fri, 31 Jul 2026 16:00:06 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/07/30/mommavinyl.jpg"
+  },
+  {
+    "title": "Wolf Alice \u2013 \u201cHammond Song\u201d (The Roches Cover Feat. Sunflower Bean\u2018s Julia Cumming & Bria Salmena)",
+    "link": "https://stereogum.com/2506983/wolf-alice-hammond-song-the-roches-cover-feat-sunflower-beans-julia-cumming-bria-salmena/music/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 15:37:40 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/img-0f2c0b07-f55b-4367-8179-b13886534092.jpeg?w=564"
+  },
+  {
+    "title": "Lollapalooza 2026 day 1 pics & video (Wet Leg, CMAT, Viagra Boys, Blood Orange & more)",
+    "link": "https://www.brooklynvegan.com/lollapalooza-2026-day-1-pics-video-wet-leg-cmat-viagra-boys-blood-orange-more/",
+    "source": "BrooklynVegan",
+    "published": "Fri, 31 Jul 2026 15:33:47 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/07/31/lollapalooza-2026-thu-123.jpg"
+  },
+  {
+    "title": "Jane Remover Shares New Venturing EP\u00a0Nowhere",
+    "link": "https://stereogum.com/2506969/jane-remover-shares-new-venturing-ep-nowhere/music/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 15:18:37 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/unnamed-2026-07-31T100614.496.png?w=564"
+  },
+  {
+    "title": "Tom Waits shares \u201cThe Fly\u201d from upcoming Massive Attack collab 12\u2033",
+    "link": "https://www.brooklynvegan.com/tom-waits-shares-the-fly-from-upcoming-massive-attack-collab-12/",
+    "source": "BrooklynVegan",
+    "published": "Fri, 31 Jul 2026 14:37:42 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/07/31/Tom-Waits-Artwork-by-Casey-Waits.jpg"
+  },
+  {
+    "title": "Fenix Flexin Responds To Viral Breakdown Claiming \u201cRubberz\u201d Is \u201cFully\u201d AI-Generated",
+    "link": "https://stereogum.com/2506925/fenix-flexin-responds-to-viral-breakdown-claiming-rubberz-is-fully-ai-generated/news/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 14:29:11 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/Screenshot-2026-07-31-at-2.12.50-PM.png?w=564"
+  },
+  {
+    "title": "Porch Light \u2013 \u201cUnder\u201d",
+    "link": "https://stereogum.com/2506955/porch-light-under/music/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 14:27:14 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/unnamed-2026-07-31T100222.858.png?w=564"
+  },
+  {
+    "title": "Open Mike Eagle & Kenny Segal \u2013 \u201cShe Swear I\u2019m Colorblind\u201d (Feat. billy woods)",
+    "link": "https://stereogum.com/2506968/open-mike-eagle-kenny-segal-she-swear-im-colorblind-feat-billy-woods/music/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 14:21:13 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/OME.jpeg?w=564"
+  },
+  {
+    "title": "Billy Strings \u2013 \u201cMill Town Flood\u201d",
+    "link": "https://stereogum.com/2506956/billy-strings-mill-town-flood/music/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 13:54:45 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/Billy-Strings.jpeg?w=564"
+  },
+  {
+    "title": "9 New Albums You Should Listen to Now: Ariana Grande, the Durutti Column, and More",
+    "link": "https://pitchfork.com/story/9-new-albums-you-should-listen-to-now-ariana-grande-the-durutti-column-and-more/",
+    "source": "RSS: News",
+    "published": "Fri, 31 Jul 2026 13:49:38 +0000",
+    "image": "https://media.pitchfork.com/photos/6a690ffe0c7e97151edd295b/master/pass/20260606_JULIAN_DAKDOUK_AG_OAKLAND_SHOW_ONE_STILLS_3316_Jun%2006%202026_kat.jpg"
+  },
+  {
+    "title": "SOB x RBE Share First New Song In Seven Years \u201cTen Summers\u201d",
+    "link": "https://stereogum.com/2506942/sob-x-rbe-share-first-new-song-in-seven-years-ten-summers/music/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 13:36:11 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/SOB-X-RBE-Ten-Summers.jpg?w=564"
+  },
+  {
+    "title": "Vehicle \u2013 \u201cEscalators\u201d",
+    "link": "https://stereogum.com/2506912/vehicle-escalators/music/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 13:33:31 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/a1560892228_10.jpg?w=564"
+  },
+  {
+    "title": "Slayyyter Gets Stage Upgrade For Lollapalooza Debut, \u201cChanel$\u201d Upgrade On New Single",
+    "link": "https://stereogum.com/2506890/slayyyter-gets-stage-upgrade-for-lollapalooza-debut-chanel-upgrade-on-new-single/music/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 13:32:43 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/BNC-SINGLE-COVER-ART.jpeg?w=564"
+  },
+  {
+    "title": "Man\u2019s Not Obsolete: Fear Factory At The Dawn Of The AI Resistance",
+    "link": "https://stereogum.com/2506715/mans-not-obsolete-fear-factory-at-the-dawn-of-the-ai-resistance/columns/breaking-the-oath/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 13:25:36 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/GettyImages-1566804799_f45dfb.jpg?w=564"
+  },
+  {
+    "title": "Cardi B \u2013 \u201cAH HA\u201d",
+    "link": "https://stereogum.com/2506934/cardi-b-ah-ha/music/",
+    "source": "Stereogum",
+    "published": "Fri, 31 Jul 2026 13:04:23 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/Cardi-B-Ah-Ha.jpg?w=564"
+  },
+  {
+    "title": "DOMi & JD BECK\u2019s \u2018WHO ASKED?\u2019 Doubles Down On Organized Chaos",
+    "link": "https://www.spinmagazine.com/2026/07/domi-and-jd-beck-review/",
     "source": "SPIN",
-    "published": "Thu, 30 Jul 2026 14:27:08 +0000",
-    "image": "https://static.spinmagazine.com/files/2026/02/Tame-Impala-V3.jpg"
+    "published": "Fri, 31 Jul 2026 13:00:00 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/06/domiJD.jpg"
   },
   {
-    "title": "William Shatner Says His Metal Band Is Booked For Coachella 2027",
-    "link": "https://stereogum.com/2506760/william-shatner-says-his-metal-band-is-booked-for-coachella-2027/news/",
-    "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 14:25:49 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/Screenshot-2026-07-30-at-1.30.00-PM.png?w=564"
-  },
-  {
-    "title": "Post Malone Swinging By \u2018Sesame Street\u2019",
-    "link": "https://www.spinmagazine.com/2026/07/post-malone-sesame-street/",
+    "title": "Adam Wiltzie Completes J\u00f3hann J\u00f3hannsson Collaboration",
+    "link": "https://www.spinmagazine.com/2026/07/adam-wiltzie-johann-johannsson/",
     "source": "SPIN",
-    "published": "Thu, 30 Jul 2026 14:20:00 +0000",
-    "image": "https://static.spinmagazine.com/files/2026/07/post-malone-sesame-workshop-july-2026-billboard-1800.jpg"
+    "published": "Fri, 31 Jul 2026 12:59:00 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/07/COPY_ADAM-WILTZIE_JOHANN-JOHANNSSON_FRIENDSHIP-SURVIVAL-GUIDE_ArcoItaly_17.8.12-scaled.jpg"
   },
   {
-    "title": "Jam City Announces New Album My World: Hear The Title Track",
-    "link": "https://stereogum.com/2506788/jam-city-announces-new-album-my-world-hear-the-title-track/music/",
-    "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 14:17:23 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/Jam-City-My-World.jpg?w=564"
-  },
-  {
-    "title": "Rachel Chinouriri Announces New Album I think I spoke too soon: Hear \u201cOne song away from crying\u201d",
-    "link": "https://stereogum.com/2506745/rachel-chinouriri-announces-new-album-i-think-i-spoke-too-soon-hear-one-song-away-from-crying/music/",
-    "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 14:08:28 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/Screenshot-2026-07-30-at-12.39.42-PM.png?w=564"
-  },
-  {
-    "title": "Lollapalooza 2026: Hulu Livestream Schedule & Details",
-    "link": "https://pitchfork.com/story/lollapalooza-2026-hulu-livestream-schedule-and-details/",
-    "source": "RSS: News",
-    "published": "Thu, 30 Jul 2026 14:04:12 +0000",
-    "image": "https://media.pitchfork.com/photos/6a6b7d6053466aaf74d16dd9/master/pass/GettyImages-2287847874.jpg"
-  },
-  {
-    "title": "Do Nothing \u2013 \u201cAct Natural\u201d",
-    "link": "https://stereogum.com/2506753/do-nothing-act-natural/music/",
-    "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 14:03:17 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/do-nothing.jpg?w=564"
-  },
-  {
-    "title": "Phish Caps Wild, All \u201990s-Run At Madison Square Garden",
-    "link": "https://www.spinmagazine.com/2026/07/phish-msg-run-2/",
+    "title": "Ed Askew Didn\u2019t Want to Paint It Black",
+    "link": "https://www.spinmagazine.com/2026/07/ed-askew-didnt-want-to-paint-it-black/",
     "source": "SPIN",
-    "published": "Thu, 30 Jul 2026 14:02:40 +0000",
-    "image": "https://static.spinmagazine.com/files/2021/02/phish-1612319306.jpg"
+    "published": "Fri, 31 Jul 2026 12:58:58 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/07/EdAskew_byChristianFilardo5-e1785168772612.jpg"
   },
   {
-    "title": "John Legend Cast As Harry Belafonte In \u2018The Road Home\u2019",
-    "link": "https://www.spinmagazine.com/2026/07/john-legend-harry-belafonte-film/",
+    "title": "Chrome Sparks Awakens With Khalid, Sigur R\u00f3s\u2019 J\u00f3nsi",
+    "link": "https://www.spinmagazine.com/2026/07/chrome-sparks-khalid-jonsi/",
     "source": "SPIN",
-    "published": "Thu, 30 Jul 2026 14:01:00 +0000",
-    "image": "https://static.spinmagazine.com/files/2023/04/GettyImages-89115422-scaled.jpg"
+    "published": "Fri, 31 Jul 2026 12:58:00 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/07/CHROME_PRESS3_Miya-Folick-scaled.jpg"
   },
   {
-    "title": "Karol G Releasing New Album Next Week",
-    "link": "https://pitchfork.com/story/karol-g-releasing-new-album-next-week/",
-    "source": "RSS: News",
-    "published": "Thu, 30 Jul 2026 13:57:54 +0000",
-    "image": "https://media.pitchfork.com/photos/6a6b569c97bc3c9f3d9d385f/master/pass/karol-g-new-album.png"
+    "title": "Notable Releases of the Week (7/31)",
+    "link": "https://www.brooklynvegan.com/shearling-mallory-hawk-arca-ed-askew-no-pressure-reviews/",
+    "source": "BrooklynVegan",
+    "published": "Fri, 31 Jul 2026 12:53:13 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/07/30/Arca-by-Saint-aka-Cassandra-Antoniades.jpg"
   },
   {
-    "title": "Charli XCX Gives Music, Fashion, Film Songs Their Live Debuts At Nashville Spotify Show",
-    "link": "https://stereogum.com/2506776/charli-xcx-gives-music-fashion-film-songs-their-live-debuts-at-nashville-spotify-show/news/",
-    "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 13:51:14 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/Charli-XCX-1.jpg?w=564"
+    "title": "Deep Cut Friday: \u201cI Married a Martian\u201d by Sparks",
+    "link": "https://www.spinmagazine.com/2026/07/deep-cut-friday-i-married-a-martian-by-sparks/",
+    "source": "SPIN",
+    "published": "Fri, 31 Jul 2026 12:30:00 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/05/GettyImages-94672367.jpg"
   },
   {
-    "title": "Vote For The Song Of The Summer 2026",
-    "link": "https://stereogum.com/2506689/vote-for-the-song-of-the-summer-2026/lists/song-of-the-summer/",
-    "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 13:26:16 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/sots2026.png?w=564"
+    "title": "Indie Basement (7/31): the week in classic indie, alternative & college rock",
+    "link": "https://www.brooklynvegan.com/album-reviews-trashcan-sinatras-the-durutti-column-shearwater-cleaners-from-venus-ulrika-spacek-family-stereo/",
+    "source": "BrooklynVegan",
+    "published": "Fri, 31 Jul 2026 12:00:09 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/07/30/indie-basement-trashcan-sinatras-durutti-column-shearwater-cleaners-from-venus-ulrika-spacek-family-stereo.jpeg"
   },
   {
-    "title": "Tame Impala Brings Out Jennie And Djo In Boston",
-    "link": "https://stereogum.com/2506770/tame-impala-brings-out-jennie-and-djo-in-boston/news/",
-    "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 13:10:59 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/Tame-Impala-and-Jennie.jpg?w=564"
+    "title": "5 Albums I Can\u2019t Live Without:\u00a0Greg Gonzalez of Cigarettes After Sex",
+    "link": "https://www.spinmagazine.com/2026/07/5-albums-i-cant-live-without-greg-gonzalez-of-cigarettes-after-sex/",
+    "source": "SPIN",
+    "published": "Fri, 31 Jul 2026 12:00:00 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/07/Greg-cactus-e1785442307949.jpg"
   },
   {
-    "title": "Smashing Pumpkins Bring Out Greg Brady At Lollapalooza Aftershow",
-    "link": "https://stereogum.com/2506735/smashing-pumpkins-bring-out-greg-brady-at-lollapalooza-aftershow/news/",
-    "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 12:55:54 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/Screenshot-2026-07-30-at-11.25.55-AM.png?w=564"
-  },
-  {
-    "title": "Linda Perhacs Located After Being Reported Missing",
-    "link": "https://stereogum.com/2506730/linda-perhacs-located-after-being-reported-missing/news/",
-    "source": "Stereogum",
-    "published": "Thu, 30 Jul 2026 12:55:30 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/07/Screenshot-2026-07-30-at-10.30.35-AM.png?w=564"
-  },
-  {
-    "title": "Linda Perhacs Found Safely, Manager Says",
-    "link": "https://pitchfork.com/story/linda-perhacs-found-safely-managers-says/",
-    "source": "RSS: News",
-    "published": "Thu, 30 Jul 2026 12:00:52 +0000",
-    "image": "https://media.pitchfork.com/photos/6a6b3c80e2c7e7063811bb17/master/pass/linda-perhacs-found.jpg"
-  },
-  {
-    "title": "Slayyyter Debuts Self-Directed Music Video for \u2018Brand New Chanel$\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/slayyyter-brand-new-chanels-music-video-single-1235601373/",
-    "source": "Music News",
-    "published": "Fri, 31 Jul 2026 06:21:14 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/07/Credit-Alexa-Zeliger-2.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Remi Wolf Returns With New Song \u201cTwiggy\u201d",
-    "link": "https://pitchfork.com/story/remi-wolf-returns-with-new-song-twiggy/",
-    "source": "RSS: News",
-    "published": "Fri, 31 Jul 2026 04:22:39 +0000",
-    "image": "https://media.pitchfork.com/photos/6a6bcd98ef7872d18ee7185f/master/pass/Remi%20Wolf%20by%20Zachary%20Gray.jpg"
-  },
-  {
-    "title": "Listen to SOBxRBE\u2019s First Song in Seven Years",
-    "link": "https://pitchfork.com/story/listen-to-sobxrbes-first-song-in-seven-years/",
-    "source": "RSS: News",
-    "published": "Fri, 31 Jul 2026 04:16:47 +0000",
-    "image": "https://media.pitchfork.com/photos/6a6bbc043b65bbeb7e5910fc/master/pass/SOB%20x%20RBE%20_%20_10%20Summers_.png"
-  },
-  {
-    "title": "Slayyyter Delivers \u201cBrand New Chanel$\u201d",
-    "link": "https://pitchfork.com/story/slayyyter-delivers-brand-new-chanels/",
-    "source": "RSS: News",
-    "published": "Fri, 31 Jul 2026 04:13:42 +0000",
-    "image": "https://media.pitchfork.com/photos/6a6bbf07ae6b3fe089af1c01/master/pass/Lead%20Press%20-%20Credit%20Kait%20Muro.jpg"
-  },
-  {
-    "title": "Cardi B Drops New Song \u201cAh Ha\u201d",
-    "link": "https://pitchfork.com/story/cardi-b-new-song-ah-ha/",
-    "source": "RSS: News",
-    "published": "Fri, 31 Jul 2026 04:05:02 +0000",
-    "image": "https://media.pitchfork.com/photos/6a6c1f6b8cfe18b908f050bb/master/pass/3.jpg"
-  },
-  {
-    "title": "Power Tastes So Sweet on New Jae Stephens Single \u2018Sugar Trap\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/jae-stephens-new-single-sugar-trap-1235599353/",
-    "source": "Music News",
-    "published": "Fri, 31 Jul 2026 02:30:24 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/07/jae-stephens-single-2.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Sombr Brings Out 5 Seconds of Summer During High-Octane Lollapalooza Set",
-    "link": "https://www.rollingstone.com/music/music-news/sombr-5-seconds-of-summer-performance-lollapalooza-2026-1235600361/",
-    "source": "Music News",
-    "published": "Fri, 31 Jul 2026 01:26:34 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/07/20260730_Lolla_Thursday_131.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "North West and Molly Santana\u2019s \u201cKimokawaii Tour\u201d Appears to Be Canceled",
-    "link": "https://consequence.net/2026/07/north-west-molly-santana-tour-canceled/",
-    "source": "Consequence",
-    "published": "Fri, 31 Jul 2026 00:24:59 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/07/North-West.jpg?quality=80"
+    "title": "Touching a Nerve: Mateja Kole\u017enik",
+    "link": "https://www.spinmagazine.com/2026/07/touching-a-nerve-mateja-koleznik/",
+    "source": "SPIN",
+    "published": "Fri, 31 Jul 2026 11:30:00 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/07/DER_EINSAME_WESTEN_making-of_HiRes%C2%A9PeterUhan-072-resized-scaled.jpg"
   }
 ]
