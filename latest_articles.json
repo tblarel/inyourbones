@@ -1,100 +1,289 @@
 [
   {
-    "title": "Jay Weinberg Reveals He Didn\u2019t Have \u2018Legal Ability\u2019 to Work With Other Artists: Part of Him \u2018Was Dying\u2019",
-    "link": "https://www.rollingstone.com/music/music-news/jay-weinberg-legally-barred-collaborating-musicians-1235609752/",
-    "source": "Music News",
-    "published": "Sun, 16 Aug 2026 19:45:28 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/08/JayWeinberg-1.jpg?w=1600&h=900&crop=1"
+    "title": "Laneway Festival Director Jessie Parker to Step Down After 16\u00a0Years",
+    "link": "https://www.billboard.com/pro/laneway-festival-director-jessie-parker-to-step-down/",
+    "source": "Billboard",
+    "published": "Tue, 18 Aug 2026 05:59:57 +0000",
+    "image": null
   },
   {
-    "title": "Dave Marsh, Veteran Rock Critic and Bruce Springsteen Biographer, Dies at 76",
-    "link": "https://pitchfork.com/story/dave-marsh-veteran-rock-critic-and-biographer-dies-at-76/",
+    "title": "Shakira Pledges $1.25 Million to Rebuild Colombia Schools After\u00a0Earthquake",
+    "link": "https://www.billboard.com/music/music-news/shakira-global-citizen-live-nation-rebuild-schools-1236318554/",
+    "source": "Billboard",
+    "published": "Tue, 18 Aug 2026 04:22:37 +0000",
+    "image": "https://www.billboard.com/wp-content/uploads/2026/08/Shakira_Choco1-1800.jpg?w=1024"
+  },
+  {
+    "title": "Mail-Order Music Club Columbia House Is Ceasing Operations",
+    "link": "https://consequence.net/2026/08/columbia-house-closing-down/",
+    "source": "Consequence",
+    "published": "Tue, 18 Aug 2026 01:14:48 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/08/Columbia-House-ad.jpg?quality=80"
+  },
+  {
+    "title": "Columbia House Mail Order Service Shutting Down",
+    "link": "https://www.spinmagazine.com/2026/08/columbia-house-shutting-down/",
+    "source": "SPIN",
+    "published": "Mon, 17 Aug 2026 21:15:01 +0000",
+    "image": "https://static.spinmagazine.com/files/2021/06/GettyImages-89771054-1624231123-scaled.jpg"
+  },
+  {
+    "title": "Taylor Swift Can\u2019t Stop Listening to Phoebe Bridgers\u2019 New Album",
+    "link": "https://www.rollingstone.com/music/music-news/taylor-swift-loves-phoebe-bridgers-new-album-lost-weekend-1235610254/",
+    "source": "Music News",
+    "published": "Mon, 17 Aug 2026 21:09:00 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/08/TaylorPhoebe8-17.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Matchbox Twenty\u2019s Rob Thomas Swings Mic Stand Into Bandmate\u2019s Head, Smashing His In-Ears",
+    "link": "https://stereogum.com/2508569/matchbox-twentys-rob-thomas-swings-mic-stand-into-bandmates-head-smashing-his-in-ears/news/",
+    "source": "Stereogum",
+    "published": "Mon, 17 Aug 2026 21:00:22 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/08/Screenshot-2026-08-17-at-4.55.38-PM.png?w=564"
+  },
+  {
+    "title": "Columbia House Is Finally Shutting Down",
+    "link": "https://stereogum.com/2508564/columbia-house-is-finally-shutting-down/news/",
+    "source": "Stereogum",
+    "published": "Mon, 17 Aug 2026 20:47:31 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/08/Columbia-House.jpg?w=564"
+  },
+  {
+    "title": "Bad Bunny Wrapping Up \u201cDeb\u00ed Tirar M\u00e1s Fotos World Tour\u201d with Puerto Rico Shows",
+    "link": "https://consequence.net/2026/08/bad-bunny-puerto-rico-shows-debi-tirar-mas-fotos-tour/",
+    "source": "Consequence",
+    "published": "Mon, 17 Aug 2026 20:30:57 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/08/bad-bunny-puerto-rico-shows.jpg?quality=80"
+  },
+  {
+    "title": "Joe Rogan: \u201cWhat Is Turnstile?\u201d",
+    "link": "https://stereogum.com/2508562/joe-rogan-what-is-turnstile/news/",
+    "source": "Stereogum",
+    "published": "Mon, 17 Aug 2026 20:29:42 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/08/SOCIAL_8427f3_0f6ea8.jpeg?w=564"
+  },
+  {
+    "title": "Maluma Announces Plans to Take \u201cLoco X Volver\u201d Around the World in 2027-2028",
+    "link": "https://consequence.net/2026/08/maluma-world-tour-2027-2028/",
+    "source": "Consequence",
+    "published": "Mon, 17 Aug 2026 20:20:35 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/08/Maluma.jpeg?quality=80"
+  },
+  {
+    "title": "Rock and Throw All Nite: KISS\u2019 Gene Simmons Tosses Four First Pitches at LA Angels Game",
+    "link": "https://consequence.net/2026/08/kiss-gene-simmons-four-first-pitches-la-angels-game/",
+    "source": "Consequence",
+    "published": "Mon, 17 Aug 2026 19:58:37 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/08/Gene-Simmons.jpg?quality=80"
+  },
+  {
+    "title": "Columbia House Is Shutting Down",
+    "link": "https://pitchfork.com/story/columbia-house-is-shutting-down/",
     "source": "RSS: News",
-    "published": "Sun, 16 Aug 2026 17:31:36 +0000",
-    "image": "https://media.pitchfork.com/photos/6a81f367e044b7b661d6196e/master/pass/davemarsh.jpg"
+    "published": "Mon, 17 Aug 2026 19:43:12 +0000",
+    "image": "https://media.pitchfork.com/photos/6a833d18b8c3d52d88fb2da7/master/pass/GettyImages-650522204.jpg"
   },
   {
-    "title": "Fontaines D.C. Confirm New Album Dopamine Chamber, Bring Out Kurt Vile For Their Song He Inspired",
-    "link": "https://stereogum.com/2508463/kurt-vile-joins-fontaines-d-c-at-la-route-du-rock/news/",
-    "source": "Stereogum",
-    "published": "Sun, 16 Aug 2026 17:28:01 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/08/fontaines-dc.jpg?w=564"
-  },
-  {
-    "title": "Felt Members Reunite As Feel For First Show In 37 Years",
-    "link": "https://stereogum.com/2508456/felt-members-reunite-as-feel-for-first-show-in-37-years/news/",
-    "source": "Stereogum",
-    "published": "Sun, 16 Aug 2026 16:24:13 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/08/Screenshot-2026-08-16-at-5.22.07-PM.png?w=564"
-  },
-  {
-    "title": "Chappell Roan Drops In On Noah Kahan At Rose Bowl",
-    "link": "https://www.spinmagazine.com/2026/08/chappell-roan-noah-kahan-rose-bowl/",
-    "source": "SPIN",
-    "published": "Sun, 16 Aug 2026 15:17:06 +0000",
-    "image": "https://static.spinmagazine.com/files/2026/08/20260815_Noah_Kahan_LOS-ANGELES_photo-patrick-mccormack__7-scaled.jpg"
-  },
-  {
-    "title": "Watch Noah Kahan and Surprise Guest Chappell Roan Perform \u2018California\u2019 at Rose Bowl Stadium",
-    "link": "https://www.rollingstone.com/music/music-news/noah-kahan-chappell-roan-perform-california-live-1235609738/",
-    "source": "Music News",
-    "published": "Sun, 16 Aug 2026 15:10:29 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/08/ChappellRoanandNoahKahan.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "The Wrong Girls Has A Ty Segall Score, A Mannequin Pussy Cameo, And Sheer Mag In The Opening Credits",
-    "link": "https://stereogum.com/2508446/the-wrong-girls-has-a-ty-segall-score-a-mannequin-pussy-cameo-and-sheer-mag-in-the-opening-credits/news/",
-    "source": "Stereogum",
-    "published": "Sun, 16 Aug 2026 15:09:57 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/08/MV5BZDc5ZTZiMmQtMDRjYi00NDAzLWEyMTQtYWIxNTFkMmE5ZWZkXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg?w=564"
-  },
-  {
-    "title": "Noah Kahan Brings Out Chappell Roan For \u201cCalifornia\u201d In California",
-    "link": "https://stereogum.com/2508437/noah-kahan-brings-out-chappell-roan-for-california-in-california/news/",
-    "source": "Stereogum",
-    "published": "Sun, 16 Aug 2026 14:24:18 +0000",
-    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/08/IMG_5643.jpeg?w=564"
-  },
-  {
-    "title": "Noah Kahan Brings Chappell Roan on Stage for \u201cCalifornia\u201d Performance: Watch",
-    "link": "https://consequence.net/2026/08/noah-kahan-brings-chappell-roan-on-stage/",
+    "title": "Ozzfest Locks in Venue for 2027 Return",
+    "link": "https://consequence.net/2026/08/ozzfest-venue-2027-return/",
     "source": "Consequence",
-    "published": "Sun, 16 Aug 2026 14:02:10 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/08/Noah-Kahan-and-Chappell-Roan.jpeg?quality=80"
+    "published": "Mon, 17 Aug 2026 19:07:55 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/08/Ozzfest-Villa-Park.jpg?quality=80"
   },
   {
-    "title": "Slipknot Parts Ways With Longtime Member Sid Wilson",
-    "link": "https://www.spinmagazine.com/2026/08/slipknot-sid-wilson-exit/",
+    "title": "SPIN and The Wild Honey Pie Join Forces to Bring Fans Closer to the Music",
+    "link": "https://www.spinmagazine.com/2026/08/spin-and-the-wild-honey-pie-join-forces-to-bring-fans-closer-to-the-music/",
     "source": "SPIN",
-    "published": "Sun, 16 Aug 2026 12:29:00 +0000",
-    "image": "https://static.spinmagazine.com/files/2023/02/Slipknot-Pub-1-2022-Anthony-Scanga-scaled.jpg"
+    "published": "Mon, 17 Aug 2026 19:01:44 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/08/WHP98.jpg"
   },
   {
-    "title": "Watch Cynthia Erivo Join Ariana Grande to Perform \u2018For Good\u2019 in London",
-    "link": "https://www.rollingstone.com/music/music-news/ariana-grande-cynthia-erivo-for-good-wicked-live-london-1235609808/",
-    "source": "Music News",
-    "published": "Mon, 17 Aug 2026 06:43:12 +0000",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2026/08/GettyImages-2246050364-1.jpg?w=1600&h=900&crop=1"
-  },
-  {
-    "title": "Portugal. The Man Announces 2026 Australian East Coast Tour\u00a0Dates",
-    "link": "https://www.billboard.com/music/concerts/portugal-the-man-announces-2026-australian-tour-dates-1236317476/",
-    "source": "Billboard",
-    "published": "Mon, 17 Aug 2026 04:38:24 +0000",
-    "image": null
-  },
-  {
-    "title": "Hayden Panettiere, \u2018Nashville\u2019 and \u2018Heroes\u2019 Star, Dies at\u00a036",
-    "link": "https://www.billboard.com/culture/tv-film/hayden-panettiere-nashville-and-heroes-star-dies-1236317477/",
-    "source": "Billboard",
-    "published": "Mon, 17 Aug 2026 03:43:55 +0000",
-    "image": null
-  },
-  {
-    "title": "Hayden Panettiere Dead at 36",
-    "link": "https://consequence.net/2026/08/hayden-panettiere-dead/",
+    "title": "Yungblud Injures Leg in Dirt Bike Accident, Keeps Touring with Help of Jack Daniel\u2019s",
+    "link": "https://consequence.net/2026/08/yungblud-injures-leg/",
     "source": "Consequence",
-    "published": "Mon, 17 Aug 2026 03:18:11 +0000",
-    "image": "https://consequence.net/wp-content/uploads/2026/08/Hayden-Panettiere.jpeg?quality=80"
+    "published": "Mon, 17 Aug 2026 18:24:18 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/08/Yungblud.jpg?quality=80"
+  },
+  {
+    "title": "Special Fall 2: Deadpoint Screenings Will Make Viewers Stand on a Literal Ledge",
+    "link": "https://consequence.net/2026/08/fall-2-deadpoint-ledge-screenings/",
+    "source": "Consequence",
+    "published": "Mon, 17 Aug 2026 18:17:19 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/08/fall-2-deadpoint.jpg?quality=80"
+  },
+  {
+    "title": "Taylor Swift Praises Phoebe Bridgers\u2019 Lost Weekend as \u201cAn Absolute Triumph\u201d",
+    "link": "https://consequence.net/2026/08/taylor-swift-praises-phoebe-bridgers-lost-weekend/",
+    "source": "Consequence",
+    "published": "Mon, 17 Aug 2026 18:13:22 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/08/Taylor-Swift-and-Phoebe-Bridgers.jpeg?quality=80"
+  },
+  {
+    "title": "The Still Out reissue coming; song w/ Adam Franklin of Swervedriver (who they reformed to open for) out now",
+    "link": "https://www.brooklynvegan.com/the-still-out-reissue-coming-song-w-adam-franklin-of-swervedriver-who-they-reformed-to-open-for-out-now/",
+    "source": "BrooklynVegan",
+    "published": "Mon, 17 Aug 2026 17:58:00 +0000",
+    "image": "https://media.brooklynvegan.com/xxrzsfjkyw/uploads/2026/08/17/unnamed-7.jpg"
+  },
+  {
+    "title": "LL Cool J, Lil\u2019 Kim, Method Man, and Redman Top Rock the Bells Festival 2026 Lineup",
+    "link": "https://consequence.net/2026/08/rock-the-bells-festival-2026-lineup/",
+    "source": "Consequence",
+    "published": "Mon, 17 Aug 2026 17:42:27 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/08/Rock-the-Bells-festival-2026-lineup.jpg?quality=80"
+  },
+  {
+    "title": "Jay Weinberg Reveals He Was Legally Unable to Pursue Side Projects",
+    "link": "https://consequence.net/2026/08/jay-weinberg-legally-unable-side-projects/",
+    "source": "Consequence",
+    "published": "Mon, 17 Aug 2026 17:39:18 +0000",
+    "image": "https://consequence.net/wp-content/uploads/2026/01/jay-weinberg-leaves-suicidal-tendencies.jpg?quality=80"
+  },
+  {
+    "title": "Petey USA\u2019s oooo Is Well Worth A Spin",
+    "link": "https://stereogum.com/2508524/petey-usas-oooo-is-well-worth-a-spin/news/",
+    "source": "Stereogum",
+    "published": "Mon, 17 Aug 2026 17:38:09 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/08/Petey-EP.jpg?w=564"
+  },
+  {
+    "title": "Erykah Badu and the Alchemist Finally Releasing Joint Album This Month",
+    "link": "https://pitchfork.com/story/erykah-badu-and-the-alchemist-finally-releasing-joint-album-this-month/",
+    "source": "RSS: News",
+    "published": "Mon, 17 Aug 2026 16:40:40 +0000",
+    "image": "https://media.pitchfork.com/photos/6a7dd18857e1351a3fc4695a/master/pass/Erykah-Badu-Alchemist-new-album.jpg"
+  },
+  {
+    "title": "Watch Al Jardine Sing the Beach Boys Deep Cut \u2018Back Home\u2019 for First Time in 49 Years",
+    "link": "https://www.rollingstone.com/music/music-news/al-jardine-performs-beach-boys-deep-cut-back-home-1235609947/",
+    "source": "Music News",
+    "published": "Mon, 17 Aug 2026 16:39:13 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/08/Al-Jardine-Sings-Deep-Cut.jpg?crop=0px%2C23px%2C1800px%2C1014px&resize=1600%2C900"
+  },
+  {
+    "title": "Ritchie Blackmore on His Deep Purple Reunion: \u2018It Could Be the Last Time We See Each Other\u2019",
+    "link": "https://www.rollingstone.com/music/music-news/ritchie-blackmore-deep-purple-reunion-last-time-1235609998/",
+    "source": "Music News",
+    "published": "Mon, 17 Aug 2026 16:38:31 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/08/Ritchie-Blackmore-reunion-deep-purple.jpg?crop=0px%2C30px%2C1800px%2C1014px&resize=1600%2C900"
+  },
+  {
+    "title": "Phoebe Bridgers, Jess Williamson, Erykah Badu, and More: This Week\u2019s Pitchfork Selects Playlist",
+    "link": "https://pitchfork.com/story/phoebe-bridgers-jess-williamson-erykah-badu-this-weeks-pitchfork-selects-playlist/",
+    "source": "RSS: News",
+    "published": "Mon, 17 Aug 2026 16:27:32 +0000",
+    "image": "https://media.pitchfork.com/photos/6a8321079f06796177afbee9/master/pass/P4K26-0817_Selects_2x1.gif"
+  },
+  {
+    "title": "Judiciary \u2013 \u201cDeath Knell\u201d",
+    "link": "https://stereogum.com/2508533/judiciary-death-knell/music/",
+    "source": "Stereogum",
+    "published": "Mon, 17 Aug 2026 16:26:18 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/08/Judiciary.jpg?w=564"
+  },
+  {
+    "title": "Carly Rae Jepsen & Lena Dunham Announce 10 Things I Hate About You Broadway Musical",
+    "link": "https://stereogum.com/2508526/carly-rae-jepsen-lena-dunham-announce-10-things-i-hate-about-you-broadway-musical/news/",
+    "source": "Stereogum",
+    "published": "Mon, 17 Aug 2026 15:59:51 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/08/10-Things.jpeg?w=564"
+  },
+  {
+    "title": "Ellie Goulding Sues Ex-Management Company Over Live Nation Ties",
+    "link": "https://www.rollingstone.com/music/music-news/ellie-goulding-sues-tap-management-live-nation-1235601089/",
+    "source": "Music News",
+    "published": "Mon, 17 Aug 2026 15:43:53 +0000",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2026/08/GettyImages-2283748308.jpg?w=1600&h=900&crop=1"
+  },
+  {
+    "title": "Wild Pink \u2013 \u201cStill Coming Down\u201d",
+    "link": "https://stereogum.com/2508511/wild-pink-still-coming-down/music/",
+    "source": "Stereogum",
+    "published": "Mon, 17 Aug 2026 14:31:41 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/08/Wild-Pink.jpg?w=564"
+  },
+  {
+    "title": "Andy Shauf Announces The Party (10th Anniversary Edition) Feat. Previously Unreleased Tracks",
+    "link": "https://stereogum.com/2508502/andy-shauf-announces-the-party-10th-anniversary-edition-feat-previously-unreleased-tracks/music/",
+    "source": "Stereogum",
+    "published": "Mon, 17 Aug 2026 14:25:16 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/08/MAIN_Roll_414_22_hires_300dpi_3f89e6.jpg?w=564"
+  },
+  {
+    "title": "Nashville Star Hayden Panettiere Dies at 36",
+    "link": "https://pitchfork.com/story/nashville-star-hayden-panettiere-dies-at-36/",
+    "source": "RSS: News",
+    "published": "Mon, 17 Aug 2026 14:13:39 +0000",
+    "image": "https://media.pitchfork.com/photos/6a8314af5eeaf65ef2de98af/master/pass/hayden-panettiere.jpg"
+  },
+  {
+    "title": "Some Nights, The Pit Is Not For You",
+    "link": "https://stereogum.com/2508207/some-nights-the-pit-is-not-for-you/columns/let-the-roundup-begin/",
+    "source": "Stereogum",
+    "published": "Mon, 17 Aug 2026 14:12:54 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/08/Final-Resting-Place.jpeg?w=564"
+  },
+  {
+    "title": "Carly Rae Jepsen/Lena Dunham \u201910 Things\u2019 Musical Sets Broadway Date",
+    "link": "https://www.spinmagazine.com/2026/08/carly-rae-jepsen-lena-dunham-broadway/",
+    "source": "SPIN",
+    "published": "Mon, 17 Aug 2026 13:55:45 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/06/MAIN-CRJ_press2026_by-Vince-Aung-scaled.jpg"
+  },
+  {
+    "title": "The Son Of Billy Joel\u2019s Early Adversary Announces Another Unauthorized Piano Man Film, And This One\u2019s AI",
+    "link": "https://stereogum.com/2508498/the-son-of-billy-joels-early-adversary-announces-another-unauthorized-piano-man-film-and-this-ones-ai/news/",
+    "source": "Stereogum",
+    "published": "Mon, 17 Aug 2026 13:55:41 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/08/Billy-Joel-1.jpg?w=564"
+  },
+  {
+    "title": "Dinosaur Jr. Celebrating New LP With Four NYC Shows",
+    "link": "https://www.spinmagazine.com/2026/08/dinosaur-jr-new-york-shows/",
+    "source": "SPIN",
+    "published": "Mon, 17 Aug 2026 13:54:00 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/06/Hi-Res-Image-Dinosaur-Jr-by-Jeff-Fowler.jpg"
+  },
+  {
+    "title": "Springsteen, Van Zandt Salute E Street Band Champion Dave Marsh",
+    "link": "https://www.spinmagazine.com/2026/08/dave-marsh-obituary/",
+    "source": "SPIN",
+    "published": "Mon, 17 Aug 2026 13:53:00 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/08/GettyImages-147622224-scaled.jpg"
+  },
+  {
+    "title": "Josh Canova Returns With \u2018Days Unwind\u2019",
+    "link": "https://www.spinmagazine.com/2026/08/josh-canova-returns-with-days-unwind/",
+    "source": "SPIN",
+    "published": "Mon, 17 Aug 2026 13:33:07 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/08/Josh-Canova1-1-1.jpg"
+  },
+  {
+    "title": "Kurt Vile Is Still Chasing the Ditch Neil Young Dug Decades Ago",
+    "link": "https://www.spinmagazine.com/2026/08/kurt-vile-is-still-chasing-the-ditch-neil-young-dug-decades-ago/",
+    "source": "SPIN",
+    "published": "Mon, 17 Aug 2026 13:30:00 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/07/leadkv2026_8-credit-Eleanor-Petry.jpg"
+  },
+  {
+    "title": "Petey USA Does the Opposite",
+    "link": "https://www.spinmagazine.com/2026/08/petey-usa-does-the-opposite/",
+    "source": "SPIN",
+    "published": "Mon, 17 Aug 2026 13:00:00 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/08/IMG_9188-e1786717863898.jpeg"
+  },
+  {
+    "title": "The Number Ones: Taylor Swift\u2019s \u201cAll Too Well (10 Minute Version) (Taylor\u2019s Version) [From The Vault]\u201d",
+    "link": "https://stereogum.com/2507854/the-number-ones-taylor-swifts-all-too-well-10-minute-version-taylors-version-from-the-vault/columns/the-number-ones/",
+    "source": "Stereogum",
+    "published": "Mon, 17 Aug 2026 12:56:54 +0000",
+    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/08/Taylor-Swift-All-Too-Well.jpg?w=564"
+  },
+  {
+    "title": "High School Fundraiser to Supergroup: The Howl Owl Howl Story",
+    "link": "https://www.spinmagazine.com/2026/08/howl-owl-howl-steve-gorman-interview/",
+    "source": "SPIN",
+    "published": "Mon, 17 Aug 2026 11:30:00 +0000",
+    "image": "https://static.spinmagazine.com/files/2026/08/Howl-Owl-Howl_Credit_-Steven-Cohen-Photo.jpg"
   }
 ]
