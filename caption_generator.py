@@ -3,13 +3,12 @@ import json
 import re
 import datetime
 from collections import defaultdict
-from openai import OpenAI
+from llm import chat
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+from gspread.http_client import BackOffHTTPClient
 import base64
-
-# --- SETUP OPENAI ---
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+import pytz
 
 # --- HANDLE CREDS FROM ENV ---
 creds_b64 = os.getenv("CREDS_B64")
@@ -27,7 +26,7 @@ scope = ['https://spreadsheets.google.com/feeds',
          'https://www.googleapis.com/auth/drive']
 
 creds = ServiceAccountCredentials.from_json_keyfile_name('creds.json', scope)
-gs_client = gspread.authorize(creds)
+gs_client = gspread.authorize(creds, http_client=BackOffHTTPClient)  # retries 429/5xx
 
 INPUT_FILE = 'top_articles.json'
 OUTPUT_FILE = 'top_articles_with_captions.json'
@@ -113,21 +112,18 @@ def generate_caption_for_title(title, force_unique=False):
     if force_unique:
         full_prompt += "\nAvoid using any previous structure or phrase pattern."
 
-    response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=[
+    return chat(
+        [
             {"role": "system", "content": "You are a music-savvy, fun social media editor."},
             {"role": "user", "content": full_prompt}
         ],
         temperature=0.85,
-        max_tokens=60,
-        stream=False
+        max_tokens=60
     )
-    return response.choices[0].message.content.strip()
 
 # --- SYNC TO GOOGLE SHEET ---
 def update_sheet_with_captions(final_articles):
-    now = datetime.datetime.now()
+    now = datetime.datetime.now(pytz.timezone("America/Los_Angeles"))  # same month tab as the selector
     month_year = now.strftime('%B %Y')
     sheet_title = f"{month_year} (selects)"
     print(f"\n🔄 Updating Google Sheet: {sheet_title}")

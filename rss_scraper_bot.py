@@ -1,4 +1,6 @@
 import os
+import sys
+import argparse
 import base64
 import feedparser
 import datetime
@@ -6,6 +8,7 @@ import gspread
 import json
 from dateutil import parser
 from oauth2client.service_account import ServiceAccountCredentials
+from gspread.http_client import BackOffHTTPClient
 import pytz
 import requests
 from bs4 import BeautifulSoup
@@ -52,8 +55,7 @@ scope = ['https://spreadsheets.google.com/feeds',
          'https://www.googleapis.com/auth/drive']
 
 creds = ServiceAccountCredentials.from_json_keyfile_name('creds.json', scope)
-gsheet = gspread.authorize(creds)
-print("Available spreadsheets:", [s.title for s in gsheet.openall()])
+gsheet = gspread.authorize(creds, http_client=BackOffHTTPClient)  # retries 429/5xx
 spreadsheet = gsheet.open(GOOGLE_SHEET_NAME)
 
 # --- HELPERS ---
@@ -112,15 +114,17 @@ def fetch_recent_articles():
                 if title not in seen_titles:
                     seen_titles.add(title)
                     image_url = extract_image(entry)
-                    results.append({
+                    results.append((entry.published_parsed[:6], {
                         'title': title,
                         'link': entry.link,
                         'source': feed.feed.title,
                         'published': entry.published,
                         'image': image_url
-                    })
+                    }))
     print(f"Fetched {len(results)} articles from yesterday (PST) (deduplicated by title)")
-    return sorted(results, key=lambda a: a['published'], reverse=True)
+    # Sort on the parsed UTC time; the raw 'published' strings ("Wed, 21 Oct...") don't sort chronologically
+    results.sort(key=lambda r: r[0], reverse=True)
+    return [article for _, article in results]
 
 # --- WRITE TO MONTHLY SHEET ---
 def update_monthly_sheet(articles):
@@ -178,14 +182,53 @@ def update_monthly_sheet(articles):
 
     print(f"Appending {len(unique_rows)} new unique rows")
     final_data = [headers] + filtered_values + unique_rows
-    worksheet.clear()
+    # Write before clearing leftover rows so a failed API call can't leave the tab empty
     worksheet.update(values=final_data, range_name='A1')
+    if len(all_values) > len(final_data):
+        worksheet.batch_clear([f"A{len(final_data) + 1}:Z{len(all_values)}"])
+
+# --- BACKFILL A PAST DAY ---
+def load_day_from_sheet(date_str):
+    """Articles for a past news day, read back from the monthly tab instead of RSS
+    (feeds only keep recent items)."""
+    pacific = pytz.timezone("America/Los_Angeles")
+    day = datetime.datetime.strptime(date_str, '%Y-%m-%d').date()
+    # The daily run saves yesterday's articles to the tab for the month it runs in
+    sheet_tab = (day + datetime.timedelta(days=1)).strftime('%B %Y')
+    found = []
+    for row in spreadsheet.worksheet(sheet_tab).get_all_values()[1:]:
+        if len(row) < 4:
+            continue
+        try:
+            published = parser.parse(row[3]).astimezone(pacific)
+        except Exception:
+            continue
+        if published.date() == day:
+            found.append((published, {
+                'title': row[0],
+                'link': row[1],
+                'source': row[2],
+                'published': row[3],
+                'image': row[4] if len(row) > 4 else ''
+            }))
+    found.sort(key=lambda r: r[0], reverse=True)
+    print(f"Loaded {len(found)} articles for {date_str} from sheet tab '{sheet_tab}'")
+    if not found:
+        sys.exit(f"❌ No articles found for {date_str}; nothing to backfill.")
+    return [article for _, article in found]
 
 # --- MAIN ---
 if __name__ == '__main__':
-    articles = fetch_recent_articles()
-    update_monthly_sheet(articles)
-    print(f"Posted {min(len(articles), MAX_RESULTS)} unique articles to current month's sheet.")
+    arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument("--date", help="Backfill a past news day (YYYY-MM-DD, Pacific) from the monthly sheet")
+    args = arg_parser.parse_args()
+
+    if args.date:
+        articles = load_day_from_sheet(args.date)
+    else:
+        articles = fetch_recent_articles()
+        update_monthly_sheet(articles)
+        print(f"Posted {min(len(articles), MAX_RESULTS)} unique articles to current month's sheet.")
 
     with open('latest_articles.json', 'w', encoding='utf-8') as f:
         json.dump(articles[:MAX_RESULTS], f, indent=2)

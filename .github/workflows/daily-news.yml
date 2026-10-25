@@ -2,8 +2,13 @@ name: Daily News Digest
 
 on:
   schedule:
-    - cron: "0 13 * * *"  # Runs at 6AM PST (13:00 UTC)
+    - cron: "17 10 * * *"  # 10:17 UTC = 3:17AM PDT / 2:17AM PST. GitHub starts scheduled runs ~3-5h late,
+                           # so this lands ~6-8AM PT. Off the hour to avoid the top-of-hour queue.
   workflow_dispatch:      # Optional: allows manual trigger
+    inputs:
+      date:
+        description: "Backfill a past news day (YYYY-MM-DD, Pacific). Leave empty for a normal run."
+        required: false
 
 permissions:
   contents: write
@@ -15,13 +20,15 @@ jobs:
     env:
       CREDS_B64: ${{ secrets.CREDS_B64 }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}  # Optional pin; unset = auto-select latest available
       SHEET_ID: ${{ secrets.SHEET_ID }}
+      BACKFILL_DATE: ${{ inputs.date }}  # empty on scheduled runs
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11'
 
@@ -31,7 +38,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Scraper
-        run: python rss_scraper_bot.py
+        run: python rss_scraper_bot.py ${BACKFILL_DATE:+--date "$BACKFILL_DATE"}
 
       - name: Run GPT Top Article Selector
         run: python gpt_top_article_selector.py
@@ -56,7 +63,7 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add feed.xml feed_all.xml top_articles.json top_articles_with_captions.json latest_articles.json
-          git commit -m "🔁 Auto update for $(date '+%Y-%m-%d')" || echo "No changes to commit"
+          git commit -m "🔁 Auto update for $(date '+%Y-%m-%d')${BACKFILL_DATE:+ (backfill $BACKFILL_DATE)}" || echo "No changes to commit"
           git push
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

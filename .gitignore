@@ -11,3 +11,4 @@ creds_b64.txt
 dashboard\.env.local
 !feed.xml
 scripts/
+env

@@ -5,6 +5,7 @@ import json
 import datetime
 import base64
 import sys
+import pytz
 from xml.etree.ElementTree import Element, SubElement, ElementTree
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
@@ -19,7 +20,8 @@ def _get_output_file(loadAll):
 
 def load_articles_from_sheets(loadAll=False):
     print(f"🛠️  Running with loadAll={loadAll}")
-    today = datetime.datetime.now().date()
+    now = datetime.datetime.now(pytz.timezone("America/Los_Angeles"))  # same month tab as the selector
+    today = now.date()
     print(f"📅 Today: {today}")
 
     creds_b64 = os.getenv("CREDS_B64")
@@ -32,12 +34,12 @@ def load_articles_from_sheets(loadAll=False):
     creds = service_account.Credentials.from_service_account_info(json.loads(creds_json))
     service = build('sheets', 'v4', credentials=creds)
 
-    tab_name = datetime.datetime.now().strftime('%B %Y (selects)')
+    tab_name = now.strftime('%B %Y (selects)')
 
     result = service.spreadsheets().values().get(
         spreadsheetId=sheet_id,
         range=f"{tab_name}!A2:G"
-    ).execute()
+    ).execute(num_retries=5)
 
     rows = result.get('values', [])
     all_articles = []
@@ -119,7 +121,7 @@ def generate_rss(loadAll=False):
         articles = load_articles_from_sheets(loadAll=loadAll)
     except Exception as e:
         print(f"❌ Error loading from Google Sheets: {e}")
-        return
+        sys.exit(1)  # fail the job so a stale feed shows up in Actions
 
     rss = Element('rss', {
         'version': '2.0',
