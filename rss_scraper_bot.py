@@ -1,4 +1,5 @@
 import os
+import re
 import sys
 import argparse
 import base64
@@ -30,17 +31,18 @@ RSS_FEEDS = [
     'https://pitchfork.com/rss/news/',
     'https://www.stereogum.com/feed/',
     'https://consequence.net/feed/',
-    'https://www.nme.com/news/rss',
-    'https://www.brooklynvegan.com/feed/',
+    'https://www.nme.com/news/music/feed',  # old /news/rss URL now serves an HTML page
+    # 'https://www.brooklynvegan.com/feed/',  # stale since 2026-10-06
     'https://www.spin.com/feed/',
     'https://www.billboard.com/feed/',
     'https://www.rollingstone.com/music/music-news/feed/',
-    'https://www.pastemagazine.com/music/rss/',
+    # 'https://www.pastemagazine.com/music/rss/',  # serves an HTML page since ~Oct 2026
     # 'https://news.google.com/rss/search?q=music+industry+news&hl=en-US&gl=US&ceid=US:en',
 ]
 
 GOOGLE_SHEET_NAME = 'InYourBones Daily Music News'
-MAX_RESULTS = 100
+MAX_RESULTS = 300
+MAX_FEED_PAGES = 150  # Billboard holds ~2h of posts per page: ~15 pages for a daily run, ~100 to backfill a week
 
 # --- LOAD FILTERS ---
 with open('filters.json', 'r', encoding='utf-8') as f:
@@ -59,20 +61,39 @@ gsheet = gspread.authorize(creds, http_client=BackOffHTTPClient)  # retries 429/
 spreadsheet = gsheet.open(GOOGLE_SHEET_NAME)
 
 # --- HELPERS ---
-def is_from_yesterday_pst(published_dt):
+def published_date_pst(published_dt):
     pacific = pytz.timezone("America/Los_Angeles")
-    now_pst = datetime.datetime.now(pacific)
-    yesterday_pst = now_pst - datetime.timedelta(days=1)
+    return datetime.datetime(*published_dt[:6], tzinfo=datetime.timezone.utc).astimezone(pacific).date()
 
-    if not published_dt:
-        return False
+def yesterday_pst():
+    return (datetime.datetime.now(pytz.timezone("America/Los_Angeles")) - datetime.timedelta(days=1)).date()
 
-    published = datetime.datetime(*published_dt[:6], tzinfo=datetime.timezone.utc).astimezone(pacific)
-    return published.date() == yesterday_pst.date()
+# Whole words only: plain substring matching dropped "Awards" (war), "Miranda" (iran), "Stewart" (war)...
+EXCLUDE_PATTERN = re.compile(r"\b(?:" + "|".join(re.escape(k) for k in EXCLUDE_KEYWORDS) + r")\b")
 
-def is_relevant(title):
-    title_lower = title.lower()
-    return not any(keyword in title_lower for keyword in EXCLUDE_KEYWORDS)
+# Sections that aren't news, e.g. Billboard's shopping and "how to watch" posts
+EXCLUDE_LINK_PATHS = filter_config.get("excluded_link_paths", [])
+
+def is_relevant(title, link=''):
+    return not EXCLUDE_PATTERN.search(title.lower()) and not any(p in link for p in EXCLUDE_LINK_PATHS)
+
+def fetch_feed(url, day):
+    """Return (feed title, entries back to the start of `day` PST).
+    Busy feeds only hold a few hours of posts per page, so by morning most of yesterday has
+    rolled off page 1; walk back with WordPress's ?paged=N until a page reaches before `day`."""
+    first = feedparser.parse(url)
+    entries = list(first.entries)
+    seen_links = {e.get('link') for e in entries}
+    for page in range(2, MAX_FEED_PAGES + 1):
+        dated = [e.published_parsed for e in entries if e.get('published_parsed')]
+        if not dated or published_date_pst(min(dated)) < day:
+            break
+        new = [e for e in feedparser.parse(f"{url}?paged={page}").entries if e.get('link') not in seen_links]
+        if not new:  # past the last page, or a feed that ignores ?paged
+            break
+        entries.extend(new)
+        seen_links.update(e.get('link') for e in new)
+    return first.feed.get('title', url), entries
 
 def extract_image(entry):
     for key in ['media_content', 'media_thumbnail']:
@@ -103,13 +124,14 @@ def extract_image(entry):
     return None
 
 # --- MAIN SCRAPER ---
-def fetch_recent_articles():
+def fetch_articles(day):
     results = []
     seen_titles = set()
     for url in RSS_FEEDS:
-        feed = feedparser.parse(url)
-        for entry in feed.entries:
-            if is_from_yesterday_pst(entry.published_parsed) and is_relevant(entry.title):
+        source, entries = fetch_feed(url, day)
+        for entry in entries:
+            published = entry.get('published_parsed')
+            if published and published_date_pst(published) == day and is_relevant(entry.title, entry.get('link', '')):
                 title = entry.title.strip()
                 if title not in seen_titles:
                     seen_titles.add(title)
@@ -117,22 +139,30 @@ def fetch_recent_articles():
                     results.append((entry.published_parsed[:6], {
                         'title': title,
                         'link': entry.link,
-                        'source': feed.feed.title,
+                        'source': source,
                         'published': entry.published,
                         'image': image_url
                     }))
-    print(f"Fetched {len(results)} articles from yesterday (PST) (deduplicated by title)")
+    print(f"Fetched {len(results)} articles from {day} (PST) (deduplicated by title)")
     # Sort on the parsed UTC time; the raw 'published' strings ("Wed, 21 Oct...") don't sort chronologically
     results.sort(key=lambda r: r[0], reverse=True)
     return [article for _, article in results]
 
+def merge_articles(*groups):
+    """Combine article lists newest first, dropping repeated titles or links."""
+    merged, seen = [], set()
+    for a in sorted((a for g in groups for a in g), key=lambda a: parser.parse(a['published']).timestamp(), reverse=True):
+        if a['title'].strip() not in seen and a['link'].strip() not in seen:
+            seen.update((a['title'].strip(), a['link'].strip()))
+            merged.append(a)
+    return merged
+
 # --- WRITE TO MONTHLY SHEET ---
-def update_monthly_sheet(articles):
+def update_monthly_sheet(articles, day):
     pacific = pytz.timezone("America/Los_Angeles")
-    now = datetime.datetime.now(pacific)
-    yesterday = now - datetime.timedelta(days=1)
-    sheet_tab = now.strftime('%B %Y')
-    date_str = yesterday.strftime('%Y-%m-%d')
+    # The daily run saves yesterday's articles to the tab for the month it runs in
+    sheet_tab = (day + datetime.timedelta(days=1)).strftime('%B %Y')
+    date_str = day.strftime('%Y-%m-%d')
     print(f"Preparing to update sheet: {sheet_tab} for date {date_str}")
 
     try:
@@ -182,17 +212,17 @@ def update_monthly_sheet(articles):
 
     print(f"Appending {len(unique_rows)} new unique rows")
     final_data = [headers] + filtered_values + unique_rows
+    if len(final_data) > worksheet.row_count:  # tabs start at 1000 rows; a month of full days needs more
+        worksheet.add_rows(len(final_data) - worksheet.row_count)
     # Write before clearing leftover rows so a failed API call can't leave the tab empty
     worksheet.update(values=final_data, range_name='A1')
     if len(all_values) > len(final_data):
         worksheet.batch_clear([f"A{len(final_data) + 1}:Z{len(all_values)}"])
 
 # --- BACKFILL A PAST DAY ---
-def load_day_from_sheet(date_str):
-    """Articles for a past news day, read back from the monthly tab instead of RSS
-    (feeds only keep recent items)."""
+def load_day_from_sheet(day):
+    """Articles the original run saved for a past news day, read back from the monthly tab."""
     pacific = pytz.timezone("America/Los_Angeles")
-    day = datetime.datetime.strptime(date_str, '%Y-%m-%d').date()
     # The daily run saves yesterday's articles to the tab for the month it runs in
     sheet_tab = (day + datetime.timedelta(days=1)).strftime('%B %Y')
     found = []
@@ -212,23 +242,27 @@ def load_day_from_sheet(date_str):
                 'image': row[4] if len(row) > 4 else ''
             }))
     found.sort(key=lambda r: r[0], reverse=True)
-    print(f"Loaded {len(found)} articles for {date_str} from sheet tab '{sheet_tab}'")
-    if not found:
-        sys.exit(f"❌ No articles found for {date_str}; nothing to backfill.")
+    print(f"Loaded {len(found)} articles for {day} from sheet tab '{sheet_tab}'")
     return [article for _, article in found]
 
 # --- MAIN ---
 if __name__ == '__main__':
     arg_parser = argparse.ArgumentParser()
-    arg_parser.add_argument("--date", help="Backfill a past news day (YYYY-MM-DD, Pacific) from the monthly sheet")
+    arg_parser.add_argument("--date", help="Backfill a past news day (YYYY-MM-DD, Pacific): re-pages the feeds "
+                                           "(about a week back) and merges what the monthly sheet saved")
     args = arg_parser.parse_args()
 
     if args.date:
-        articles = load_day_from_sheet(args.date)
+        day = datetime.datetime.strptime(args.date, '%Y-%m-%d').date()
+        saved = [a for a in load_day_from_sheet(day) if is_relevant(a['title'], a['link'])]  # saved under older filters
+        articles = merge_articles(fetch_articles(day), saved)
+        if not articles:
+            sys.exit(f"❌ No articles found for {args.date}; nothing to backfill.")
     else:
-        articles = fetch_recent_articles()
-        update_monthly_sheet(articles)
-        print(f"Posted {min(len(articles), MAX_RESULTS)} unique articles to current month's sheet.")
+        day = yesterday_pst()
+        articles = fetch_articles(day)
+    update_monthly_sheet(articles, day)
+    print(f"Posted {min(len(articles), MAX_RESULTS)} unique articles to the monthly sheet for {day}.")
 
     with open('latest_articles.json', 'w', encoding='utf-8') as f:
         json.dump(articles[:MAX_RESULTS], f, indent=2)

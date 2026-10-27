@@ -7,7 +7,7 @@ on:
   workflow_dispatch:      # Optional: allows manual trigger
     inputs:
       date:
-        description: "Backfill a past news day (YYYY-MM-DD, Pacific). Leave empty for a normal run."
+        description: "Backfill a past news day (YYYY-MM-DD, Pacific; feeds reach back about a week). Leave empty for a normal run."
         required: false
 
 permissions:

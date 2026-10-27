@@ -72,29 +72,31 @@ def find_article(line, articles):
         return exact[0] if exact else None
     return next((a for a in articles if target in normalize_title(a['title'])), None)
 
-def is_same_story(article, others):
+def is_same_story(article, others, min_shared=2):
     """Headlines sharing 2+ distinctive words (artist, album, event) are treated as the same story."""
     words = content_words(article['title'])
-    return any(len(words & content_words(o['title'])) >= 2 for o in others)
+    return any(len(words & content_words(o['title'])) >= min_shared for o in others)
 
 # --- RANK WITH GPT ---
 def rank_top_articles(articles, count=5):
-    MAX_HEADLINES_FOR_RANKING = 100
+    MAX_HEADLINES_FOR_RANKING = 300  # the whole day; the list is newest-first, so a lower cap drops the morning
     EXTRA_PICKS = 3  # ranked backups, used if a pick turns out to duplicate another story
     pick_count = count + EXTRA_PICKS
     input_articles = articles[:MAX_HEADLINES_FOR_RANKING]
     headlines = [f"- {a['title']}" for a in input_articles]
 
     prompt = f"""
-You are a music editor for a positive, fan-driven live music publication. From the list of music news headlines below, select the {pick_count} most exciting, uplifting, and buzzworthy ones that would perform well on social media and align with our publication's upbeat tone.
+You are a music editor for a positive, fan-driven live music publication. From the list of music news headlines below, select up to {pick_count} of the most exciting, uplifting, and buzzworthy ones that would perform well on social media and align with our publication's upbeat tone.
 
-Avoid stories that are primarily negative (e.g. illnesses, arrests, scandals, cancellations). Focus on live show announcements, tours, new music, fun moments, and artist milestones.
+Focus on live show announcements, tours, surprise guests, new music, festival lineups, fun moments, and artist milestones or awards. Favor artists with big, engaged fan bases. Our audience is mostly in the US and Canada, so lean toward stories that matter to North American fans; regional news from elsewhere (e.g. an Australia-only tour) should only make the cut if the artist is a global star.
+
+Skip any story that is primarily negative or that a brand wouldn't want to post next to: lawsuits and legal disputes, arrests, deaths, illnesses, cancellations or postponements, feuds, scandals, politics, and business or AI disputes. Leaving a slot empty is better than filling it with one of these.
 
 Make sure to select a variety of artists — do not include multiple headlines about the same artist or event.
 
 {chr(10).join(headlines)}
 
-Return exactly {pick_count} headlines, ranked best first, each on a new line, using the original wording.
+Return up to {pick_count} headlines, ranked best first, each on a new line, using the original wording.
 """
 
     content = chat(
@@ -118,13 +120,9 @@ Return exactly {pick_count} headlines, ranked best first, each on a new line, us
 
     print(f"🧠 GPT selected {len(top_articles)} unique articles.")
 
+    # No filler from the unranked pool: GPT leaving a story out is usually a brand-safety call
     if len(top_articles) < count:
-        print(f"⚠️ Filling {count - len(top_articles)} slot(s) with non-GPT fallback articles.")
-        for candidate in articles:
-            if candidate not in top_articles and not is_same_story(candidate, top_articles):
-                top_articles.append(candidate)
-                if len(top_articles) >= count:
-                    break
+        print(f"⚠️ Only {len(top_articles)} on-brand pick(s) today; publishing fewer than {count}.")
 
     return top_articles[:count]
 
@@ -132,6 +130,39 @@ Return exactly {pick_count} headlines, ranked best first, each on a new line, us
 def save_top_articles(articles, filepath='top_articles.json'):
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(articles, f, indent=2)
+
+# --- RECENT PICKS ---
+RECENT_DAYS = 2  # don't repeat a story picked for either of the previous two news days
+# Stricter than same-day matching: 2 shared words is often just the same artist in a new story
+REPEAT_MIN_SHARED_WORDS = 3
+
+def news_day(articles):
+    pacific = pytz.timezone("America/Los_Angeles")
+    days = [parser.parse(a['published']).astimezone(pacific).date() for a in articles]
+    return max(set(days), key=days.count)
+
+def recent_picks(day):
+    """Picks for the RECENT_DAYS news days before `day`, read from this and last month's selects tabs
+    (a backfill files picks under the month it runs in). Rows rejected in the dashboard don't count."""
+    pacific = pytz.timezone("America/Los_Angeles")
+    window = {day - datetime.timedelta(days=n) for n in range(1, RECENT_DAYS + 1)}
+    now = datetime.datetime.now(pacific)
+    tabs = {now.strftime('%B %Y (selects)'), (now.replace(day=1) - datetime.timedelta(days=1)).strftime('%B %Y (selects)')}
+    picks = []
+    for tab in tabs:
+        try:
+            rows = spreadsheet.worksheet(tab).get_all_values()[1:]
+        except gspread.exceptions.WorksheetNotFound:
+            continue
+        for row in rows:
+            if len(row) < 4 or (len(row) > 6 and row[6].strip() == '❌'):
+                continue
+            try:
+                if parser.parse(row[3]).astimezone(pacific).date() in window:
+                    picks.append({'title': row[0]})
+            except Exception:
+                continue
+    return picks
 
 # --- WRITE TO MONTHLY SELECTS SHEET ---
 def update_selects_sheet(articles):
@@ -215,8 +246,13 @@ if __name__ == '__main__':
     print("🔄 Loading latest articles...")
     all_articles = load_articles()
 
+    # Follow-up coverage (recaps, lineup updates) of a story picked a day earlier shouldn't run again
+    recent = recent_picks(news_day(all_articles)) if all_articles else []
+    fresh_articles = [a for a in all_articles if not is_same_story(a, recent, REPEAT_MIN_SHARED_WORDS)]
+    print(f"🔁 Skipping {len(all_articles) - len(fresh_articles)} article(s) repeating a story picked in the last {RECENT_DAYS} days.")
+
     print("🧠 Selecting top 5 with GPT...")
-    top_five = rank_top_articles(all_articles, count=5)
+    top_five = rank_top_articles(fresh_articles, count=5)
 
     print("💾 Saving to top_articles.json...")
     save_top_articles(top_five)
